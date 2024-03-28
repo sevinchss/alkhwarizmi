@@ -1,5 +1,4 @@
 import React from "react";
-import { Carousel, IconButton } from "@material-tailwind/react";
 import headsImg from "./images/heads.svg"
 export const Section5 = () => {
   return (
