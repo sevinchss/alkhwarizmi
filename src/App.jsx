@@ -12,6 +12,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { Section5 } from './Main/Section5/Section5';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Section2 />
         <Section3 />
         <Section4 />
+        <Section5 />
       </Layout>
     </DarkMode>
     </div>
