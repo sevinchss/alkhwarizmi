@@ -22,7 +22,8 @@ export const Hero = () => {
               ]}
               speed={50}
               style={{ fontSize: "4.25rem" , textDecoration: "underline" }}
-              repeat={Infinity}
+              repeat={Infinity} className="md:text-5xl
+              xl:text-7xl "
             />
             <br />
             dasturlashni o'rganing
