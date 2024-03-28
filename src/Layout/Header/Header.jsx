@@ -1,6 +1,16 @@
 import React from "react";
-
+import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
+import {
+  HamburgerMenuIcon,
+  DotFilledIcon,
+  CheckIcon,
+  ChevronRightIcon,
+} from "@radix-ui/react-icons";
+import "./styles.css";
 export const Header = () => {
+  const [bookmarksChecked, setBookmarksChecked] = React.useState(true);
+  const [urlsChecked, setUrlsChecked] = React.useState(false);
+  const [person, setPerson] = React.useState("pedro");
   return (
     <>
       <header className="bg-white border-b border sticky top-0 w-full z-50">
@@ -93,31 +103,191 @@ export const Header = () => {
                 </svg>
                 Kirish
               </a>
-              <button
-                className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-[#f1f5f9] hover:text-[#0f172a] h-10 w-10 outline-none"
-                type="button"
-                id="radix-:r2:"
-                aria-haspopup="menu"
-                aria-expanded="false"
-                data-state="closed"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  className="lucide lucide-menu w-5 h-5"
-                >
-                  <line x1="4" x2="20" y1="12" y2="12"></line>
-                  <line x1="4" x2="20" y1="6" y2="6"></line>
-                  <line x1="4" x2="20" y1="18" y2="18"></line>
-                </svg>
-              </button>
+              <DropdownMenu.Root>
+                <DropdownMenu.Trigger asChild>
+                  <button className="IconButton" aria-label="Customise options">
+                    <HamburgerMenuIcon />
+                  </button>
+                </DropdownMenu.Trigger>
+
+                <DropdownMenu.Portal>
+                  <DropdownMenu.Content
+                    className="DropdownMenuContent"
+                    sideOffset={5}
+                  >
+                    <DropdownMenu.Item className="DropdownMenuItem">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-layout-dashboard mr-2 h-4 w-4"
+                      >
+                        <rect width="7" height="9" x="3" y="3" rx="1"></rect>
+                        <rect width="7" height="5" x="14" y="3" rx="1"></rect>
+                        <rect width="7" height="9" x="14" y="12" rx="1"></rect>
+                        <rect width="7" height="5" x="3" y="16" rx="1"></rect>
+                      </svg>
+                      Kurslar
+                    </DropdownMenu.Item>
+
+                    <DropdownMenu.Sub>
+                      <DropdownMenu.SubTrigger className="DropdownMenuSubTrigger">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-sun-moon mr-2 h-4 w-4"
+                        >
+                          <path d="M12 8a2.83 2.83 0 0 0 4 4 4 4 0 1 1-4-4"></path>
+                          <path d="M12 2v2"></path>
+                          <path d="M12 20v2"></path>
+                          <path d="m4.9 4.9 1.4 1.4"></path>
+                          <path d="m17.7 17.7 1.4 1.4"></path>
+                          <path d="M2 12h2"></path>
+                          <path d="M20 12h2"></path>
+                          <path d="m6.3 17.7-1.4 1.4"></path>
+                          <path d="m19.1 4.9-1.4 1.4"></path>
+                        </svg>{" "}
+                        Mavzu sozlamalari
+                        <div className="RightSlot">
+                          <ChevronRightIcon />
+                        </div>
+                      </DropdownMenu.SubTrigger>
+                      <DropdownMenu.DropdownMenuSeparator />
+                      <DropdownMenu.Portal>
+                        <DropdownMenu.SubContent
+                          className="DropdownMenuSubContent"
+                          sideOffset={2}
+                          alignOffset={-5}
+                        >
+                          <DropdownMenu.Item className="DropdownMenuItem">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-sun mr-2 h-4 w-4"
+                            >
+                              <circle cx="12" cy="12" r="4"></circle>
+                              <path d="M12 2v2"></path>
+                              <path d="M12 20v2"></path>
+                              <path d="m4.93 4.93 1.41 1.41"></path>
+                              <path d="m17.66 17.66 1.41 1.41"></path>
+                              <path d="M2 12h2"></path>
+                              <path d="M20 12h2"></path>
+                              <path d="m6.34 17.66-1.41 1.41"></path>
+                              <path d="m19.07 4.93-1.41 1.41"></path>
+                            </svg>{" "}
+                            Yorqin mavzu
+                          </DropdownMenu.Item>
+                          <DropdownMenu.Item className="DropdownMenuItem">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-moon mr-2 h-4 w-4"
+                            >
+                              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                            </svg>
+                            Tungi Mavzu (beta)
+                          </DropdownMenu.Item>
+                          <DropdownMenu.Separator className="DropdownMenu.Separator" />
+                          <DropdownMenu.Item className="DropdownMenuItem">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-monitor-smartphone mr-2 h-4 w-4"
+                            >
+                              <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"></path>
+                              <path d="M10 19v-3.96 3.15"></path>
+                              <path d="M7 19h5"></path>
+                              <rect
+                                width="6"
+                                height="10"
+                                x="16"
+                                y="12"
+                                rx="2"
+                              ></rect>
+                            </svg>
+                            Sistema mavzusi
+                          </DropdownMenu.Item>
+                        </DropdownMenu.SubContent>
+                      </DropdownMenu.Portal>
+                    </DropdownMenu.Sub>
+
+                    <DropdownMenu.Item className="DropdownMenuItem">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-life-buoy mr-2 h-4 w-4"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="m4.93 4.93 4.24 4.24"></path>
+                        <path d="m14.83 9.17 4.24-4.24"></path>
+                        <path d="m14.83 14.83 4.24 4.24"></path>
+                        <path d="m9.17 14.83-4.24 4.24"></path>
+                        <circle cx="12" cy="12" r="4"></circle>
+                      </svg>
+                      Qo'llab-quvvatlash
+                    </DropdownMenu.Item>
+
+                    <DropdownMenu.Item className="DropdownMenuItem">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-cloud mr-2 h-4 w-4"
+                      >
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                      </svg>
+                      Cloud 42
+                    </DropdownMenu.Item>
+                  </DropdownMenu.Content>
+                </DropdownMenu.Portal>
+              </DropdownMenu.Root>
             </div>
           </nav>
         </div>

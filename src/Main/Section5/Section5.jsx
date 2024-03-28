@@ -1,4 +1,5 @@
 import React from "react";
+import { Carousel, IconButton } from "@material-tailwind/react";
 import headsImg from "./images/heads.svg"
 export const Section5 = () => {
   return (
@@ -13,6 +14,7 @@ export const Section5 = () => {
           </p>
         </div>
         <img alt="team" loading="lazy" width="820" height="200" decoding="async" data-nimg="1" class="w-full md:w-2/3 mx-auto dark:filter dark:invert-[0.1]" style={{color:"transparent"}} src={headsImg}/>
+        
       </section>
     </>
   );
