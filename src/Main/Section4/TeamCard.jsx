@@ -1,9 +1,11 @@
 import React from "react";
+import ThemeChanger from "../../Utils/ThemeChanger";
 
 export const TeamCard = ({ img, auth, text,site1,site2,site3 }) => {
   return (
     <>
-      <div className="rounded-lg border bg-white text-[#020817] shadow-sm hover:bg-[#f1f5f9] cursor-pointer transition-all ease-in-out duration-200 flex flex-col space-y-1.5 p-6 text-center items-center gap-2">
+      <div className={`rounded-lg border   shadow-sm hover:bg-[#f1f5f9] cursor-pointer transition-all ease-in-out duration-200 flex flex-col space-y-1.5 p-6 text-center items-center gap-2 ${ThemeChanger("bg-white text-[#020817] border border-[#E2E8F0] ", "border-[#1E293B] hover:bg-[#1e293b]")}`}>
+        
         <img src={img} alt="" className="rounded-full" />
         <h3 class="text-2xl font-semibold leading-none tracking-tight">
           {auth}

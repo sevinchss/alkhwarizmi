@@ -1,4 +1,5 @@
 import React from "react";
+import LanguageChanger from "../../Utils/languageChanger";
 
 export const Footer = () => {
   return (
@@ -13,7 +14,8 @@ export const Footer = () => {
               class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline h-10 px-4 py-2"
               href="/#team"
             >
-              Biz haqimizda
+              {LanguageChanger("About us", "О нас", "Biz haqimizda")}
+              
             </a>
           </div>
           <div class="pb-6 flex items-center justify-center">
@@ -21,7 +23,8 @@ export const Footer = () => {
               class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline h-10 px-4 py-2"
               href="/courses"
             >
-              Kurslar
+              {LanguageChanger("Courses", "Курсы", "Kurslar")}
+              
             </a>
           </div>
           <div class="pb-6 flex items-center justify-center">
@@ -29,7 +32,9 @@ export const Footer = () => {
               class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline h-10 px-4 py-2"
               href="https://youtube.com/@qirikki"
             >
-              42Podcast
+              {LanguageChanger("  42Podcast", "  42Подкасты", "  42Podcast")}
+
+            
             </a>
           </div>
           <div class="pb-6 flex items-center justify-center">
@@ -37,7 +42,9 @@ export const Footer = () => {
               class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline h-10 px-4 py-2"
               href="/faq"
             >
-              FAQ
+              {LanguageChanger("  FAQ", "  ФАК", "  FAQ")}
+
+              
             </a>
           </div>
         </nav>
@@ -134,8 +141,13 @@ export const Footer = () => {
             </svg>
           </a>
         </div>
-        <p class="mt-10 text-center text-xs leading-5 text-[#02081799]">© 2023 QIRIKKI LLC. Barcha huquqlar himoyalangan.</p>
-        <div class="flex items-center justify-center gap-2 text-xs text-foreground/80"><a href="/terms">Terms and Conditions</a><a href="/privacy">Privacy Policy</a></div>
+        <p class="mt-10 text-center text-xs leading-5 text-[#02081799]">
+          © 2023 QIRIKKI LLC. Barcha huquqlar himoyalangan.
+        </p>
+        <div class="flex items-center justify-center gap-2 text-xs text-foreground/80">
+          <a href="/terms">Terms and Conditions</a>
+          <a href="/privacy">Privacy Policy</a>
+        </div>
       </footer>
     </>
   );

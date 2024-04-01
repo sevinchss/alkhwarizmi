@@ -1,12 +1,11 @@
 import React, { useContext } from 'react'
 import { Header} from './Header/Header'
 import Footer from './Footer/Footer'
-import { Theme } from '../Context/DarkMode'
+import ThemeChanger from '../Utils/ThemeChanger'
 
 const Layout = ({ children }) => {
-    var { theme, ToggleTheme } = useContext(Theme)
     return ( 
-        <div>
+        <div className={`${ThemeChanger("bg-white", "bg-[#020817] text-white")}`}>
             <Header/>
             {children}
             <Footer />

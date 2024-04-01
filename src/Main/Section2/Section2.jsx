@@ -7,6 +7,8 @@ import img4 from "./images/backend.svg";
 import img5 from "./images/frontend.svg";
 import img6 from "./images/mobile.svg";
 import icon from "./images/ZapIcon-64.gif";
+import LanguageChanger from "../../Utils/languageChanger";
+import ThemeChanger from "../../Utils/ThemeChanger";
 
 const Section2 = () => {
   return (
@@ -15,11 +17,18 @@ const Section2 = () => {
         <div className="z-10  relative flex flex-col md:flex-row items-end">
           <div class="flex flex-col items-start space-y-4 text-left py-4">
             <h2 class="font-heading text-3xl font-semibold leading-[1.1] sm:text-3xl md:text-6xl">
-              Sizni nima kutmoqda?
+              {LanguageChanger(
+                "What awaits you?                ",
+                "Что вас ждет? ",
+                "Sizni nima kutmoqda? "
+              )}
             </h2>
             <p class="text-left max-w-[65%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-              Interaktiv dasturlashni o'rganish muhiti orqali proffessionllardan
-              dasturlash asoslarini 42 kun ichida o'rganing!
+              {LanguageChanger(
+                "Learn programming fundamentals from professionals in 42 days in an interactive coding learning environment!",
+                "Изучите основы программирования у профессионалов за 42 дня в интерактивной среде обучения программированию!",
+                "Interaktiv dasturlashni o'rganish muhiti orqali proffessionllardan dasturlash asoslarini 42 kun ichida o'rganing!"
+              )}
             </p>
           </div>
           <svg
@@ -106,61 +115,115 @@ const Section2 = () => {
         <div className="z-0 mx-auto grid justify-center gap-4 sm:grid-cols-2 md:grid-cols-3">
           <Card
             img={img1}
-            title={"Interaktiv darslar"}
-            text={"O'zingizga qulay vaqtingizda dasturlashni o'rganing"}
+            title={`${LanguageChanger(
+              "interactive lessons              ",
+              "интерактивные уроки ",
+              "Interaktiv darslar "
+            )}`}
+            text={`${LanguageChanger(
+              "Learn to program at your own pace              ",
+              "Научитесь программировать в своем собственном темпе              ",
+              "O'zingizga qulay vaqtingizda dasturlashni o'rganing "
+            )}`}
           />
           <Card
             img={img2}
-            title={"Interaktiv darslar"}
-            text={"O'zingizga qulay vaqtingizda dasturlashni o'rganing"}
+            title={`${LanguageChanger(
+              "interactive lessons              ",
+              "интерактивные уроки ",
+              "Interaktiv darslar "
+            )}`}
+            text={`${LanguageChanger(
+              "Learn to program at your own pace              ",
+              "Научитесь программировать в своем собственном темпе              ",
+              "O'zingizga qulay vaqtingizda dasturlashni o'rganing "
+            )}`}
           />
           <Card
             img={img3}
-            title={"Interaktiv darslar"}
-            text={"O'zingizga qulay vaqtingizda dasturlashni o'rganing"}
+            title={`${LanguageChanger(
+              "interactive lessons              ",
+              "интерактивные уроки ",
+              "Interaktiv darslar "
+            )}`}
+            text={`${LanguageChanger(
+              "Learn to program at your own pace              ",
+              "Научитесь программировать в своем собственном темпе              ",
+              "O'zingizga qulay vaqtingizda dasturlashni o'rganing "
+            )}`}
           />
           <Card
             img={img4}
-            title={"Interaktiv darslar"}
-            text={"O'zingizga qulay vaqtingizda dasturlashni o'rganing"}
+            title={`${LanguageChanger(
+              "interactive lessons              ",
+              "интерактивные уроки ",
+              "Interaktiv darslar "
+            )}`}
+            text={`${LanguageChanger(
+              "Learn to program at your own pace              ",
+              "Научитесь программировать в своем собственном темпе              ",
+              "O'zingizga qulay vaqtingizda dasturlashni o'rganing "
+            )}`}
           />
           <Card
             img={img5}
-            title={"Interaktiv darslar"}
-            text={"O'zingizga qulay vaqtingizda dasturlashni o'rganing"}
+            title={`${LanguageChanger(
+              "interactive lessons              ",
+              "интерактивные уроки ",
+              "Interaktiv darslar "
+            )}`}
+            text={`${LanguageChanger(
+              "Learn to program at your own pace              ",
+              "Научитесь программировать в своем собственном темпе              ",
+              "O'zingizga qulay vaqtingizda dasturlashni o'rganing "
+            )}`}
           />
           <Card
             img={img6}
-            title={"Interaktiv darslar"}
-            text={"O'zingizga qulay vaqtingizda dasturlashni o'rganing"}
+            title={`${LanguageChanger(
+              "interactive lessons              ",
+              "интерактивные уроки ",
+              "Interaktiv darslar "
+            )}`}
+            text={`${LanguageChanger(
+              "Learn to program at your own pace              ",
+              "Научитесь программировать в своем собственном темпе              ",
+              "O'zingizga qulay vaqtingizda dasturlashni o'rganing "
+            )}`}
           />
         </div>
         <div class="pt-12 pb-4 mx-auto text-center md:max-w-2xl">
           <p class="leading-normal text-[#64748b] sm:text-lg sm:leading-7">
-            42 kundan so'ng siz dasturlash asoslari bilan tanishasiz va 3
-            yo'nalishdan birini tanlaysiz!
+            {LanguageChanger(
+              "In 42 days you will learn the basics of programming and choose one of 3 directions!              ",
+              "Через 42 дня вы изучите основы программирования и выберете одно из 3 направлений!",
+              "   42 kundan so'ng siz dasturlash asoslari bilan tanishasiz va 3    yo'nalishdan birini tanlaysiz!"
+            )}
           </p>
         </div>
         <div class="w-full flex justify-center py-2">
-            <a
-              class="inline-flex items-center justify-center text-sm  ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#0F172A] text-white hover:bg-[#0f172ae6] h-11 rounded-md px-8  md:text-xl font-semibold md:py-8"
-              href="/courses"
-            >
-              <img
-                alt="ZapIcon"
-                loading="lazy"
-                width="24"
-                height="24"
-                decoding="async"
-                data-nimg="1"
-                class="mr-2"
-                style={{ color: "transparent" }}
-                
-                src={icon}
-              />
-              Ishtirok etish
-            </a>
-          </div>
+          <a
+            class={`inline-flex items-center justify-center text-sm  ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50   h-12 rounded-md px-8  md:text-xl font-semibold md:py-10"
+            href="/courses"  ${ThemeChanger(
+              "bg-[#0F172A] hover:bg-[#0f172ae6] text-white",
+              "bg-white text-[#0F172A] hover:bg-[#0f172ae6] hover:text-white"
+            )}`}
+          >
+            <img
+              alt="ZapIcon"
+              loading="lazy"
+              width="24"
+              height="24"
+              decoding="async"
+              data-nimg="1"
+              class="mr-2"
+              style={{ color: "transparent" }}
+              src={icon}
+            />
+                         {LanguageChanger("Participation", "Участие ", "Ishtirok etish ")}
+
+          </a>
+        </div>
       </section>
     </>
   );

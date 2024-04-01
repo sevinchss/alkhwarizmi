@@ -1,19 +1,18 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 
-export const Theme = createContext()
+export var ThemeApi = createContext()
 
-
-const DarkMode = ({ children }) => {
-  var [theme, setTheme] = useState("light")
-  function ToggleTheme() {
-    localStorage.setItem("theme", theme === "light" ? "dark" : "light")
-    setTheme(theme === "light" ? "dark" : "light")
-  }
-  return (
-    <Theme.Provider value={{ theme, ToggleTheme }}>
-      {children}
-    </Theme.Provider>
-  )
+const Theme = ({ children }) => {
+    var [theme, setTheme] = useState("light")
+    useEffect(() => {
+        localStorage.setItem("theme", theme === "light" ? "light" : "dark")
+        console.log(theme);
+    }, [theme])
+    return (
+        <ThemeApi.Provider value={{ theme, setTheme }}>
+            {children}
+        </ThemeApi.Provider>
+    )
 }
 
-export default DarkMode
+export default Theme

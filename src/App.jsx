@@ -1,35 +1,17 @@
-import { Route, Routes } from 'react-router-dom';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import Layout from './Layout/Layout';
-import DarkMode from './Context/DarkMode';
-import Hero from './Main/Hero/Hero';
-import Section2 from './Main/Section2/Section2';
-import Section3 from './Main/Section3/Section3';
-import Section4 from './Main/Section4/Section4';
-
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import { Section5 } from './Main/Section5/Section5';
-import { Section6 } from './Main/Section6/Section6';
+import Layout from "./Layout/Layout";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { Main } from "./Main/Main";
+import ThemeChanger from "./Utils/ThemeChanger";
 
 function App() {
   return (
-    <div className='font-Soleil'>
-    <DarkMode>
+    <div className={`font-Soleil overflow-x-hidden ${ThemeChanger("bg-white", "bg-[#020817]")}`}>
       <Layout>
-        <Hero />
-        <Section2 />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Section6 />
+        <Main />
       </Layout>
-    </DarkMode>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

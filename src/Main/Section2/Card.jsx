@@ -1,9 +1,13 @@
 import React from 'react'
+import { useContext } from "react";
+import { LanguageContext } from "../../Context/LanguageContext";
+import ThemeChanger from '../../Utils/ThemeChanger';
 
-export const Card = ({img,title,text}) => {
+export const Card = ({img,title,text,en, ru, uz}) => {
+  const { language } = useContext(LanguageContext);
   return (
     <>
-     <div class="relative overflow-hidden rounded-lg border bg-white p-2 cursor-pointer hover:bg-[#f1f5f9] hover:shadow-lg transition-all duration-200 ease-in-out">
+     <div class={`relative overflow-hidden rounded-lg border y  p-2 cursor-pointer ${ThemeChanger(" border-white", "bg-transparent border-[#1E293B] hover:text-[#1E293B]")}  hover:bg-[#f1f5f9] hover:shadow-lg transition-all duration-200 ease-in-out`}>
             <div class="flex flex-col gap-3 justify-between rounded-md p-6">
               <img
                 alt="team"
@@ -17,9 +21,9 @@ export const Card = ({img,title,text}) => {
               src={img}
               />
               <div class="space-y-2">
-                <h3 class="font-bold">{title}</h3>
+                <h3 class="font-bold">{language === "en" ? en : language === "rus" ? ru : uz}{title}</h3>
                 <p class="text-sm text-[#64748b]">
-                 {text}
+                 {language === "en" ? en : language === "rus" ? ru : uz}{text}
                 </p>
               </div>
             </div>
