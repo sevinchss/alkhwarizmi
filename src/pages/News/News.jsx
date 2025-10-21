@@ -134,7 +134,7 @@ export default function News() {
 
     return (
 
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen font-poppins bg-gray-50 flex items-center justify-center">
 
         <div className="text-gray-600">Loading...</div>
 
@@ -150,7 +150,7 @@ export default function News() {
 
     return (
 
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen font-poppins bg-gray-50 flex items-center justify-center">
 
         <div className="text-red-600">{error || "No data available."}</div>
 
@@ -184,9 +184,9 @@ export default function News() {
 
     return (
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <div className="lg:min-h-screen font-poppins bg-gradient-to-br from-slate-50 to-blue-50">
 
-        <div className="max-w-4xl mx-auto px-6 py-12">
+        <div className="lg:max-w-4xl mx-auto px-6 py-12">
 
           <button
 
@@ -220,7 +220,7 @@ export default function News() {
 
 
 
-              <div className="flex items-center gap-6 text-gray-600 mb-8 pb-8 border-b border-gray-200">
+              <div className="flex lg:flex-row flex-col items-center gap-6 text-gray-600 mb-8 pb-8 border-b border-gray-200">
 
                 <div className="flex items-center gap-2">
 
@@ -282,7 +282,7 @@ export default function News() {
 
                     alt={selectedNews.title}
 
-                    className="w-full max-w-md mx-auto h-auto rounded-lg shadow-md object-cover"
+                    className="w-full lg:max-w-md  mx-auto h-auto rounded-lg shadow-md object-cover"
 
                   />
 
@@ -346,17 +346,17 @@ export default function News() {
 
   return (
 
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="lg:min-h-screen font-poppins bg-gradient-to-br from-slate-50 to-blue-50">
 
       <div className="flex flex-col lg:flex-row">
 
         {/* Sidebar */}
 
-        <aside className="hidden lg:block w-80 bg-white shadow-xl min-h-screen sticky top-0 overflow-y-auto">
+        <aside className="hidden lg:block w-80 bg-white shadow-xl lg:min-h-screen font-poppins sticky top-0 overflow-y-auto">
 
           <div className="p-8">
 
-            <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-6">
+            <h2 className="mt-4 text-sm font-semibold text-gray-500 uppercase tracking-wider mb-6">
 
               Yangiliklar
 
@@ -472,7 +472,7 @@ export default function News() {
 
         <main className="flex-1 p-4 sm:p-8 lg:p-12">
 
-          <div className="max-w-6xl mx-auto">
+          <div className="lg:max-w-6xl mx-auto">
 
             <div className="flex items-center justify-between mb-8 lg:mb-12">
 
@@ -566,7 +566,7 @@ export default function News() {
 
 
 
-                <div className="space-y-2 mt-4 max-h-96 overflow-y-auto">
+                <div className="space-y-2 mt-4 lg:max-h-96 overflow-y-auto">
 
                   {newsData.topics.map((topic) => {
 
