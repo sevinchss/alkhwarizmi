@@ -60,7 +60,7 @@ export default function PartnersSection() {
 
         {/* Row 1: Continuous scroll with mask */}
         <div className="relative overflow-hidden mb-14">
-          <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-white via-white/80 to-white"></div>
+          <div className="absolute inset-0 pointer-events-none"></div>
           <motion.div
             className="flex items-center gap-14 justify-center"
             animate={{ x: ["0%", "-100%"] }}
@@ -69,7 +69,7 @@ export default function PartnersSection() {
             {[...partnersRow1, ...partnersRow1].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-44 h-28 bg-white/90 border border-blue-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-blue-400/60 transition-all duration-500 hover:-translate-y-3 hover:scale-110"
+                className="flex-shrink-0 w-44 h-28  border border-blue-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-blue-400/60 transition-all duration-500 hover:-translate-y-3 hover:scale-110"
               >
                 <img
                   src={partner.logo}
@@ -83,7 +83,7 @@ export default function PartnersSection() {
 
         {/* Row 2: Continuous scroll opposite direction */}
         <div className="relative overflow-hidden">
-          <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-white via-white/80 to-white"></div>
+          <div className="absolute inset-0 pointer-events-none"></div>
           <motion.div
             className="flex items-center gap-14 justify-center"
             animate={{ x: ["100%", "0%"] }}
@@ -92,7 +92,7 @@ export default function PartnersSection() {
             {[...partnersRow2, ...partnersRow2].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-44 h-28 bg-white/90 border border-indigo-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-indigo-400/60 transition-all duration-500 hover:-translate-y-3 hover:scale-110"
+                className="flex-shrink-0 w-44 h-28  border border-indigo-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-indigo-400/60 transition-all duration-500 hover:-translate-y-3 hover:scale-110"
               >
                 <img
                   src={partner.logo}
