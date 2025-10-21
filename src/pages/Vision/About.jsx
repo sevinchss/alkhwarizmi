@@ -1,5 +1,5 @@
 import React from "react";
-import maktab from "./images/maktab.png"
+import maktab from "./images/maktabb.jpg"
 export const About = () => {
   return (
     <section className="bg-gray-50 py-16 font-poppins">
