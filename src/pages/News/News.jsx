@@ -88,7 +88,7 @@ export default function News() {
 
   useEffect(() => {
 
-    fetch("../src/pages/News/news-data.json")
+    fetch("/news/news-data.json")
 
       .then((res) => {
 
