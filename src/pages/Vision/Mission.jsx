@@ -123,7 +123,7 @@ const Mission = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen py-12 font-poppins scroll-smooth">
-      <div className="max-w-7xl mx-auto px-6 md:px-15 flex flex-col md:flex-row gap-8">
+      <div className="lg:max-w-7xl mx-auto px-6 md:px-15 flex flex-col md:flex-row gap-8">
         {/* Sidebar */}
         <aside className="bg-white rounded-2xl shadow-sm p-6 w-full md:w-1/4 md:sticky md:top-24 self-start h-fit">
           <h3 className="text-sm font-medium text-gray-500 mb-6">Menyu</h3>
@@ -168,7 +168,7 @@ const Mission = () => {
             <img
               src={MissionPhoto}
               alt="Maktab missiyasi"
-              className="w-full h-[380px] object-cover rounded-xl mb-6"
+              className="w-full lg:h-[380px] object-cover rounded-xl mb-6"
             />
 
             <p className="text-gray-700 leading-relaxed">

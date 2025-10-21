@@ -43,10 +43,10 @@ const partnersRow2 = [
 
 export default function PartnersSection() {
   return (
-    <section className="relative py-24 font-poppins overflow-hidden bg-gradient-to-b from-white to-blue-50">
+    <section className="relative py-24 font-poppins overflow-hidden ">
       {/* Subtle background orbs */}
-      <div className="absolute top-0 left-0 w-80 h-80 bg-blue-200/30 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 animate-blob"></div>
-      <div className="absolute bottom-0 right-0 w-80 h-80 bg-indigo-200/30 rounded-full blur-3xl translate-x-1/3 translate-y-1/3 animate-blob animation-delay-2000"></div>
+      <div className="absolute top-0 left-0 w-80 h-80  rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 animate-blob"></div>
+      <div className="absolute bottom-0 right-0 w-80 h-80  rounded-full blur-3xl translate-x-1/3 translate-y-1/3 animate-blob animation-delay-2000"></div>
 
       <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
         {/* Title */}

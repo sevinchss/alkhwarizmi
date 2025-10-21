@@ -3,7 +3,7 @@ import maktab from "./images/maktab.png"
 export const About = () => {
   return (
     <section className="bg-gray-50 py-16 font-poppins">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="lg:max-w-7xl mx-auto px-6">
         {/* Main content card */}
         <div className="bg-white rounded-2xl shadow-sm p-10 flex flex-col lg:flex-row gap-10 items-center">
 

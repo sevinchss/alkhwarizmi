@@ -24,7 +24,7 @@ function Gallery() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white font-poppins">
       <div className="max-w-7xl mx-auto px-4 py-12 md:px-8 lg:px-16">
         <h1 className="text-5xl font-medium mb-12">Gallereya</h1>
 

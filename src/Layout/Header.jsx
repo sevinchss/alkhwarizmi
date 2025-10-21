@@ -21,10 +21,8 @@ const NAV = [
     ],
   },
   {
-    name: "Qabul", // Removed dropdown, only one link for Qabul
-    links: [
-      { label: "Qabul tartibi", to: "/qabul-tartibi" },  // Ensure this is correct and matches route definition
-    ],
+    name: "Qabul",
+    links: [{ label: "Qabul tartibi", to: "/qabul-tartibi" }],
   },
   {
     name: "Ta’lim",
@@ -143,7 +141,6 @@ export default function Navbar() {
                 className="relative"
               >
                 {item.links.length === 1 ? (
-                  // No dropdown for Qabul (only one link)
                   <NavLink
                     to={item.links[0].to}
                     className="flex items-center gap-1.5 hover:text-[#0047AB] transition-colors"
@@ -151,7 +148,6 @@ export default function Navbar() {
                     {item.name}
                   </NavLink>
                 ) : (
-                  // Dropdown for other items
                   <>
                     <button className="flex items-center gap-1.5 hover:text-[#0047AB] transition-colors">
                       {item.name}
@@ -212,14 +208,11 @@ export default function Navbar() {
         </div>
 
         {/* Mobile menu */}
-       <div
-  className={`lg:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full left-0 z-40 transition-all duration-500 ${
-    open
-      ? "max-h-[600px] opacity-100"
-      : "max-h-0 opacity-0 overflow-hidden"
-  }`}
->
-
+        <div
+          className={`lg:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full left-0 z-50 transition-all duration-500 overflow-hidden ${
+            open ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
           <ul className="flex flex-col p-4 text-gray-800 font-medium text-[15px]">
             {NAV.map((item) => (
               <li key={item.name} className="py-2">
@@ -234,13 +227,7 @@ export default function Navbar() {
                         <li key={link.to}>
                           <NavLink
                             to={link.to}
-                            className={({ isActive }) =>
-                              `block py-1 transition-all ${
-                                isActive
-                                  ? "text-[#0047AB] font-semibold border-l-4 border-[#0047AB] bg-blue-50"
-                                  : "text-gray-700 hover:text-[#0047AB] hover:bg-blue-50"
-                              }`
-                            }
+                            className="block py-1 hover:text-[#0047AB] hover:bg-blue-50"
                             onClick={() => setOpen(false)}
                           >
                             {link.label}
@@ -260,8 +247,6 @@ export default function Navbar() {
                 )}
               </li>
             ))}
-
-            {/* Bog‘lanish dropdownsiz */}
             <li className="py-2">
               <NavLink
                 to="/kontaktlar"
