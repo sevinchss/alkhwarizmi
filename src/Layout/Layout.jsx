@@ -1,17 +1,12 @@
-import React, { useContext } from 'react'
-import { Header} from './Header/Header'
-import Footer from './Footer/Footer'
-import ThemeChanger from '../Utils/ThemeChanger'
+import Footer from "./Footer";
+import Header from "./Header";
 
-const Layout = ({ children }) => {
-    return ( 
-        <div className={`${ThemeChanger("bg-white", "bg-[#020817] text-white")}`}>
-            <Header/>
-            {children}
-            <Footer />
-            
-        </div>
-    )
+export default function Layout({ children }) {
+  return (
+    <div className=" bg-alkGray font-sans">
+      {" "}
+      <Header /> <main className="pt-24">{children}</main>
+      <Footer/>{" "}
+    </div>
+  );
 }
-
-export default Layout
