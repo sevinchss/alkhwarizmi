@@ -41,11 +41,11 @@ const HeroSection = () => {
 
   return (
     <section className="font-poppins bg-[#f5f7fb] py-16 md:py-20 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-10">
+      <div className="lg:max-w-7xl mx-auto px-6 md:px-10">
         {/* ==== TEXT BLOCK ==== */}
         <div className=" md:grid-cols-1 items-start md:items-center flex lg:flex-row flex-col justify-between gap-10 mb-12">
           {/* LEFT (title) */}
-          <div className="min-h-[130px] flex items-center">
+          <div className="lg:min-h-[130px] flex items-center">
             <h1
               key={current.title}
               className="text-3xl md:text-[44px] font-bold text-[#1c1e26] leading-tight max-w-xl transition-all duration-500"
@@ -55,7 +55,7 @@ const HeroSection = () => {
           </div>
 
           {/* RIGHT (desc + button + pagination) */}
-          <div className="flex flex-col justify-between min-h-[130px] max-w-md text-gray-700 text-base md:text-lg">
+          <div className="flex flex-col justify-between lg:min-h-[130px] lg:max-w-md text-gray-700 text-base md:text-lg">
             <p
               key={current.description}
               className="leading-relaxed text-[#4b4b4b] transition-all duration-500"
@@ -71,7 +71,7 @@ const HeroSection = () => {
       aboutSection.scrollIntoView({ behavior: "smooth" });
     }
   }}
-  className="bg-[#00265b] hover:bg-blue-800 text-white px-6 py-3 font-medium rounded-md transition-all"
+  className="bg-[#0047AB] hover:bg-blue-900 text-white px-6 py-3 font-medium rounded-md transition-all"
 >
   Batafsil
 </button>
@@ -80,7 +80,7 @@ const HeroSection = () => {
               <div className="flex items-center gap-3 sm:ml-4">
                 <button
                   onClick={prevSlide}
-                  className="w-9 h-9 flex justify-center items-center rounded-full bg-gray-300/40 hover:bg-gray-400/60 transition-all"
+                  className="w-9 lg:h-9 flex justify-center items-center rounded-full bg-gray-300/40 hover:bg-gray-400/60 transition-all"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ const HeroSection = () => {
           <img
             src={current.image}
             alt={current.title}
-            className="w-full h-[420px] md:h-[480px] object-cover"
+            className="w-full lg:h-[420px] md:h-[480px] object-cover"
           />
         </div>
       </div>

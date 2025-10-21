@@ -134,7 +134,7 @@ const Message = () => {
                   </div>
 
                   {/* Card — faqat matn qismi */}
-                  <div className="bg-white rounded-2xl shadow-lg p-8 w-[500px] md:w-[600px]">
+                  <div className="px-2 bg-white rounded-2xl shadow-lg p-8 w-[500px] md:w-[600px]">
                     <h2 className="text-2xl font-semibold text-gray-800">
                       {director.name}
                     </h2>
@@ -143,7 +143,7 @@ const Message = () => {
                         {director.title}
                       </p>
                     )}
-                    <p className="text-gray-700 text-[16px] mt-4 leading-relaxed text-justify">
+                    <p className="px-5 text-gray-700 text-[16px] mt-4 leading-relaxed text-justify">
                       {director.text}
                     </p>
                   </div>

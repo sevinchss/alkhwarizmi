@@ -78,7 +78,7 @@ const Team = () => {
 
 const MainCard = ({ member }) => (
   <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 text-center h-[600px] flex flex-col">
-    <div className="w-full h-[350px] overflow-hidden">
+    <div className="w-full lg:h-[350px] overflow-hidden">
       <img
         src={member.photo}
         alt={member.name}
@@ -87,7 +87,7 @@ const MainCard = ({ member }) => (
     </div>
     <div className="p-6 flex flex-col justify-start">
       <h3 className="text-2xl font-semibold text-gray-900">{member.name}</h3>
-      <div className="w-20 h-[3px] bg-blue-500 mt-2 mb-3 mx-auto"></div>
+      <div className="w-20 lg:h-[3px] bg-blue-500 mt-2 mb-3 mx-auto"></div>
       <p className="text-gray-600 text-base leading-relaxed">{member.title}</p>
     </div>
   </div>
@@ -100,7 +100,7 @@ const SideCard = ({ member, side }) => (
     }`}
   >
     {/* Image */}
-    <div className="w-1/2 h-full overflow-hidden">
+    <div className="lg:w-1/2 h-full overflow-hidden">
       <img
         src={member.photo}
         alt={member.name}
