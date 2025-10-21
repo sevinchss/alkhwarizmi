@@ -1,7 +1,7 @@
 import Layout from "./Layout/Layout";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Route, Routes, BrowserRouter as Router, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -40,7 +40,6 @@ function App() {
   }, []);
 
   return (
-      <BrowserRouter basename="/">
     <Router>
       <ScrollToTop /> {/* 👈 bu har bir sahifa o‘zgarganda tepaga scroll qiladi */}
       <Layout>
@@ -69,7 +68,6 @@ function App() {
         </Routes>
       </Layout>
     </Router>
-    </BrowserRouter>
   );
 }
 
