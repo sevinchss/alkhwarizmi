@@ -43,10 +43,10 @@ const partnersRow2 = [
 
 export default function PartnersSection() {
   return (
-    <section className="font-poppins py-24  relative overflow-hidden">
-      {/* Subtle light orbs */}
-      <div className="absolute top-0 left-0 w-64 h-64 bg-blue-200/40 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 bg-indigo-200/40 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
+    <section className="relative py-24 font-poppins overflow-hidden bg-gradient-to-b from-white to-blue-50">
+      {/* Subtle background orbs */}
+      <div className="absolute top-0 left-0 w-80 h-80 bg-blue-200/30 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 animate-blob"></div>
+      <div className="absolute bottom-0 right-0 w-80 h-80 bg-indigo-200/30 rounded-full blur-3xl translate-x-1/3 translate-y-1/3 animate-blob animation-delay-2000"></div>
 
       <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
         {/* Title */}
@@ -58,17 +58,18 @@ export default function PartnersSection() {
           tashkilotlar bilan hamkorlik qilamiz.
         </p>
 
-        {/* Row 1 */}
-        <div className="overflow-hidden mb-14">
+        {/* Row 1: Continuous scroll with mask */}
+        <div className="relative overflow-hidden mb-14">
+          <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-white via-white/80 to-white"></div>
           <motion.div
             className="flex items-center gap-14 justify-center"
-            animate={{ x: ["0%", "-50%"] }}
-            transition={{ ease: "linear", duration: 40, repeat: Infinity }}
+            animate={{ x: ["0%", "-100%"] }}
+            transition={{ ease: "linear", duration: 18, repeat: Infinity }}
           >
             {[...partnersRow1, ...partnersRow1].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-44 h-28 bg-white/90 border border-blue-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-blue-200/80 transition-all duration-500 hover:-translate-y-1 hover:scale-105"
+                className="flex-shrink-0 w-44 h-28 bg-white/90 border border-blue-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-blue-400/60 transition-all duration-500 hover:-translate-y-3 hover:scale-110"
               >
                 <img
                   src={partner.logo}
@@ -80,17 +81,18 @@ export default function PartnersSection() {
           </motion.div>
         </div>
 
-        {/* Row 2 */}
-        <div className="overflow-hidden">
+        {/* Row 2: Continuous scroll opposite direction */}
+        <div className="relative overflow-hidden">
+          <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-white via-white/80 to-white"></div>
           <motion.div
             className="flex items-center gap-14 justify-center"
-            animate={{ x: ["-50%", "0%"] }}
-            transition={{ ease: "linear", duration: 45, repeat: Infinity }}
+            animate={{ x: ["100%", "0%"] }}
+            transition={{ ease: "linear", duration: 22, repeat: Infinity }}
           >
             {[...partnersRow2, ...partnersRow2].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-44 h-28 bg-white/90 border border-indigo-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-indigo-200/80 transition-all duration-500 hover:-translate-y-1 hover:scale-105"
+                className="flex-shrink-0 w-44 h-28 bg-white/90 border border-indigo-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-indigo-400/60 transition-all duration-500 hover:-translate-y-3 hover:scale-110"
               >
                 <img
                   src={partner.logo}

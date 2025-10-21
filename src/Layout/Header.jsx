@@ -212,13 +212,14 @@ export default function Navbar() {
         </div>
 
         {/* Mobile menu */}
-        <div
-          className={`lg:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full left-0 z-40 transition-all duration-500 ${
-            open
-              ? "max-h-[600px] opacity-100"
-              : "max-h-0 opacity-0 overflow-hidden"
-          }`}
-        >
+       <div
+  className={`lg:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full left-0 z-40 transition-all duration-500 ${
+    open
+      ? "max-h-[600px] opacity-100"
+      : "max-h-0 opacity-0 overflow-hidden"
+  }`}
+>
+
           <ul className="flex flex-col p-4 text-gray-800 font-medium text-[15px]">
             {NAV.map((item) => (
               <li key={item.name} className="py-2">

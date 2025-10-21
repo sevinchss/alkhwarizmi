@@ -99,14 +99,14 @@ const EducationalModel = () => {
         </aside>
 
         {/* MAIN CONTENT */}
-        <div className="flex-1 bg-gray-100 py-10 px-6 rounded-2xl shadow-inner">
+        <div className="flex-1  py-10 px-6 rounded-2xl shadow-inner">
           {/* Ta’lim yo‘nalishlari */}
           <section
             id="mission"
             ref={missionRef}
             className="mb-20 bg-white p-8 rounded-xl shadow-md"
           >
-            <h2 className="text-3xl font-semibold text-[#00265b]">
+            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
               Ta'lim yo'nalishlari
             </h2>
             <p className="mt-6 text-lg text-gray-700">
@@ -131,7 +131,7 @@ const EducationalModel = () => {
             ref={historyRef}
             className="mb-20 bg-white p-8 rounded-xl shadow-md"
           >
-            <h2 className="text-3xl font-semibold text-[#00265b]">
+            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
               Matematika+
             </h2>
             <p className="mt-6 text-lg text-gray-700">
@@ -155,7 +155,7 @@ const EducationalModel = () => {
             ref={socialScienceRef}
             className="mb-20 bg-white p-8 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
           >
-            <h2 className="text-3xl font-semibold text-[#00265b]">
+            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
               Ijtimoiy fanlar
             </h2>
 
@@ -206,7 +206,7 @@ const EducationalModel = () => {
             ref={naturalScienceRef}
             className="mb-20 bg-white p-8 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
           >
-            <h2 className="text-3xl font-semibold text-[#00265b]">
+            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
               Tabiiy fanlar
             </h2>
 
@@ -266,7 +266,7 @@ const EducationalModel = () => {
             ref={informaticsRef}
             className="mb-20 bg-white p-8 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
           >
-            <h2 className="text-3xl font-semibold text-[#00265b]">
+            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
               Informatika
             </h2>
             <p className="mt-6 text-lg text-gray-700">

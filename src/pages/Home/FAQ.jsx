@@ -52,7 +52,7 @@ export default function AlKhwarizmiFAQ() {
             <img
               src={img1}
               alt="Al-Khwarizmi teacher"
-              className="w-full h-[520px] object-cover rounded-2xl shadow-lg border border-gray-200"
+              className="w-full lg:h-[520px] object-cover rounded-2xl shadow-lg border border-gray-200"
             />
             {/* Floating card top-left */}
             <div className="absolute -top-5 -left-5 bg-blue-800 text-white px-5 py-3 rounded-md shadow-lg">
