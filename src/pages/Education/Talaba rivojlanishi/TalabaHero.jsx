@@ -7,7 +7,7 @@ export default function StudentShowcase() {
         {/* Title Section */}
         <div className=" mb-12">
           <h2 className="text-4xl font-extrabold text-[#0047AB] mb-4">
-            Talaba rivojlanishi
+            O'quvchi rivojlanishi
           </h2>
         </div>
         <div>
@@ -17,7 +17,7 @@ export default function StudentShowcase() {
         <div className="mt-5 flex lg:flex-row items-center flex-col justify-around  gap-12">
           {/* Image */}
           <div className="relative text-center flex justify-center items-center w-full lg:h-96 md:h-full overflow-hidden rounded-lg shadow-md">
-            <h1 className="text-center">Talaba rivojlanishi</h1>
+            <h1 className="text-center">O'quvchi rivojlanishi</h1>
           </div>
 
           {/* Text */}

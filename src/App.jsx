@@ -8,7 +8,6 @@ import "aos/dist/aos.css";
 import "swiper/css";
 import { useEffect } from "react";
 import EducationalModel from "./pages/Education/Talim modeli/EducationModel";
-import { Faculties } from "./pages/Faculties/Faculties";
 import BackToTop from "./component/BacktoTop";
 import { WebPage } from "./pages/Faculties/Web";
 import ScrollToTop from "./component/ScrolltoTop";
@@ -19,7 +18,6 @@ import { OnlineMain } from "./pages/Education/Online platform/OnlineMain";
 import ContactPage from "./pages/Contact/Contact";
 import { TalabaMain } from "./pages/Education/Talaba rivojlanishi/TalabaMain";
 import { MainAdmission } from "./pages/Admissions/MainAdmission";
-import { MainLeadership } from "./pages/Leadership/MainLeadership";
 import { MainVision } from "./pages/Vision/MainVision";
 import { MainAccomodation } from "./pages/Kampus hayoti/AccomodationPage/MainAccomodation";
 import { MainEvents } from "./pages/Kampus hayoti/SchoolEventsPage/MainEvents";
@@ -28,6 +26,7 @@ import { MainService } from "./pages/Kampus hayoti/StudentServices/MainService";
 import { MainPresidency } from "./pages/Kampus hayoti/presidency/MainPresidency";
 import { MainNews } from "./pages/News/MainNews";
 import Gallery from "./pages/Galleries/Gallery";
+import { MainLeadership } from "./pages/Leadership/MainLeadership";
 
 
 function App() {
@@ -63,7 +62,6 @@ function App() {
           <Route path="/rivojlanishi" element={<TalabaMain />} />
           <Route path="/fan-yonalishlari" element={<OnlineMain/>} />
           <Route path="/tarmoq" element={<NetworkPage />} />
-          <Route path="/yonalishlar" element={<Faculties />} />
           <Route path="/kontaktlar" element={<ContactPage />} />
         </Routes>
       </Layout>

@@ -28,8 +28,8 @@ const NAV = [
     name: "Ta’lim",
     links: [
       { label: "Ta'lim modeli", to: "/oquv-dasturlari" },
-      { label: "Fan yo‘nalishlari", to: "/fan-yonalishlari" },
-      { label: "Ta'laba rivojlanishi", to: "/rivojlanishi" },
+      { label: "Online platformasi", to: "/fan-yonalishlari" },
+      { label: "O'quvchi rivojlanishi", to: "/rivojlanishi" },
     ],
   },
   {

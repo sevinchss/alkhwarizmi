@@ -6,8 +6,8 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import webBg from "../Home/images/fac3.jpg";
-import person1 from "./images/person1.jpg";
-import person2 from "./images/person1.jpg";
+import person1 from "./images/webde.jpg";
+import person2 from "./images/zafar.jpg";
 
 export const WebPage = () => {
   const technologies = [
@@ -22,13 +22,13 @@ export const WebPage = () => {
 
   const teachers = [
     {
-      name: "Abdulloh Qodirov",
+      name: "Davron Avlakulov",
       role: "Senior Frontend Dasturchi",
       img: person1,
       bio: "6 yillik tajribaga ega. React.js, UI/UX va SPA arxitekturasi bo‘yicha yetakchi dasturchi.",
     },
     {
-      name: "Gulbahor Karimova",
+      name: "Zafar Mirzaboyev",
       role: "Fullstack Mentor",
       img: person2,
       bio: "Backend (Node.js, Express), SQL va MongoDB bo‘yicha professional o‘qituvchi.",
@@ -122,9 +122,9 @@ export const WebPage = () => {
                 <img
                   src={teacher.img}
                   alt={teacher.name}
-                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-110"
+                  className="w-full h-full object-cover transition-all duration-700 scale-110 group-hover:scale-110 "
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#001a4a]/80 to-transparent opacity-70 group-hover:opacity-50 transition-all duration-500"></div>
+                <div className="absolute inset-0   group-hover:opacity-50 transition-all duration-500"></div>
               </div>
 
               <div className="p-5">

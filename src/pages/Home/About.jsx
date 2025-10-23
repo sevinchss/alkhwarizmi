@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
-import aboutImg from "./images/elbek.jpg";
+import aboutImg from "./images/ADABIYOT.jpg";
 
 export default function AboutAlKhwarizmi() {
   useEffect(() => {

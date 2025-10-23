@@ -6,8 +6,8 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import graphicsBg from "../Home/images/fac1.jpg";
-import person1 from "./images/person1.jpg";
-import person2 from "./images/person1.jpg";
+import person1 from "./images/shamshod.jpg";
+import person2 from "./images/shamshod.jpg";
 
 export const GraphicsPage = () => {
   const technologies = [
@@ -21,13 +21,13 @@ export const GraphicsPage = () => {
 
   const teachers = [
     {
-      name: "Dilshod Karimov",
+      name: "Shamshodbek Ergashev",
       role: "Senior Grafik Dizayner",
       img: person1,
-      bio: "10 yillik tajriba. Photoshop, Illustrator va CorelDRAW’da professional dizayn loyihalari ustida ishlagan mutaxassis.",
+      bio: "5 yillik tajriba. Photoshop, Illustrator va CorelDRAW’da professional dizayn loyihalari ustida ishlagan mutaxassis.",
     },
     {
-      name: "Gulnoza Rasulova",
+      name: "Shukrullo Raxmatov",
       role: "3D Model va Animatsiya Bo‘yicha Mentor",
       img: person2,
       bio: "Blender, After Effects va vizual effektlar yaratishda katta tajribaga ega dizayner.",
@@ -116,7 +116,6 @@ export const GraphicsPage = () => {
           {teachers.map((teacher, i) => (
             <motion.div
               key={i}
-              whileHover={{ y: -6, scale: 1.03 }}
               transition={{ type: "spring", stiffness: 180 }}
               className="relative group w-[300px] md:w-[340px] rounded-3xl overflow-hidden bg-white/10 backdrop-blur-md border border-white/10 shadow-lg hover:shadow-2xl transition-all duration-500"
             >
@@ -124,7 +123,7 @@ export const GraphicsPage = () => {
                 <img
                   src={teacher.img}
                   alt={teacher.name}
-                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-110"
+                  className="w-full h-full object-cover transition-all duration-700 scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#001a4a]/80 to-transparent opacity-70 group-hover:opacity-50 transition-all duration-500"></div>
               </div>

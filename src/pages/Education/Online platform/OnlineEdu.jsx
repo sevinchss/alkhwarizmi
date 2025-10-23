@@ -31,7 +31,7 @@ const CoursesSection = () => {
     <section className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800 dark:text-gray-100">
-          Muhammad al-Xorazmiy .Online platformasi
+          Muhammad al-Khwarizmi .Online platformasi
         </h2>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

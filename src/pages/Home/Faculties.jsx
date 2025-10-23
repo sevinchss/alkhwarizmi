@@ -3,8 +3,8 @@ import { Code, Network, Smartphone, PenTool, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import bg1 from "./images/fac1.jpg";
-import bg2 from "./images/fac2.jpg";
-import bg3 from "./images/fac3.jpg";
+import bg2 from "./images/kamron.jpg";
+import bg3 from "./images/web.jpg";
 import bg4 from "./images/fac4.jpg";
 
 export const Faculties = () => {
@@ -58,7 +58,7 @@ export const Faculties = () => {
                 <motion.img
                   src={item.img}
                   alt={item.title}
-                  className="object-cover w-full h-full brightness-[0.9] transition-all duration-700 group-hover:brightness-110 group-hover:scale-105"
+                  className="object-cover w-full h-full brightness-[0.9] transition-all duration-700  group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-40"></div>
               </div>

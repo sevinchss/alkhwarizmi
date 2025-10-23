@@ -28,7 +28,8 @@ export default function ContactPage() {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = "Ism kiritilishi shart";
     if (!formData.phone.trim()) newErrors.phone = "Telefon raqam kerak";
-    if (!formData.email.trim()) newErrors.email = "Email manzilingizni kiriting";
+    if (!formData.email.trim())
+      newErrors.email = "Email manzilingizni kiriting";
     if (!formData.message.trim()) newErrors.message = "Xabarni yozing";
 
     setErrors(newErrors);
@@ -61,8 +62,8 @@ export default function ContactPage() {
           transition={{ duration: 0.9 }}
           className="text-gray-600 max-w-2xl mx-auto mt-5 text-lg leading-relaxed"
         >
-          Sizning fikringiz biz uchun juda muhim! Quyidagi formani to‘ldiring yoki kontakt
-          ma’lumotlarimizdan foydalaning.
+          Sizning fikringiz biz uchun juda muhim! Quyidagi formani to‘ldiring
+          yoki kontakt ma’lumotlarimizdan foydalaning.
         </motion.p>
       </div>
 
@@ -259,11 +260,16 @@ export default function ContactPage() {
             Qanday borish mumkin
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            • Bepul avtobus-shatllar, maktab va "Yashnobod" metro stantsiyasi
-            ichida harakat qiladi.
-            <br />• Umumiy transport: "Toshkent" metro stantsiyasi to‘plamidan —
-            avtobusgacha "Al-Xorazmiy maktabi" bekatigacha.
-            <br />• Maktab yonida mehmonlar uchun to‘xtash joyi mavjud.
+            • Metro orqali: Eng yaqin metro — Mashinasozlar bekati. Shu bekatdan
+            chiqib, 190-avtobusga chiqing. Avtobus sizni to‘g‘ridan-to‘g‘ri
+            “Fidoyilar mahallasi” bekatigacha olib boradi.
+            <br />• Jamoat transporti: Shuningdek, shaharning turli nuqtalaridan
+            qatnovchi avtobus va marshrutkalar ham maktab yonidan o‘tadi.
+            <br />• Shaxsiy avtomobilda: Maktab manzili — Mahtumquli ko‘chasi,
+            1A. Maktab yaqinida qisqa muddatli to‘xtash joyi mavjud.
+            <br />• Taksi orqali: Yandex Go yoki Bolt ilovalari orqali “Muhammad
+            al-Xorazmiy maktabi” manzilini kiritsangiz, haydovchi sizni
+            to‘g‘ridan-to‘g‘ri eshik oldigacha olib keladi.
           </p>
 
           <div className="space-y-3 mt-8 text-gray-800">

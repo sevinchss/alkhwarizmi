@@ -1,10 +1,9 @@
-import maab from "./images/maab.jpg";
-import img1 from "./images/maab1.jpg";
-import img2 from "./images/maab2.jpg";
-import img3 from "./images/maab3.jpg";
-import img4 from "./images/maab4.jpg";
-import img5 from "./images/maab5.jpg";
-import img6 from "./images/maab6.jpg";
+import adab from "./images/adabiy.jpg";
+import img1 from "./images/adab1.jpg";
+import img2 from "./images/adab2.jpg";
+import img3 from "./images/adab3.jpg";
+import img4 from "./images/adab4.jpg";
+import img5 from "./images/adab5.jpg";
 import info from "./images/info.jpg";
 import info1 from "./images/info1.jpg";
 import info2 from "./images/info2.jpg";
@@ -25,33 +24,31 @@ import us3 from "./images/us3.jpg";
 import us4 from "./images/us4.jpg";
 import us5 from "./images/us5.jpg";
 import us6 from "./images/us6.jpg";
-import zukko from "./images/zukko.jpg";
-import zuk1 from "./images/zuk1.jpg";
-import zuk2 from "./images/zuk2.jpg";
-import zuk3 from "./images/zuk3.jpg";
-import zuk4 from "./images/zuk4.jpg";
-import zuk5 from "./images/zuk5.jpg";
-import ib from "./images/ibb.jpg";
-import ib1 from "./images/ib1.jpg";
-import ib2 from "./images/ib2.jpg";
-import ib3 from "./images/ib3.jpg";
-import ib4 from "./images/ib4.jpg";
-import ib5 from "./images/ib5.jpg";
-import ib6 from "./images/ib6.jpg";
-
+import tedx from "./images/tedx.jpg";
+import ted1 from "./images/ted1.jpg";
+import ted2 from "./images/ted2.jpg";
+import ted3 from "./images/ted3.jpg";
+import ted4 from "./images/ted4.jpg";
+import ted5 from "./images/ted5.jpg";
+import navroz from "./images/navroz.jpg";
+import nav1 from "./images/nav1.jpg";
+import nav2 from "./images/nav2.jpg";
+import nav3 from "./images/nav3.jpg";
+import nav4 from "./images/nav4.jpg";
+import nav5 from "./images/nav5.jpg";
 export const galleryData = [
   {
     id: 1,
-    title: "MAAB INNOVATION BILAN UCHRASHUV",
-    date: "26-sentyabr 2025",
-    count: 7,
-    thumbnail: maab,
-    images: [img1, img2, img3, img4, img5, img6],
+    title: "YOSH KITOBXON” TANLOVI G‘OLIBASI",
+    date: "25-mart 2025",
+    count: 5,
+    thumbnail: adab,
+    images: [img1, img2, img3, img4, img5],
   },
   {
     id: 2,
     title: "INFORMATIKA VA INGLIZ TILI FANLARIDAN OLIMPIADA",
-    date: "oktyabr 2025",
+    date: "10 oktyabr 2025",
     count: 5,
     thumbnail: info,
     images: [info1, info2, info3, info4, info5],
@@ -60,7 +57,7 @@ export const galleryData = [
     id: 3,
     title: "HARVARD BITIRUVCHISI BILAN UCHRASHUV",
     date: "8-oktyabr 2025",
-    count: 7,
+    count: 6,
     thumbnail: harvard,
     images: [har1, har2, har3, har4, har5, har6],
   },
@@ -74,18 +71,18 @@ export const galleryData = [
   },
   {
     id: 5,
-    title: "ZUKKO USTOZLAR BELLASHGANDA",
-    date: "26-sentyabr 2025",
+    title: "UZOQ KUTILGAN “TEDxAl-Khwarizmi 2025” LOYIHASI BO’LIB O’TDI!",
+    date: "24-fevral 2025",
     count: 5,
-    thumbnail: zukko,
-    images: [zuk1, zuk2, zuk3, zuk4, zuk5],
+    thumbnail: tedx,
+    images: [ted1, ted2, ted3, ted4, ted5],
   },
   {
     id: 6,
-    title: "IB TRENINGDA YONDASHUVLAR VA INTEGRATSIYA MASALASI",
-    date: "sentyabr 2025",
+    title: "Navro‘z – milliy qadriyatlarimiz timsoli!",
+    date: "21-mart 2025",
     count: 5,
-    thumbnail: ib,
-    images: [ib1, ib2, ib3, ib4, ib5, ib6],
+    thumbnail: navroz,
+    images: [nav1, nav2, nav3, nav4, nav5],
   },
 ];

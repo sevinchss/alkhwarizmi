@@ -3,56 +3,59 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-
-import person1 from "./images/sanjar.png";
-import person2 from "./images/sarik.jpg";
-import person3 from "./images/sarik.jpg";
+import sanjar from "./images/sanjar.jpg";
+import sabohat from "./images/sabohat.jpg";
+import mirjambil from "./images/mirjambil.jpg";
+import biolog from "./images/bilog.jpg";
+import daler from "./images/daler.jpg";
+import zuhriddin from "./images/nodir.jpg";
+import ulugbek from "./images/ulugbek.jpg";
 
 const teamMembers = [
   {
     name: "Sanjar Utepov",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi o'quv ishlari bo'yicha direktor o'rinbosari",
-    image: person1,
+    image: sanjar,
   },
   {
     name: "U.K. Odiljonov",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi ma'naviy-ma'rifiy ishlar bo'yicha direktor o'rinbosari.",
-    image: person2,
+    image: ulugbek,
   },
   {
     name: "A. Ochilov",
     role: 'Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi matematika uslubiy birlashma raisi',
-    image: person3,
+    image: sabohat,
   },
   {
     name: "S.Rahimova",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi ona tili va adabiyot uslubiy birlashma raisi. ",
-    image: person1,
+    image: sabohat,
   },
   {
     name: "M.Mirg'iyosov",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi informatika uslubiy birlashma raisi.",
-    image: person2,
+    image: mirjambil,
   },
   {
     name: "A.Jamilov",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi jismoniy tarbiya fani o'qituvchisi.",
-    image: person3,
+    image: biolog,
   }, 
   {
     name: "A.Hoshimov",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi biologiya fani o'qituvchisi.",
-    image: person3,
+    image: biolog,
   },
    {
-    name: "Sh.G'aniyeva",
+    name: "Z.Imomaliyev ",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi ingliz tili uslubiy birlashma raisi. Maktab IB coordinator.",
-    image: person3,
+    image: zuhriddin,
   },
    {
     name: "D. Bafoyev",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi fizika uslubiy birlashma raisi. ",
-    image: person3,
+    image: daler,
   },
 ];
 

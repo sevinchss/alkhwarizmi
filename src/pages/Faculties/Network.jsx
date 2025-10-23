@@ -6,8 +6,8 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import networkBg from "../Home/images/fac2.jpg"; // or your tarmoq background
-import person1 from "./images/person1.jpg";
-import person2 from "./images/person1.jpg";
+import person1 from "./images/tarmoq.jpg";
+import person2 from "./images/tarmoq.jpg";
 
 export const NetworkPage = () => {
   const technologies = [
@@ -91,7 +91,6 @@ export const NetworkPage = () => {
           {technologies.map((tech, i) => (
             <SwiperSlide key={i}>
               <motion.div
-                whileHover={{ scale: 1.05 }}
                 className="p-8 rounded-2xl bg-white/10 backdrop-blur-md hover:bg-white/20 
                 border border-white/10 shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center gap-3"
               >
@@ -117,7 +116,6 @@ export const NetworkPage = () => {
           {teachers.map((teacher, i) => (
             <motion.div
               key={i}
-              whileHover={{ y: -6, scale: 1.03 }}
               transition={{ type: "spring", stiffness: 180 }}
               className="relative group w-[300px] md:w-[340px] rounded-3xl overflow-hidden bg-white/10 backdrop-blur-md border border-white/10 shadow-lg hover:shadow-2xl transition-all duration-500"
             >
@@ -125,7 +123,7 @@ export const NetworkPage = () => {
                 <img
                   src={teacher.img}
                   alt={teacher.name}
-                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-110"
+                  className="w-full h-full object-cover transition-all duration-700 scale-110 "
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#001a4a]/80 to-transparent opacity-70 group-hover:opacity-50 transition-all duration-500"></div>
               </div>

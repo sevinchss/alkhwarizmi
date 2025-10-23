@@ -72,14 +72,14 @@ export default function Communities() {
   const [selectedCommunity, setSelectedCommunity] = useState(null);
 
   return (
-    <div className="bg-white py-20 px-6 font-poppins relative">
+    <div className="bg-white py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 font-poppins relative">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-gray-800">
           Maktab o‘quvchilarning faol jamoalari
         </h2>
 
         {/* --- CARDS GRID --- */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-12 justify-items-center">
           {communities.map((community) => (
             <div
               key={community.id}
@@ -95,12 +95,12 @@ export default function Communities() {
               <img
                 src={community.logo}
                 alt={community.name}
-                className={`w-40 h-40 mb-6 object-contain transition-transform duration-500 ${
+                className={`w-32 sm:w-36 md:w-40 h-32 sm:h-36 md:h-40 mb-4 sm:mb-6 object-contain transition-transform duration-500 ${
                   hoveredId === community.id ? "scale-110" : "scale-100"
                 } ${community.id === 2 ? "rounded-2xl bg-white p-1" : ""}`}
               />
               <h3
-                className={`text-2xl font-semibold text-gray-800 transition-transform duration-500 ${
+                className={`text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 transition-transform duration-500 ${
                   hoveredId === community.id ? "scale-110" : "scale-100"
                 }`}
               >
@@ -113,45 +113,58 @@ export default function Communities() {
 
       {/* --- POPUP MODAL --- */}
       {selectedCommunity && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 px-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-3xl w-full p-8 flex flex-col md:flex-row items-center relative animate-fadeIn">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 px-4 sm:px-6 overflow-y-auto">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md sm:max-w-lg md:max-w-3xl p-4 sm:p-6 md:p-8 flex flex-col md:flex-row items-center relative animate-fadeIn">
             {/* Close Button */}
             <button
               onClick={() => setSelectedCommunity(null)}
-              className="absolute top-4 right-4 text-gray-600 hover:text-black text-2xl"
+              className="absolute top-3 sm:top-4 right-3 sm:right-4 text-gray-600 hover:text-black text-xl sm:text-2xl"
             >
               ✕
             </button>
 
             {/* Left side — Logo */}
-            <div className="md:w-1/3 flex justify-center mb-6 md:mb-0">
+            <div className="md:w-1/3 flex justify-center mb-4 sm:mb-6 md:mb-0">
               <img
                 src={selectedCommunity.logo}
                 alt={selectedCommunity.name}
-                className={`w-48 h-48 object-contain ${
-                  selectedCommunity.id === 2 ? "rounded-2xl bg-white p-2" : ""
+                className={`w-32 sm:w-40 md:w-48 h-32 sm:h-40 md:h-48 object-contain ${
+                  selectedCommunity.id === 2
+                    ? "rounded-2xl bg-white p-1 sm:p-2"
+                    : ""
                 }`}
               />
             </div>
 
             {/* Right side — Info */}
-            <div className="md:w-2/3 md:pl-8 text-center md:text-left">
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+            <div className="md:w-2/3 md:pl-6 sm:pl-8 text-center md:text-left">
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
                 {selectedCommunity.name}
               </h3>
-              <p className="text-gray-700 mb-2">
+              <p className="text-gray-700 text-sm sm:text-base mb-2 sm:mb-3">
                 <strong>Founder:</strong> {selectedCommunity.founder}
               </p>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 text-sm sm:text-base mb-3 sm:mb-4">
                 <strong>Leader:</strong> {selectedCommunity.leader}
               </p>
-              <p className="text-gray-600 leading-relaxed text-justify whitespace-pre-line">
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed text-justify whitespace-pre-line">
                 {selectedCommunity.info}
               </p>
             </div>
           </div>
         </div>
       )}
+
+      {/* Animation */}
+      <style>{`
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeIn {
+          animation: fadeIn 0.5s ease-out;
+        }
+      `}</style>
     </div>
   );
 }

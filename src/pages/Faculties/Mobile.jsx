@@ -6,8 +6,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import mobileBg from "../Home/images/fac2.jpg";
-import person1 from "./images/person1.jpg";
-import person2 from "./images/person1.jpg";
+import person1 from "./images/mobil.jpg";
 
 export const MobilePage = () => {
   const technologies = [
@@ -27,12 +26,7 @@ export const MobilePage = () => {
       img: person1,
       bio: "8 yillik tajribaga ega. Flutter va Kotlin orqali native va kross-platforma ilovalar ishlab chiqishda mutaxassis.",
     },
-    {
-      name: "Gulbahor Karimova",
-      role: "Fullstack Mentor",
-      img: person2,
-      bio: "Mobil backend (Firebase, Node.js, API) va ma’lumotlar bazalari integratsiyasi bo‘yicha o‘qituvchi.",
-    },
+   
   ];
 
   return (
@@ -122,9 +116,9 @@ export const MobilePage = () => {
                 <img
                   src={teacher.img}
                   alt={teacher.name}
-                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-110"
+                  className="w-full h-full object-cover transition-all duration-700 scale-110 group-hover:scale-120 "
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#001a4a]/80 to-transparent opacity-70 group-hover:opacity-50 transition-all duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#001a4a]/50 to-transparent opacity-70 group-hover:opacity-50 transition-all duration-500"></div>
               </div>
 
               <div className="p-5">
