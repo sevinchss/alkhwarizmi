@@ -8,7 +8,7 @@ import {
   FaYoutube,
   FaPhoneAlt,
 } from "react-icons/fa";
-import logo from "./images/logouz.png";
+import logo from "./images/logoo.jpg";
 
 const NAV = [
   {
@@ -35,7 +35,6 @@ const NAV = [
   {
     name: "Kampus hayoti",
     links: [
-      { label: "O'quvchilar xizmati", to: "/oquvchilar-xizmati" },
       { label: "Yotoqxona", to: "/yotoqxona" },
       { label: "Presidency", to: "/presidency" },
       { label: "O'quvchilar tashkilotlari", to: "/oquvchilar-tashkilotlari" },
@@ -110,25 +109,19 @@ export default function Navbar() {
             : "bg-transparent py-0"
         }`}
       >
-        <div className="flex items-center justify-between w-full pr-6 lg:pr-12 bg-white">
+        <div className=" flex items-center justify-between w-full pr-6 lg:pr-12 bg-white">
           {/* Logo */}
           <div className="flex-shrink-0 items-center">
-            <div
-              className="relative bg-[#0047AB] text-white font-semibold pr-12 pl-0 py-3 h-[82px]"
-              style={{
-                clipPath: "polygon(0 0, 93% 0, 100% 100%, 0% 100%)",
-              }}
-            >
+            
               <a href="/">
                 <img
                   src={logo}
                   alt="Al-Xorazmiy logotipi"
-                  className={`mt-3 w-[315px] sm:w-[320px] ml-5 transition-transform duration-700 ${
-                    isScrolled ? "scale-[0.96] opacity-90" : "scale-100"
+                  className={`mt-2 lg:ml-10 h-[58px]  w-[275px] my-4 lg:w-[250px]  transition-transform duration-700 ${
+                    isScrolled ? "scale-100 " : "scale-100"
                   }`}
                 />
               </a>
-            </div>
           </div>
 
           {/* Desktop menu */}

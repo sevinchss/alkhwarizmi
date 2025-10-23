@@ -262,12 +262,12 @@ export default function ContactPage() {
           <p className="text-lg text-gray-700 leading-relaxed">
             • Metro orqali: Eng yaqin metro — Mashinasozlar bekati. Shu bekatdan
             chiqib, 190-avtobusga chiqing. Avtobus sizni to‘g‘ridan-to‘g‘ri
-            “Fidoyilar mahallasi” bekatigacha olib boradi.
+            “Fidoyilar” bekatigacha olib boradi.
             <br />• Jamoat transporti: Shuningdek, shaharning turli nuqtalaridan
             qatnovchi avtobus va marshrutkalar ham maktab yonidan o‘tadi.
             <br />• Shaxsiy avtomobilda: Maktab manzili — Mahtumquli ko‘chasi,
             1A. Maktab yaqinida qisqa muddatli to‘xtash joyi mavjud.
-            <br />• Taksi orqali: Yandex Go yoki Bolt ilovalari orqali “Muhammad
+            <br />• Taksi orqali: Yandex Go ilovasi orqali “Muhammad
             al-Xorazmiy maktabi” manzilini kiritsangiz, haydovchi sizni
             to‘g‘ridan-to‘g‘ri eshik oldigacha olib keladi.
           </p>

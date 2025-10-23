@@ -15,7 +15,6 @@ import { MobilePage } from "./pages/Faculties/Mobile";
 import { GraphicsPage } from "./pages/Faculties/Graphics";
 import { NetworkPage } from "./pages/Faculties/Network";
 import { OnlineMain } from "./pages/Education/Online platform/OnlineMain";
-import ContactPage from "./pages/Contact/Contact";
 import { TalabaMain } from "./pages/Education/Talaba rivojlanishi/TalabaMain";
 import { MainAdmission } from "./pages/Admissions/MainAdmission";
 import { MainVision } from "./pages/Vision/MainVision";
@@ -27,6 +26,7 @@ import { MainPresidency } from "./pages/Kampus hayoti/presidency/MainPresidency"
 import { MainNews } from "./pages/News/MainNews";
 import Gallery from "./pages/Galleries/Gallery";
 import { MainLeadership } from "./pages/Leadership/MainLeadership";
+import ContactPage from "./pages/Contact/Contact";
 
 
 function App() {

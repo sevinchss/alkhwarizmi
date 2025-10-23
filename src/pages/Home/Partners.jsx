@@ -59,22 +59,22 @@ export default function PartnersSection() {
         </p>
 
         {/* Row 1: Continuous scroll with mask */}
-        <div className="relative overflow-hidden mb-14">
+        <div className="relative overflow-hidden mb-14 py-4">
           <div className="absolute inset-0 pointer-events-none"></div>
           <motion.div
-            className="flex items-center gap-14 justify-center"
+            className="flex items-center gap-14 justify-center py-2"
             animate={{ x: ["0%", "-100%"] }}
             transition={{ ease: "linear", duration: 18, repeat: Infinity }}
           >
             {[...partnersRow1, ...partnersRow1].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-44 h-28  border border-blue-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-blue-400/60 transition-all duration-500 hover:-translate-y-3 hover:scale-110"
+                className="flex-shrink-0 w-44 h-28  border border-blue-100 shadow-lg rounded-2xl flex items-center justify-center  transition-all duration-500  "
               >
                 <img
                   src={partner.logo}
                   alt={partner.name}
-                  className="w-28 h-auto object-contain opacity-90 hover:opacity-100 transition-all duration-300"
+                  className="w-28 h-auto object-contain opacity-90  transition-all duration-300"
                 />
               </div>
             ))}
@@ -83,16 +83,15 @@ export default function PartnersSection() {
 
         {/* Row 2: Continuous scroll opposite direction */}
         <div className="relative overflow-hidden">
-          <div className="absolute inset-0 pointer-events-none"></div>
+          <div className="absolute my-4 inset-0 pointer-events-none"></div>
           <motion.div
             className="flex items-center gap-14 justify-center"
             animate={{ x: ["100%", "0%"] }}
-            transition={{ ease: "linear", duration: 22, repeat: Infinity }}
           >
             {[...partnersRow2, ...partnersRow2].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-44 h-28  border border-indigo-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-indigo-400/60 transition-all duration-500 hover:-translate-y-3 hover:scale-110"
+                className="flex-shrink-0 w-44 h-28  border border-indigo-100 shadow-lg rounded-2xl flex items-center justify-center hover:shadow-indigo-400/60 transition-all duration-500  "
               >
                 <img
                   src={partner.logo}
