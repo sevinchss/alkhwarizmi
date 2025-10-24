@@ -13,15 +13,15 @@ import {
 const Mission = () => {
   const timeline = [
     {
-      year: "2017",
+      year: "2017 -",
       text: "Ulugʻ alloma Muhammad al-Xorazmiyning buyuk va bebaho merosini qadrlash, uni yosh avlod ongiga chuqur singdirish, oʻquvchilarning aniq fanlarning yuksak marralarini zabt etishiga koʻmaklashish, axborot-kommunikatsiya texnologiyalari sohasidagi iqtidorlarini aniqlash hamda qobiliyatlarini roʻyobga chiqarish uchun zarur shart-sharoitlar yaratish maqsadida Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabni tashkil etish toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining 14.09.2017 yildagi PQ-3274-sonli Qarori qabul qilindi. Qarorga muvofiq maktab Toshkent Davlat Iqtisodiyot Universiteti qoshidagi Aniq fanlarga ixtisoslashtirilgan davlat umumta’lim maktabi negizida tashkil etildi.",
     },
     { 
-      year: "2019",
+      year: "2019 -",
       text: "Toshkent shahri, Yashnabod tumani, Mahtumquli ko’chasi joylashuvida yangi bino Umarova Xilola Uktamovna rahbarligida o’z ish faoliyatini boshladi va jamoa shakllantirildi.",
     },
     {
-      year: "2020",
+      year: "2020 -",
       text: "Onlayn arizalar qabuli ostida maktabga 5-9-sinflarga ___ nafar o’quvchilar qabul qilindi.",
     },
     {
