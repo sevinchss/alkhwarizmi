@@ -77,7 +77,7 @@ export default function TeamSlider() {
   return (
     <div className="container mx-auto py-20 relative font-poppins">
       <h2 className="text-3xl md:text-4xl text-center mb-12 font-semibold text-gray-900">
-        Talabalarni rivojlantirish bo‘limi jamoasi
+        O'quvchilarni rivojlantirish dasturi jamoasi
       </h2>
 
       <div className="relative">

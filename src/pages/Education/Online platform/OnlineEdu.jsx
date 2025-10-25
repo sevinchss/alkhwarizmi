@@ -10,7 +10,7 @@ const courses = [
     text: "Muhammad al-Xorazmiy maktabi o‘qituvchilari tomonidan ishlab chiqilgan kurslar va klublar bilan bilimlaringizni kengaytiring.",
   },
   {
-    title: "Yozgi Olimpiya o‘yinlari",
+    title: "Yozgi Olimpiada o‘yinlari",
     img: olimp,
     text: "Olimpiadalarimizda qatnashing va g‘olib bo‘ling. Yangi tajriba orttiring va o‘z iste’dodlaringizni kashf eting.",
   },

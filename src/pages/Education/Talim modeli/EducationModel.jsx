@@ -69,9 +69,8 @@ const EducationalModel = () => {
             {[
               { id: "mission", label: "Ta'lim yo'nalishi", num: "01" },
               { id: "history", label: "Matematika+", num: "02" },
-              { id: "social-science", label: "Ijtimoiy fanlar", num: "03" },
-              { id: "natural-science", label: "Tabiiy fanlar", num: "04" },
-              { id: "informatics", label: "Informatika", num: "05" },
+              { id: "informatics", label: "Informatika", num: "03" },
+              { id: "model", label: "Ta'lim modeli", num: "04" },
             ].map((item) => (
               <div
                 key={item.id}
@@ -111,16 +110,13 @@ const EducationalModel = () => {
             </h2>
             <p className="mt-6 text-lg text-gray-700">
               Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktab — bu
-              matematika, informatika va tabiiy fanlarni chuqur o‘rganishga
-              yo‘naltirilgan zamonaviy ta’lim maskani bo‘lib, yosh avlodda ilmiy
-              tafakkur, texnologik savodxonlik va muammolarni hal etish
-              ko‘nikmalarini shakllantirishni maqsad qiladi.
+              matematika, informatika fanlari chuqurlashtirib o'qitiladigan ta'lim muassasidir.
             </p>
             <p className="mt-6 text-lg text-gray-700">
               Ta’lim jarayoni xalqaro standartlarga asoslangan bo‘lib,
-              o‘quvchilar robototexnika, dasturlash, ilmiy loyihalar va
+              o‘quvchilar robototexnika tanlovlari, dasturlash, ilmiy loyihalar va
               olimpiadalarda faol ishtirok etadilar. Bu yondashuv har bir
-              o‘quvchini nafaqat bilimli, balki tafakkur va yangilik yaratishga
+              o‘quvchini bilimli, yangilik yaratishga
               qodir shaxs sifatida shakllantiradi.
             </p>
           </section>
@@ -136,7 +132,7 @@ const EducationalModel = () => {
             </h2>
             <p className="mt-6 text-lg text-gray-700">
               Matematika fani o‘quvchilarga 5-sinfdan boshlab o‘qitiladi.
-              7-sinflardan boshlab esa fan chuqurlashtirilgan shaklda olib
+              7-sinfdan boshlab esa fan chuqurlashtirilgan shaklda olib
               borilib, asosiy e’tibor mantiqiy fikrlash va tahliliy tafakkurni
               shakllantirishga qaratiladi.
             </p>
@@ -149,116 +145,7 @@ const EducationalModel = () => {
             </ul>
           </section>
 
-          {/* Ijtimoiy Fanlar */}
-          <section
-            id="social-science"
-            ref={socialScienceRef}
-            className="mb-20 bg-white p-8 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
-          >
-            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
-              Ijtimoiy fanlar
-            </h2>
-
-            <p className="mt-6 text-lg text-gray-700">
-              Ijtimoiy fanlar yo‘nalishi o‘quvchilarga insoniyat jamiyati,
-              tarixiy jarayonlar, madaniyat va iqtisodiy tizimlar haqida chuqur
-              tushuncha beradi. Bu yo‘nalishda o‘quvchilar insoniy qadriyatlar,
-              siyosiy jarayonlar va ijtimoiy muhitdagi o‘zaro bog‘liqlikni
-              o‘rganadilar.
-            </p>
-
-            <p className="mt-4 text-lg text-gray-700">
-              Dars jarayonlari interaktiv usullarda olib boriladi: o‘quvchilar
-              guruh bo‘lib muhokama qilish, loyihalar taqdim etish, tarixiy
-              manbalarni tahlil qilish va jamiyatdagi dolzarb muammolarga yechim
-              topish bo‘yicha amaliy mashg‘ulotlarda ishtirok etadilar.
-            </p>
-
-            <p className="mt-4 text-lg text-gray-700">
-              Ijtimoiy fanlar bo‘limida quyidagi asosiy yo‘nalishlarga e’tibor
-              qaratiladi:
-            </p>
-
-            <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
-              <li>Tarix va madaniyatning o‘zaro aloqadorligini o‘rganish;</li>
-              <li>Jamiyat taraqqiyotida fan va texnologiyaning roli;</li>
-              <li>
-                Axloq, qadriyat va fuqarolik mas’uliyatini shakllantirish;
-              </li>
-              <li>
-                Iqtisodiy jarayonlar va global o‘zgarishlarni tahlil qilish;
-              </li>
-              <li>
-                Ommaviy axborot vositalarining jamiyatga ta’sirini o‘rganish.
-              </li>
-            </ul>
-
-            <p className="mt-4 text-lg text-gray-700">
-              Ushbu fanlar o‘quvchilarda tanqidiy tafakkur, tahliliy yondashuv
-              va ijtimoiy mas’uliyatni rivojlantiradi. Ular zamonaviy dunyoda
-              faol, ongli va mas’uliyatli fuqarolar sifatida shakllanadilar.
-            </p>
-          </section>
-
-          {/* Tabiiy Fanlar */}
-          <section
-            id="natural-science"
-            ref={naturalScienceRef}
-            className="mb-20 bg-white p-8 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
-          >
-            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
-              Tabiiy fanlar
-            </h2>
-
-            <p className="mt-6 text-lg text-gray-700">
-              Tabiiy fanlar yo‘nalishi — bu o‘quvchilarning atrof-muhit, tabiat
-              va olam qonuniyatlarini chuqur o‘rganishga qaratilgan
-              yo‘nalishdir. Unda biologiya, fizika, kimyo va ekologiya fanlari
-              o‘zaro uyg‘unlashgan holda o‘qitiladi, bu esa o‘quvchilarga real
-              dunyo hodisalarini tahlil qilish imkonini beradi.
-            </p>
-
-            <p className="mt-4 text-lg text-gray-700">
-              O‘quv jarayonida tajribalar, laboratoriya ishlari va amaliy
-              loyihalar asosiy o‘rinni egallaydi. Har bir o‘quvchi ilmiy
-              izlanish olib borish, tajribalar natijalarini tahlil qilish va
-              ilmiy asoslangan xulosalar chiqarishni o‘rganadi.
-            </p>
-
-            <p className="mt-4 text-lg text-gray-700">
-              Quyidagi yo‘nalishlar asosida chuqurlashtirilgan ta’lim beriladi:
-            </p>
-
-            <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
-              <li>
-                Biologiyada tirik organizmlar tuzilishi va evolyutsiyasini
-                o‘rganish;
-              </li>
-              <li>
-                Kimyoda moddalarning tarkibi, xossalari va reaksiyalarini tahlil
-                qilish;
-              </li>
-              <li>
-                Fizikada energiya, kuch va harakat qonuniyatlarini amaliy
-                tajribalar bilan tushunish;
-              </li>
-              <li>
-                Ekologiyada tabiatni asrash va barqaror rivojlanish
-                tamoyillarini o‘rganish;
-              </li>
-              <li>
-                Ilmiy tadqiqot metodlari va eksperiment tahlili asoslarini
-                shakllantirish.
-              </li>
-            </ul>
-
-            <p className="mt-4 text-lg text-gray-700">
-              Tabiiy fanlar yo‘nalishi o‘quvchilarda kuzatuvchanlik, tahliliy
-              tafakkur, mantiqiy fikrlash va ilmiy dunyoqarashni shakllantiradi.
-              Bu yo‘nalish yoshlarni kelajakdagi texnologik va ilmiy
-              kashfiyotlarga tayyorlaydi.
-            </p>
-          </section>
+        
 
           {/* Informatika */}
           <section
@@ -271,8 +158,8 @@ const EducationalModel = () => {
             </h2>
             <p className="mt-6 text-lg text-gray-700">
               Muhammad al-Xorazmiy maktabida informatika fani chuqurlashtirilgan
-              tarzda o‘qitiladi. O‘quvchilar 9-sinfdan boshlab o‘zlari qiziqqan
-              yo‘nalishni tanlaydilar.
+              tarzda o'qitiladi. O'quvchilar 9-sinfdan boshlab o'zlari qiziqqan
+              yo'nalishni tanlaydilar.
             </p>
             <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
               <li>Dasturlash tillari: Python, C++, JavaScript;</li>

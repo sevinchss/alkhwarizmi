@@ -30,11 +30,11 @@ const Mission = () => {
     },
     {
       year: "2022-2023",
-      text: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabining birinchi bitiruvchilari. __ nafar bitiruvchi Yurtimiz hamda dunyoning yetakchi oliy ta’lim muassasalariga qabul qilinadilar.",
+      text: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabining birinchi bitiruvchilari. __ nafar bitiruvchi Yurtimiz hamda dunyoning yetakchi oliy ta’lim muassasalariga qabul qilindilar.",
     },
     {
       year: "2023-2025",
-      text: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabining ikkinchi bitiruvchilari. Maktab bitiruvchilari assotsiatsiyasida allaqachon ____ nafar shaxs bor.",
+      text: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabining ikkinchi bitiruvchilari. Maktab bitiruvchilari assotsiatsiyasida allaqachon ____ nafar o'quvchi bor.",
     },
   ];
 
