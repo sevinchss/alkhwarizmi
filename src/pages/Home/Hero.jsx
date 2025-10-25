@@ -7,19 +7,19 @@ const slides = [
   {
     title: "Iqtidorli o'quvchilar uchun zamonaviy ta’lim maskani",
     description:
-      "Fan, texnologiya va ijod uyg‘unlashgan muhitda o‘quvchilar o‘z salohiyatlarini to‘liq namoyon etadilar. Bizning maqsad – tafakkurli, yangilik yaratuvchi avlodni tarbiyalash.",
+      "Fan, texnologiya va ijod uyg'unlashgan muhitda o'quvchilar o'z salohiyatlarini to'liq namoyon etadilar. Bizning maqsad – tafakkurli, yangilik yaratuvchi avlodni tarbiyalash.",
     image: bg1,
   },
   {
     title: "Matematika, informatika va innovatsiya birlashgan maktab",
     description:
-      "O‘quvchilarda raqamli tafakkur, mantiqiy fikrlash va muammolarni tahliliy yechish qobiliyati shakllantiriladi.",
+      "O'quvchilarda raqamli tafakkur, mantiqiy fikrlash va muammolarni tahliliy yechish qobiliyati shakllantiriladi.",
     image: bg2,
   },
   {
     title: "Kelajakni yaratadigan yosh avlod",
     description:
-      "Dasturlash, robototexnika va ilmiy izlanishlar orqali o‘quvchilar o‘z g‘oyalarini hayotga tatbiq etadilar.",
+      "Dasturlash, robototexnika va ilmiy izlanishlar orqali o'quvchilar o'z g'oyalarini hayotga tatbiq etadilar.",
     image: bg3,
   },
 ];

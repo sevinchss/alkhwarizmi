@@ -15,16 +15,16 @@ const About = () => {
             <p className="text-lg leading-relaxed text-gray-700">
               Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi
               IT-School Prezidenti — maktabning eng oliy tashkiloti hisoblanadi.
-              To‘rtinchi Prezident (joriy prezident) Sardorbek Abdumanabov
-              tomonidan amalga oshirilgan islohotlardan so‘ng, Prezidentlik
+              To'rtinchi Prezident (joriy prezident) Sardorbek Abdumanabov
+              tomonidan amalga oshirilgan islohotlardan so'ng, Prezidentlik
               “Tartib bilan taraqqiyot” shiori ostida faoliyat yurita boshladi.
-              U o‘quvchilar tomonidan saylanadigan boshqaruv organiga aylanishi
+              U o'quvchilar tomonidan saylanadigan boshqaruv organiga aylanishi
               bilan maktabning "demokratik yuragi" sifatida tanildi.
               <br />
               <br />
-              Jamoa Prezident, Vitse-prezident va oltita asosiy bo‘limdan
+              Jamoa Prezident, Vitse-prezident va oltita asosiy bo'limdan
               iborat: Ta’lim va Madaniyat, Sport, Talabalar ishlari, Tashqi
-              aloqalar, IT va Media. Prezidentlik jamoasi o‘quvchilarning
+              aloqalar, IT va Media. Prezidentlik jamoasi o'quvchilarning
               manfaatlarini himoya qiladi, ularning fikrlarini ma’muriyatga
               yetkazadi va maktabdagi ichki muhitni yaxshilash ustida ishlaydi.
             </p>

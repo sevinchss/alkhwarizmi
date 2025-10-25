@@ -11,28 +11,28 @@ export const Faculties = () => {
   const faculties = [
     {
       title: "Kompyuter grafikasi",
-      desc: "Photoshop, CorelDraw va Blender dasturlarida 2D va 3D dizayn loyihalarini yaratish amaliyoti o‘rgatiladi.",
+      desc: "Photoshop, CorelDraw va Blender dasturlarida 2D va 3D dizayn loyihalarini yaratish amaliyoti o'rgatiladi.",
       icon: <PenTool className="w-7 h-7 text-blue-700" />,
       img: bg1,
       link: "/grafika",
     },
     {
       title: "Mobil dasturlash",
-      desc: "Android va iOS platformalarida Flutter, Kotlin va Swift yordamida mobil ilovalar yaratish amaliyoti o‘rgatiladi.",
+      desc: "Android va iOS platformalarida Flutter, Kotlin va Swift yordamida mobil ilovalar yaratish amaliyoti o'rgatiladi.",
       icon: <Smartphone className="w-7 h-7 text-blue-700" />,
       img: bg2,
       link: "/mobil",
     },
     {
       title: "Web dasturlash",
-      desc: "HTML, CSS, JavaScript va React yordamida zamonaviy, responsiv web saytlar ishlab chiqish ko‘nikmalari beriladi.",
+      desc: "HTML, CSS, JavaScript va React yordamida zamonaviy web saytlar ishlab chiqish ko'nikmalari beriladi.",
       icon: <Code className="w-7 h-7 text-blue-700" />,
       img: bg3,
       link: "/web",
     },
     {
       title: "Kompyuter tarmoqlari",
-      desc: "Server va tarmoq konfiguratsiyalari, xavfsizlik va tizim boshqaruvi bo‘yicha amaliy bilimlar o‘rgatiladi.",
+      desc: "Server va tarmoq konfiguratsiyalari, xavfsizlik va tizim boshqaruvi bo'yicha amaliy bilimlar o'rgatiladi.",
       icon: <Network className="w-7 h-7 text-blue-700" />,
       img: bg4,
       link: "/tarmoq",
@@ -43,7 +43,7 @@ export const Faculties = () => {
     <section className="py-20 bg-[#eef3ff] font-poppins overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-center text-[#0047AB] font-extrabold text-4xl mb-16 tracking-wide">
-          YO‘NALISHLAR
+          YO'NALISHLAR
         </h2>
 
         <div data-aos="zoom-in" data-aos-delay="100" className="grid grid-cols-1 md:grid-cols-2 gap-12">

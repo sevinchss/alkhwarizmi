@@ -58,9 +58,7 @@ export const MobilePage = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-blue-100 max-w-3xl mx-auto text-lg leading-relaxed"
         >
-          Ushbu yo'nalishda o'quvchilar Android va iOS platformalari uchun mobil
-          ilovalarni yaratishni o'rganadilar. Flutter, Kotlin, Swift va React
-          Native yordamida zamonaviy dasturlar ishlab chiqadilar.
+          Ushbu modul Android va iOS tizimlarida ishlovchi qurilmalar uchun ilovalar ishlab chiqishni o'z ichiga oladi. Mobil ilovalarini ishlab chiqish bosqichlari, terminologiyalari, ilovalar dizayni va kodlashni qamrab oladi.
         </motion.p>
       </div>
 

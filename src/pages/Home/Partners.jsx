@@ -43,7 +43,7 @@ const partnersRow2 = [
 
 export default function PartnersSection() {
   return (
-    <section className="relative py-24 font-poppins overflow-hidden ">
+    <section className="bg-white relative py-24 font-poppins overflow-hidden ">
       {/* Subtle background orbs */}
       <div className="absolute top-0 left-0 w-80 h-80  rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 animate-blob"></div>
       <div className="absolute bottom-0 right-0 w-80 h-80  rounded-full blur-3xl translate-x-1/3 translate-y-1/3 animate-blob animation-delay-2000"></div>
@@ -51,10 +51,10 @@ export default function PartnersSection() {
       <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-800 to-indigo-800 bg-clip-text text-transparent mb-12">
-          Bizning Hamkorlarimiz
+          Bizning hamkorlarimiz
         </h2>
         <p className="text-gray-700 text-lg mb-16 max-w-2xl mx-auto">
-          Biz faxr bilan ta’lim, texnologiya va sanoat sohasidagi eng nufuzli
+          Biz faxr bilan ta’lim va texnologiya sohasidagi eng nufuzli
           tashkilotlar bilan hamkorlik qilamiz.
         </p>
 
@@ -87,6 +87,8 @@ export default function PartnersSection() {
           <motion.div
             className="flex items-center gap-14 justify-center"
             animate={{ x: ["100%", "0%"] }}
+            transition={{ ease: "linear", duration: 18, repeat: Infinity }}
+
           >
             {[...partnersRow2, ...partnersRow2].map((partner, index) => (
               <div
@@ -103,11 +105,7 @@ export default function PartnersSection() {
           </motion.div>
         </div>
 
-        {/* Subtitle */}
-        <p className="text-gray-600 text-sm mt-16 italic tracking-wide">
-          Muhammad al-Xorazmiy nomidagi maktab — global hamkorlik orqali
-          innovatsion ta’lim sari.
-        </p>
+      
       </div>
     </section>
   );

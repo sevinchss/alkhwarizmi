@@ -10,25 +10,25 @@ const testimonials = [
     name: "Sayfiddinov Sarvarjon",
     role: "Hanyang University talabasi",
     image: sarvar,
-    text: "Bu maktab menga katta imkoniyatlar yaratdi. Ustozlar juda bilimli, darslar zamonaviy va motivatsion. Shu yerda men o‘zimni haqiqiy talaba sifatida his qildim.",
+    text: "Bu maktab menga katta imkoniyatlar yaratdi. Ustozlar juda bilimli, darslar zamonaviy va motivatsion. Shu yerda men o'zimni haqiqiy o'quvchi sifatida his qildim.",
   },
   {
     name: "Xamroyev Sattor",
     role: "Duke Kunshan University talabasi",
     image: sattor,
-    text: "Al-Xorazmiy maktabida o‘qish bu orzu. Platforma, darslar, va o‘qituvchilar — hammasi mukammal uyg‘unlikda ishlaydi.",
+    text: "Muhammad al-Xorazmiy maktabida o'qish - bu orzu. Platforma, darslar va o'qituvchilar — hammasi mukammal uyg'unlikda ishlaydi.",
   },
   {
     name: "Aknazarova Sadoqat",
     role: "Bilkent University talabasi",
     image: sadoqat,
-    text: "Bu maktabda bilim olish — bu shunchaki o‘qish emas, bu o‘z orzularing sari ishonch bilan yurishdir. Har bir dars yangi imkoniyat.",
+    text: "Bu maktabda bilim olish — bu shunchaki o'qish emas, bu o'z orzularing sari ishonch bilan qadam tashlashdir. Har bir dars yangi imkoniyat.",
   },
   {
     name: "Xushvaqtov Elshodjon",
     role: "Drexel University talabasi",
     image: elshod,
-    text: "Bu maktabdagi imkoniyatlar meni o‘zgartirdi. Har bir loyiha va dars yangi fikrlar beradi. Kelajak shu yerdan boshlanadi!",
+    text: "Bu maktabdagi imkoniyatlar meni o'zgartirdi. Har bir loyiha va dars yangi fikrlar beradi. Kelajak shu yerdan boshlanadi!",
   },
 ];
 
@@ -62,15 +62,15 @@ export default function Testimonials() {
       ];
 
   return (
-    <section className="relative py-24 overflow-hidden font-poppins">
+    <section className="bg-white relative py-24 overflow-hidden font-poppins">
       <div className="max-w-7xl mx-auto px-6">
         {/* TITLE */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            O‘quvchilar fikri
+            O'quvchilar fikri
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Bizning o‘quvchilarimizning fikrlari bizning eng katta yutug‘imiz.
+            Bizning o'quvchilarimizning fikrlari bizning eng katta yutug'imiz.
           </p>
         </div>
 

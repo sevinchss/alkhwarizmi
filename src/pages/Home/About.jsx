@@ -100,8 +100,8 @@ export default function AboutAlKhwarizmi() {
                 d="M17 20h5v-2a4 4 0 00-4-4h-1M9 20H4v-2a4 4 0 014-4h1m0-3a3 3 0 100-6 3 3 0 000 6zm8 0a3 3 0 100-6 3 3 0 000 6z"
               />
             </svg>
-            <h2 className="text-2xl font-bold">1 200</h2>
-            <p className="text-sm mt-1">O‘quvchilar</p>
+            <h2 className="text-2xl font-bold">842</h2>
+            <p className="text-sm mt-1">O'quvchilar</p>
           </div>
 
           <div
@@ -123,8 +123,8 @@ export default function AboutAlKhwarizmi() {
                 d="M9 7V4h6v3M6 7h12a2 2 0 012 2v8a2 2 0 01-2 2H6a2 2 0 01-2-2V9a2 2 0 012-2z"
               />
             </svg>
-            <h2 className="text-2xl font-bold">95</h2>
-            <p className="text-sm mt-1">O‘qituvchilar</p>
+            <h2 className="text-2xl font-bold">89</h2>
+            <p className="text-sm mt-1">O'qituvchilar</p>
           </div>
 
           <div
@@ -145,7 +145,7 @@ export default function AboutAlKhwarizmi() {
                 d="M3 21h18M9 8h6m-6 4h6m-9 4h12M4 21V5a2 2 0 012-2h12a2 2 0 012 2v16"
               />
             </svg>
-            <h2 className="text-2xl font-bold">32</h2>
+            <h2 className="text-2xl font-bold">37</h2>
             <p className="text-sm mt-1">Sinflar</p>
           </div>
 
@@ -167,7 +167,7 @@ export default function AboutAlKhwarizmi() {
                 d="M12 14l9-5-9-5-9 5 9 5zm0 0v6m0 0a8.003 8.003 0 01-7-4"
               />
             </svg>
-            <h2 className="text-2xl font-bold">48</h2>
+            <h2 className="text-2xl font-bold">135</h2>
             <p className="text-sm mt-1">Loyihalar</p>
           </div>
         </div>

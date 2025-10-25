@@ -57,24 +57,24 @@ const AccommodationPage = () => {
     {
       id: 'sport',
       title: 'Sport zali',
-      subtitle: 'Sog‘lom tana — sog‘lom aql',
-      text: `Zamonaviy inson hayotini sportsiz tasavvur qilib bo‘lmaydi. Qolaversa, o‘sib kelayotgan yosh avlodni jismonan va ruhan sog‘lom tarzda voyaga yetkazish al-Xorazmiy nomidagi ixtisoslashtirilgan maktab pedagogik jamoasining eng asosiy maqsadidir. Maktab ixtiyorida sport mashg‘ulotlarini talab darajasida tashkil etish uchun stadion va sport zali mavjud. Stadionda futbol, basketbol, volleybol va katta tennis mashg‘ulotlarini o‘tkazish uchun barcha sharoitlar yaratilgan. Sport zalida esa minifutbol, stol tennisi musobaqalarini ham tashkil qilish mumkin. Jismoniy tarbiya darslari ob-havo sharoitidan kelib chiqib tashkil qilinadi. Shuningdek, maktabda barcha sport mashg‘ulotlarini tashkil qilish uchun sport anjomlari yetarli. Darsdan keyin sport turlari bo‘yicha sinflararo musobaqalar tashkil qilinadi. Sport musobaqalari maktab hayotining jonli va qizg‘in bo‘lishiga xizmat qiladi.`,
+      subtitle: "Sog'lom tana — sog'lom aql",
+      text: `Zamonaviy inson hayotini sportsiz tasavvur qilib bo'lmaydi. Qolaversa, o'sib kelayotgan yosh avlodni jismonan va ruhan sog'lom tarzda voyaga yetkazish al-Xorazmiy nomidagi ixtisoslashtirilgan maktab pedagogik jamoasining eng asosiy maqsadidir. Maktab ixtiyorida sport mashg'ulotlarini talab darajasida tashkil etish uchun stadion va sport zali mavjud. Stadionda futbol, basketbol, volleybol va katta tennis mashg'ulotlarini o'tkazish uchun barcha sharoitlar yaratilgan. Sport zalida esa minifutbol, stol tennisi musobaqalarini ham tashkil qilish mumkin. Jismoniy tarbiya darslari ob-havo sharoitidan kelib chiqib tashkil qilinadi. Shuningdek, maktabda barcha sport mashg'ulotlarini tashkil qilish uchun sport anjomlari yetarli. Darsdan keyin sport turlari bo'yicha sinflararo musobaqalar tashkil qilinadi. Sport musobaqalari maktab hayotining jonli va qizg'in bo'lishiga xizmat qiladi.`,
       image: zal,
     },
     {
       id: 'study',
       title: "O'qish maydonchalari",
       subtitle: 'Tinchlik va bilim uchun jihozlangan makon',
-      text: `Muhammad al-Xorazmiy maktabining o‘quv fayesi o‘quvchilar uchun qulay dam olish va mustaqil tayyorgarlik joyi hisoblanadi. Bu yerda yumshoq o‘tirg‘ichlar, kitob javonlari va ochiq o‘qish zonalari mavjud bo‘lib, o‘quvchilar darslar orasida tinch muhitda kitob o‘qish yoki loyihalar ustida ishlashlari mumkin. O‘quv maydonchalari esa interaktiv ta’lim jarayoniga moslashtirilgan — har bir joyda zamonaviy texnika, keng monitorlar va guruhda ishlash uchun mos stollar joylashtirilgan. Bu muhit o‘quvchilarning bilimga qiziqishini kuchaytiradi va ularni ijodiy fikrlashga undaydi.`,
+      text: `Muhammad al-Xorazmiy maktabining o'quv fayesi o'quvchilar uchun qulay dam olish va mustaqil tayyorgarlik joyi hisoblanadi. Bu yerda yumshoq o'tirg'ichlar, kitob javonlari va ochiq o'qish zonalari mavjud bo'lib, o'quvchilar darslar orasida tinch muhitda kitob o'qish yoki loyihalar ustida ishlashlari mumkin. O'quv maydonchalari esa interaktiv ta’lim jarayoniga moslashtirilgan — har bir joyda zamonaviy texnika, keng monitorlar va guruhda ishlash uchun mos stollar joylashtirilgan. Bu muhit o'quvchilarning bilimga qiziqishini kuchaytiradi va ularni ijodiy fikrlashga undaydi.`,
       image: faye,
     },
     {
       id: 'informatics',
       title: 'Informatika xonalari',
-      subtitle: 'Texnologiyalar bilan shug‘ullanish uchun xonalar',
-      text: `Informatika xonasi: Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga ixtisoslashtirilgan maktab asosan IT sohasiga yo‘naltirilganligi sababli zamonaviy standartlar asosida jihozlangan. Bu xonalar o‘quvchilarning nazariy bilimlarini amalda mustahkamlash uchun maxsus ishlab chiqilgan uskunalar bilan boyitilgan. Xonalar kompyuterlar, interaktiv panel va o‘quv dasturlari bilan ta'minlangan.
+      subtitle: "Texnologiyalar bilan shug'ullanish uchun xonalar",
+      text: `Informatika xonasi: Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga ixtisoslashtirilgan maktab asosan IT sohasiga yo'naltirilganligi sababli zamonaviy standartlar asosida jihozlangan. Bu xonalar o'quvchilarning nazariy bilimlarini amalda mustahkamlash uchun maxsus ishlab chiqilgan uskunalar bilan boyitilgan. Xonalar kompyuterlar, interaktiv panel va o'quv dasturlari bilan ta'minlangan.
 
-Dasturlash xonalari: Yosh dasturchilarning sevimli sinf xonasi bo‘lib, unda IT sohasiga oid zaruriy texnika va jihozlar mavjud. Ushbu xonalarda o‘quvchilar virtual haqiqat, dasturlash, web va mobil ilovalar asoslarini o‘rganishadi. Bu xonalar loyihalar ustida ishlash, hackathon va amaliy mashg‘ulotlar uchun mo‘ljallangan.`,
+Dasturlash xonalari: Yosh dasturchilarning sevimli sinf xonasi bo'lib, unda IT sohasiga oid zaruriy texnika va jihozlar mavjud. Ushbu xonalarda o'quvchilar virtual haqiqat, dasturlash, web va mobil ilovalar asoslarini o'rganishadi. Bu xonalar loyihalar ustida ishlash, hackathon va amaliy mashg'ulotlar uchun mo'ljallangan.`,
       image: informatics,
     },
     {
@@ -82,10 +82,10 @@ Dasturlash xonalari: Yosh dasturchilarning sevimli sinf xonasi bo‘lib, unda IT
       title: "Hamkorlarimiz xonalari",
       subtitle: 'Tashqi hamkorlik asosidagi maxsus laboratoriyalar',
       text: `ZTE XONASI:
-Muhammad al-Xorazmiy maktabida ZTE kabi kompaniyalar bilan hamkorlikda maxsus xonalar tashkil etilgan. Bu xonalar kompaniya dizayni va zamonaviy jihozlar bilan ta'minlangan bo‘lib, chuqurlashtirilgan mashg‘ulotlar va fakultativ dasturlar olib boriladi. O‘quvchilar loyihalar ustida ishlash va amaliy mashg‘ulotlardan keng foydalanadilar.
+Muhammad al-Xorazmiy maktabida ZTE kabi kompaniyalar bilan hamkorlikda maxsus xonalar tashkil etilgan. Bu xonalar kompaniya dizayni va zamonaviy jihozlar bilan ta'minlangan bo'lib, chuqurlashtirilgan mashg'ulotlar va fakultativ dasturlar olib boriladi. O'quvchilar loyihalar ustida ishlash va amaliy mashg'ulotlardan keng foydalanadilar.
 
 UCELL XONASI:
-Shuningdek, Ucell kabi hamkorlar tomonidan tashkil etilgan xonalar mavjud. Bu joylar mobil va telekommunikatsiya texnologiyalari, IoT va sanoat tarmoqlari bo‘yicha amaliy mashg‘ulotlar uchun mo‘ljallangan. O‘quvchilar loyiha ishlarini amalga oshirishda hamkorlar ko‘magidan foydalanadilar.`,
+Shuningdek, Ucell kabi hamkorlar tomonidan tashkil etilgan xonalar mavjud. Bu joylar mobil va telekommunikatsiya texnologiyalari, IoT va sanoat tarmoqlari bo'yicha amaliy mashg'ulotlar uchun mo'ljallangan. O'quvchilar loyiha ishlarini amalga oshirishda hamkorlar ko'magidan foydalanadilar.`,
       image: uztelecom,
     },
     {
@@ -93,7 +93,7 @@ Shuningdek, Ucell kabi hamkorlar tomonidan tashkil etilgan xonalar mavjud. Bu jo
       title: 'Robototexnika xonalari',
       subtitle: 'Yaratish va tajriba uchun maydon',
       text: `ROBOTOTEXNIKA XONASI:
-Robototexnika xonalari — bu texnologiya olami. Bu xonalarda o‘quvchilar robotlarni yig‘ish, Arduino va boshqa mikrokontrollerlar dasturlash asoslarini o‘rganishadi. Maktda Arduinonning turli platalari, datchiklar, motorlar, simlar va boshqa qurilmalar mavjud. Darslar davomida o‘quvchilar loyihalar yaratadi, robotlar sinovdan o‘tkaziladi va musobaqalarga tayyorlanadi. Bu xonalar ixtirolar yaratish va amaliy ko‘nikmalarni rivojlantirish uchun ideal muhit yaratadi.`,
+Robototexnika xonalari — bu texnologiya olami. Bu xonalarda o'quvchilar robotlarni yig'ish, Arduino va boshqa mikrokontrollerlar dasturlash asoslarini o'rganishadi. Maktda Arduinonning turli platalari, datchiklar, motorlar, simlar va boshqa qurilmalar mavjud. Darslar davomida o'quvchilar loyihalar yaratadi, robotlar sinovdan o'tkaziladi va musobaqalarga tayyorlanadi. Bu xonalar ixtirolar yaratish va amaliy ko'nikmalarni rivojlantirish uchun ideal muhit yaratadi.`,
       image: robo,
     },
     {
@@ -101,7 +101,7 @@ Robototexnika xonalari — bu texnologiya olami. Bu xonalarda o‘quvchilar robo
       title: 'Kibersport xonasi',
       subtitle: 'Raqamli sport va strategiya markazi',
       text: `KIBERSPORT XONASI:
-Kibersport xonasi — bu jamoaviy o‘yinlar, treninglar va musobaqalar uchun mo‘ljallangan joy. Bu xonada katta ekranli sensor kompyuterlar, jostiklar, qulay kreslolar va o‘yin texnikasi mavjud. O‘quvchilar darsdan keyin kibersport jamoalarida mashg‘ulotlar o‘tkazadilar, o‘yinlarni yaratish va test qilish bo‘yicha ko‘nikmalarni rivojlantiradilar. Kibersport xonasi o‘quvchilarga strategik fikrlash va jamoaviy ishni o‘rgatadi.`,
+Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'ljallangan joy. Bu xonada katta ekranli sensor kompyuterlar, jostiklar, qulay kreslolar va o'yin texnikasi mavjud. O'quvchilar darsdan keyin kibersport jamoalarida mashg'ulotlar o'tkazadilar, o'yinlarni yaratish va test qilish bo'yicha ko'nikmalarni rivojlantiradilar. Kibersport xonasi o'quvchilarga strategik fikrlash va jamoaviy ishni o'rgatadi.`,
       image: kiber,
     },
   ];
@@ -167,7 +167,7 @@ Kibersport xonasi — bu jamoaviy o‘yinlar, treninglar va musobaqalar uchun mo
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3 21h18M9 8h6m-6 4h6m-9 4h12M4 21V5a2 2 0 012-2h12a2 2 0 012 2v16" />
                     </svg>
                     <h2 className="text-xl font-semibold leading-tight">5+</h2>
-                    <p className="text-xs mt-1 text-center">O‘quv zonalari</p>
+                    <p className="text-xs mt-1 text-center">O'quv zonalari</p>
                   </div>
 
                   {/* Security */}
@@ -316,7 +316,7 @@ Kibersport xonasi — bu jamoaviy o‘yinlar, treninglar va musobaqalar uchun mo
                                   <div>
                                     <h4 className="font-semibold">UCELL XONASI</h4>
                                     <p className="text-gray-600 text-sm">
-                                      Muhammad al-Xorazmiy maktabida Ucell xonasi ham mavjud bo‘lib, bu xonada mobil va telekommunikatsiya texnologiyalari bo‘yicha amaliy mashg‘ulotlar o‘tadi. O‘quvchilar darsdan so‘ng loyihalar ustida ishlash va amaliyot o‘tkazish imkoniga ega bo‘ladilar.
+                                      Muhammad al-Xorazmiy maktabida Ucell xonasi ham mavjud bo'lib, bu xonada mobil va telekommunikatsiya texnologiyalari bo'yicha amaliy mashg'ulotlar o'tadi. O'quvchilar darsdan so'ng loyihalar ustida ishlash va amaliyot o'tkazish imkoniga ega bo'ladilar.
                                     </p>
                                   </div>
                                 </div>
@@ -341,11 +341,11 @@ Kibersport xonasi — bu jamoaviy o‘yinlar, treninglar va musobaqalar uchun mo
                       <li>Chekish va spirtli ichimliklar taqiqlanadi</li>
                       <li>Gadjetlarni faqat belgilangan vaqtlarda ishlating</li>
                       <li>Maktab maydonida shovqin qilmaslik va tartibni saqlash</li>
-                      <li>Sport va o‘quv inshootlaridan xavfsizlik qoidalariga rioya qilgan holda foydalanish</li>
-                      <li>Talabalar o‘rtasida hurmat va mehr-oqibatni saqlash</li>
+                      <li>Sport va o'quv inshootlaridan xavfsizlik qoidalariga rioya qilgan holda foydalanish</li>
+                      <li>Talabalar o'rtasida hurmat va mehr-oqibatni saqlash</li>
                       <li>Atrof-muhitni ifloslamaslik va chiqindilarni belgilangan joyga tashlash</li>
-                      <li>Maktab maydonida kelishmovchiliklarni tinch yo‘l bilan hal qilish</li>
-                      <li>Favqulodda vaziyatlarda o‘qituvchilar va xodimlarning ko‘rsatmalariga amal qilish</li>
+                      <li>Maktab maydonida kelishmovchiliklarni tinch yo'l bilan hal qilish</li>
+                      <li>Favqulodda vaziyatlarda o'qituvchilar va xodimlarning ko'rsatmalariga amal qilish</li>
                     </ol>
                   </div>
                 )}

@@ -63,10 +63,7 @@ export const NetworkPage = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-blue-100 max-w-3xl mx-auto text-lg leading-relaxed"
         >
-          Ushbu yo'nalishda o'quvchilar lokal va global tarmoqlar, internet
-          infratuzilmasi, tarmoq xavfsizligi, server sozlamalari va maxsus
-          texnologiyalarni o'rganadilar. Cisco, MikroTik va zamonaviy tarmoq
-          tizimlari bilan amaliy tajriba orttiradilar.
+         Bu modul o'quvchilarga kompyuter tizimlari va tarmoqlarini boshqarishga oid amaliy va nazariy bilimlarni taqdim etadi. Microsoft mahsuloti, Linux, Cisco. shuningdek ma'lumotlar bazalarini boshqarish tizimlari, veb-serverlar va kompyuter tarmoqlarini yaratish va boshqarish bo'yicha amaliy ko'nikmalarni o'rganish imkoniyati beriladi.
         </motion.p>
       </div>
 

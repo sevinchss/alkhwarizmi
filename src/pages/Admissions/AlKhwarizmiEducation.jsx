@@ -97,9 +97,7 @@ export default function AlKhwarizmiEducation() {
           <p className="text-lg text-slate-600 leading-relaxed mt-4 max-w-xl">
             Al-Xorazmiy maktabi o‘quvchilarga 5–11-sinflarda chuqurlashtirilgan
             ta’lim beradi. Yo‘nalishlar matematika, tabiiy fanlar,
-            ijtimoiy-gumanitar fanlar va IT texnologiyalarini qamrab oladi. Har
-            bir o‘quvchi loyiha faoliyati va sport orqali o‘z salohiyatini
-            rivojlantiradi.
+            ijtimoiy-gumanitar fanlar va IT texnologiyalarini qamrab oladi. 
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6 mt-10">

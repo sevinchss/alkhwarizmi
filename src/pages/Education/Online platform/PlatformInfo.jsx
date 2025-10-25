@@ -34,8 +34,8 @@ const PlatformInfo = () => {
     <section className="font-poppins bg-gradient-to-br from-[#f8fafc] to-[#eef3fa] dark:from-[#0b0f17] dark:to-[#141a25] py-20 px-6 md:px-12">
       <div className="max-w-7xl mx-auto border border-blue-800/40 rounded-3xl p-10 md:p-14 shadow-xl backdrop-blur-sm">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-14 tracking-tight">
-          Muhammad al-khwarizmi{" "}
-          <span className="text-blue-800">Online platformasi</span> haqida
+          Muhammad Al-Khwarizmi{" "}
+          <span className="text-blue-800">Onlayn platformasi</span> haqida
         </h2>
 
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 text-center">
@@ -61,7 +61,7 @@ const PlatformInfo = () => {
 
         <div className="flex justify-center mt-14">
           <button className="bg-blue-700 text-white px-8 py-3 rounded-xl text-sm font-medium hover:bg-blue-800 transition-all duration-300 shadow-md hover:shadow-blue-500/30">
-            PLATFORMANI BATAFSIL KO‘RISH
+            PLATFORMANI BATAFSIL KO'RISH
           </button>
         </div>
       </div>

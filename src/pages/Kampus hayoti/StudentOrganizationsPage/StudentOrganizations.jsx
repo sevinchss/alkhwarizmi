@@ -39,9 +39,9 @@ const communities = [
     logo: presidency,
     founder: 'Abdumanabov Sardorbek',
     leader: 'Abdumanabov Sardorbek',
-    info: `Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi IT-School Prezidenti — maktabning eng oliy tashkiloti hisoblanadi. To‘rtinchi Prezident (joriy prezident) Sardorbek Abdumanabov tomonidan amalga oshirilgan islohotlardan so‘ng, Prezidentlik “Tartib bilan taraqqiyot” shiori ostida faoliyat yurita boshladi. U o‘quvchilar tomonidan saylanadigan boshqaruv organiga aylanishi bilan maktabning "demokratik yuragi" sifatida tanildi.
+    info: `Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi IT-School Prezidenti — maktabning eng oliy tashkiloti hisoblanadi. To'rtinchi Prezident (joriy prezident) Sardorbek Abdumanabov tomonidan amalga oshirilgan islohotlardan so'ng, Prezidentlik “Tartib bilan taraqqiyot” shiori ostida faoliyat yurita boshladi. U o'quvchilar tomonidan saylanadigan boshqaruv organiga aylanishi bilan maktabning "demokratik yuragi" sifatida tanildi.
 
-Jamoa Prezident, Vitse-prezident va oltita asosiy bo‘limdan iborat: Ta’lim va Madaniyat, Sport, Talabalar ishlari, Tashqi aloqalar, IT va Media. Prezidentlik jamoasi o‘quvchilarning manfaatlarini himoya qiladi, ularning fikrlarini ma’muriyatga yetkazadi va maktabdagi ichki muhitni yaxshilash ustida ishlaydi.`,
+Jamoa Prezident, Vitse-prezident va oltita asosiy bo'limdan iborat: Ta’lim va Madaniyat, Sport, Talabalar ishlari, Tashqi aloqalar, IT va Media. Prezidentlik jamoasi o'quvchilarning manfaatlarini himoya qiladi, ularning fikrlarini ma’muriyatga yetkazadi va maktabdagi ichki muhitni yaxshilash ustida ishlaydi.`,
     category: 'social',
     gallery: [
       { src: gallery1_1, caption: 'Futbol musobaqasi' },
@@ -56,7 +56,7 @@ Jamoa Prezident, Vitse-prezident va oltita asosiy bo‘limdan iborat: Ta’lim v
     logo: volunteers,
     founder: 'Abdumanabov Sardorbek',
     leader: 'Sayfutdinova Sevinch',
-    info: `Al-Xorazmiy Ko‘ngillilari — Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabning 200 dan ortiq fidoyi ko‘ngillilar va ularning yuzlab izdoshlaridan iborat jamoasi tomonidan boshqariladigan tashabbusdir.
+    info: `Al-Xorazmiy Ko'ngillilari — Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabning 200 dan ortiq fidoyi ko'ngillilar va ularning yuzlab izdoshlaridan iborat jamoasi tomonidan boshqariladigan tashabbusdir.
 Faoliyati davomida jamoa turli musobaqalarda (Xalqaro Matematika va Informatika Olimpiadasi), ekologik tadbirlarda (“Green Games” loyihasi) hamda festivallarda (Jahon Yoshlar Festivali) ishtirok etgan.`,
     category: 'social',
     gallery: [
@@ -91,8 +91,8 @@ Tashkilot etilganidan beri Eco-Union bir qator yirik tadbirlarni o'tkazgan, juml
     logo: aksa,
     founder: 'Abdugafurov Muhammad',
     leader: 'Rustamov Shaxzod',
-    info: `Al-Xorazmiy Sport Assotsiatsiyasi — bu o‘quvchilar tomonidan boshqariladigan tashkilot bo‘lib, futbol, mini-futbol, voleybol va kibersport kabi turli sport yo‘nalishlarida musobaqalarni tashkil etadi.
-Yaqinda tashkil etilganiga qaramay, assotsiatsiya Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi eng mashhur va tez rivojlanayotgan o‘quvchi tashkilotlaridan biriga aylandi. U hozirgacha har birida 50–150 nafar ishtirokchi qatnashgan olti ta musobaqani muvaffaqiyatli o‘tkazgan.`,
+    info: `Al-Xorazmiy Sport Assotsiatsiyasi — bu o'quvchilar tomonidan boshqariladigan tashkilot bo'lib, futbol, mini-futbol, voleybol va kibersport kabi turli sport yo'nalishlarida musobaqalarni tashkil etadi.
+Yaqinda tashkil etilganiga qaramay, assotsiatsiya Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi eng mashhur va tez rivojlanayotgan o'quvchi tashkilotlaridan biriga aylandi. U hozirgacha har birida 50–150 nafar ishtirokchi qatnashgan olti ta musobaqani muvaffaqiyatli o'tkazgan.`,
     category: 'sports',
     gallery: [
       { src: gallery4_1, caption: 'Volleybol musobaqasi' },

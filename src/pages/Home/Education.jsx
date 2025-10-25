@@ -21,7 +21,7 @@ const features = [
   },
   {
     title: "Tabiiy fanlar",
-    desc: "Fizika, kimyo, biologiya va ekologiya bo‘yicha amaliy va laboratoriya tajribalari.",
+    desc: "Fizika, kimyo, biologiya va ekologiya bo'yicha amaliy va laboratoriya tajribalari.",
     icon: <PiFlaskBold className="h-8 w-8 text-amber-500" />,
     color: "from-amber-500/10 to-amber-100",
   },
@@ -45,7 +45,7 @@ const features = [
   },
   {
     title: "Sport",
-    desc: "Sog‘lom turmush tarzi, sport musobaqalari va jamoaviy rivojlanish.",
+    desc: "Sog'lom turmush tarzi, sport musobaqalari va jamoaviy rivojlanish.",
     icon: <PiSoccerBallBold className="h-8 w-8 text-rose-600" />,
     color: "from-rose-500/10 to-rose-100",
   },
@@ -122,10 +122,9 @@ export default function AlKhwarizmiEducation() {
             Ta’lim Al-Xorazmiyda
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed mt-4 max-w-xl">
-            Al-Xorazmiy maktabi o‘quvchilarga 5–11-sinflarda chuqurlashtirilgan ta’lim
-            beradi. Yo‘nalishlar matematika, tabiiy fanlar, ijtimoiy-gumanitar fanlar
-            va IT texnologiyalarini qamrab oladi. Har bir o‘quvchi loyiha faoliyati
-            va sport orqali o‘z salohiyatini rivojlantiradi.
+            Al-Xorazmiy maktabi o'quvchilarga 5–11-sinflarda chuqurlashtirilgan ta’lim
+            beradi. Yo'nalishlar matematika, tabiiy fanlar, ijtimoiy-gumanitar fanlar
+            va IT texnologiyalarini qamrab oladi. 
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6 mt-10">

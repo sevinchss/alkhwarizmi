@@ -11,38 +11,38 @@ const directors = [
     title: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktab direktori va asoschisi.",
     photo: Director4,
     text: `“Mana olti yildirki, Muhammad al-Xorazmiy maktabi eng yuqori natijalarni namoyish etmoqda. 
-    Biz doimiy ravishda O‘zbekiston va jahon reytinglarida yuqori o‘rinlarni egallab kelmoqdamiz. 
-    Barcha bitiruvchilarimiz orzu qilgan oliy o‘quv yurtlariga kirishmoqda. 
-    Ammo eng muhimi – bu natijalar emas, balki biz tarbiyalayotgan o‘quvchilarning insoniy qadriyatlari 
-    va o‘z ajdodlaridan faxrlanadigan avlod bo‘lishidir.”`,
+    Biz doimiy ravishda O'zbekiston va jahon reytinglarida yuqori o'rinlarni egallab kelmoqdamiz. 
+    Barcha bitiruvchilarimiz orzu qilgan oliy o'quv yurtlariga kirishmoqda. 
+    Ammo eng muhimi – bu natijalar emas, balki biz tarbiyalayotgan o'quvchilarning insoniy qadriyatlari 
+    va o'z ajdodlaridan faxrlanadigan avlod bo'lishidir.”`,
   },
    
   {
     name: "Davidova Dilrabo Tajibayevna",
     title: "",
     photo: Director3,
-    text: `“Zamonaviy maktab bolaga keyingi hayot uchun zarur bo‘lgan ko‘nikmalarni – fan, amaliyot va 
-    o‘zini o‘zi rag‘batlantirish qobiliyatini – berishi kerak. 
-    Shuningdek, maktab – bu baxtli joy bo‘lishi zarur. 
-    Buning uchun kuchli o‘qituvchilar jamoasi va do‘stona muhit kerak. 
+    text: `“Zamonaviy maktab bolaga keyingi hayot uchun zarur bo'lgan ko'nikmalarni – fan, amaliyot va 
+    o'zini o'zi rag'batlantirish qobiliyatini – berishi kerak. 
+    Shuningdek, maktab – bu baxtli joy bo'lishi zarur. 
+    Buning uchun kuchli o'qituvchilar jamoasi va do'stona muhit kerak. 
     Biz aynan shunday tizimni yaratganmiz.”`,
   },
    {
     name: "Ismailov Fazliddin",
-    title: "Ixtisoslik fanlari bo’yicha direktor o‘rinbosari. Ko‘plab loyihalar muallifi. Eco Union asoschisi.",
+    title: "Ixtisoslik fanlari bo’yicha direktor o'rinbosari. Ko'plab loyihalar muallifi. Eco Union asoschisi.",
     photo: Director1,
-    text: `“Maktabimiz bugungi kunda xalqaro ta’lim standartlariga mos holda, IB (International Baccalaureate) dasturining ilg‘or tamoyillarini 
-    o‘z amaliyotiga tatbiq etayotgan yetakchi ta’lim maskanlaridan biridir. 
-    Bizning maqsadimiz — o‘quvchilarni bilimli, global fikrlovchi, mas’uliyatli va insonparvar shaxslar sifatida tarbiyalashdir.”`,
+    text: `“Maktabimiz bugungi kunda xalqaro ta’lim standartlariga mos holda, IB (International Baccalaureate) dasturining ilg'or tamoyillarini 
+    o'z amaliyotiga tatbiq etayotgan yetakchi ta’lim maskanlaridan biridir. 
+    Bizning maqsadimiz — o'quvchilarni bilimli, global fikrlovchi, mas’uliyatli va insonparvar shaxslar sifatida tarbiyalashdir.”`,
   },
   {
     name: "Shakirova Sevara Baxadirovna",
     title: "",
     photo: Director2,
-    text: `“Muhammad al-Xorazmiy maktabi — yurtimizda zamonaviy ta’lim, ma’naviyat va tarbiyani uyg‘unlashtirgan nufuzli ta’lim maskanidir. 
-    Maktabimizda har bir o‘quvchining salohiyatini ro‘yobga chiqarish, ularning mustaqil fikrlashini, izlanuvchanlik va yangilikka intilishini 
-    qo‘llab-quvvatlash asosiy maqsadimizdir. Bugungi kunda o‘quvchilarimiz nafaqat fan olimpiadalari va tanlovlarda, balki hayotning turli 
-    sohalarida ham o‘z bilim va qobiliyatlari bilan ajralib turishmoqda.”`,
+    text: `“Muhammad al-Xorazmiy maktabi — yurtimizda zamonaviy ta’lim, ma’naviyat va tarbiyani uyg'unlashtirgan nufuzli ta’lim maskanidir. 
+    Maktabimizda har bir o'quvchining salohiyatini ro'yobga chiqarish, ularning mustaqil fikrlashini, izlanuvchanlik va yangilikka intilishini 
+    qo'llab-quvvatlash asosiy maqsadimizdir. Bugungi kunda o'quvchilarimiz nafaqat fan olimpiadalari va tanlovlarda, balki hayotning turli 
+    sohalarida ham o'z bilim va qobiliyatlari bilan ajralib turishmoqda.”`,
   },
 
 ];

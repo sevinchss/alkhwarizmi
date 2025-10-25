@@ -8,7 +8,7 @@ import {
   FaYoutube,
   FaPhoneAlt,
 } from "react-icons/fa";
-import logo from "./images/logoo.jpg";
+import logo from "./images/logo11.jpg";
 
 const NAV = [
   {

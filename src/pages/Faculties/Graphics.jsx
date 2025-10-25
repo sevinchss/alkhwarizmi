@@ -63,9 +63,7 @@ export const GraphicsPage = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-blue-100 max-w-3xl mx-auto text-lg leading-relaxed"
         >
-          Ushbu yo'nalishda o'quvchilar Photoshop, CorelDRAW, Illustrator va
-          Blender yordamida 2D va 3D dizaynlarni yaratish, logotip, banner,
-          poster va animatsiyalar ishlab chiqishni o'rganadilar.
+          Kompyuter grafikası yo'nalishi kompyuter dasturlari yordamida o'quvchilarning dizaynerlik qarashlari va ijodkorligini rivojlantiradi. Ushbu modulda texnik va dasturiy ta'minot yordamida tasvirlarni yaratish va qayta ishlash usullari hamda vositalari o'rganiladi. Loyihalash jarayonida ishlatiladigan vositalar va nazariya orqali kompyuter grafikasiga oid asosiy ko'nikmalar shakllantiriladi.
         </motion.p>
       </div>
 

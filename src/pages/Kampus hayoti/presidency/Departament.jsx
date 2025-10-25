@@ -11,22 +11,22 @@ import {
 const departments = [
   {
     title: "Ta’lim va madaniyat departamenti",
-    desc: "Fan olimpiadalari, kitobxonlik tashabbuslari va madaniy tadbirlarni tashkil etish orqali o‘quvchilarning ijodiy fikrlashini rivojlantiradi.",
+    desc: "Fan olimpiadalari, kitobxonlik tashabbuslari va madaniy tadbirlarni tashkil etish orqali o'quvchilarning ijodiy fikrlashini rivojlantiradi.",
     icon: <GraduationCap className="w-10 h-10" />,
   },
   {
     title: "Sport departamenti",
-    desc: "Maktab ichidagi sport va kibersport musobaqalarini o‘tkazadi, sog‘lom turmush tarzini targ‘ib qiladi.",
+    desc: "Maktab ichidagi sport va kibersport musobaqalarini o'tkazadi, sog'lom turmush tarzini targ'ib qiladi.",
     icon: <Dumbbell className="w-10 h-10" />,
   },
   {
-    title: "O‘quvchilar ishlari departamenti",
-    desc: "O‘quvchilar yetakchiligi va tashabbuslarini qo‘llab-quvvatlaydi, ularning takliflarini yig‘ib, muhitni yaxshilashga hissa qo‘shadi.",
+    title: "O'quvchilar ishlari departamenti",
+    desc: "O'quvchilar yetakchiligi va tashabbuslarini qo'llab-quvvatlaydi, ularning takliflarini yig'ib, muhitni yaxshilashga hissa qo'shadi.",
     icon: <Users className="w-10 h-10" />,
   },
   {
     title: "Tashqi ishlar departamenti",
-    desc: "Boshqa maktablar, universitetlar va tashkilotlar bilan hamkorlikda qo‘shma loyihalar va almashinuv dasturlarini yo‘lga qo‘yadi.",
+    desc: "Boshqa maktablar, universitetlar va tashkilotlar bilan hamkorlikda qo'shma loyihalar va almashinuv dasturlarini yo'lga qo'yadi.",
     icon: <Globe className="w-10 h-10" />,
   },
   {

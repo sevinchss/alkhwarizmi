@@ -64,9 +64,7 @@ export const WebPage = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-blue-100 max-w-3xl mx-auto text-lg leading-relaxed"
         >
-          Ushbu yo'nalishda o'quvchilar HTML, CSS, JavaScript, React va backend
-          texnologiyalarini chuqur o'rganadilar. Amaliy loyihalar orqali haqiqiy
-          dasturchilik tajribasiga ega bo'ladilar.
+          Bu modulda o'quvchilar mijoz-server texnologiyasiga asoslangan dasturlash tillari konsepsiyasi yordamida turli xil qurilmalar uchun statik va dinamik veb ilovalar yaratishni o'rganadi.
         </motion.p>
       </div>
 

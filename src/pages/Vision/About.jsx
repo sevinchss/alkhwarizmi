@@ -14,7 +14,7 @@ export const About = () => {
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-9">
-              Muhammad al-Xorazmiy nomidagi axborot-kommunikatsiya texnologiyalari yo'nalishiga oid fanlarni chuqurlashtirib o'qitishga ixtisoslashtirilgan maktab O‘zbekiston Respublikasi Prezidentining 2017-yil 14- sentabrdagi PQ-3274-sonli “Muhammad al-Xorazmiy nomidagi axborot kommunikatsiya texnologiyalari yo'nalishiga oid fanlarni chuqurlashtirib o'qitishga ixtisoslashtirilgan maktabni tashkil etish to'g'risida”gi qaroriga muvofiq Toshkent Davlat Iqtisodiyot Universiteti qoshidagi Aniq fanlarga ixtisoslashtirilgan davlat umumta’lim maktabi negizida tashkil etildi.
+              Muhammad al-Xorazmiy nomidagi axborot-kommunikatsiya texnologiyalari yo'nalishiga oid fanlarni chuqurlashtirib o'qitishga ixtisoslashtirilgan maktab O'zbekiston Respublikasi Prezidentining 2017-yil 14- sentabrdagi PQ-3274-sonli “Muhammad al-Xorazmiy nomidagi axborot kommunikatsiya texnologiyalari yo'nalishiga oid fanlarni chuqurlashtirib o'qitishga ixtisoslashtirilgan maktabni tashkil etish to'g'risida”gi qaroriga muvofiq Toshkent Davlat Iqtisodiyot Universiteti qoshidagi Aniq fanlarga ixtisoslashtirilgan davlat umumta’lim maktabi negizida tashkil etildi.
             </p>
 
           

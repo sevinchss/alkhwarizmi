@@ -2,7 +2,7 @@ import React from "react";
 import DirectorMain from "./images/hilola.jpg"; // Umarova Hilola Uktamovna
 import Director1 from "./images/fazliddin.png"; // Ismailov Fazliddin
 import Director2 from "./images/sevara.png"; // Shakirova Sevara Baxodirovna
-import Director3 from "./images/ulugbek.jpg"; // Odiljonov Ulug‘bek Komiljonovich
+import Director3 from "./images/ulugbek.jpg"; // Odiljonov Ulug'bek Komiljonovich
 import Director4 from "./images/sanjar.png"; // Utepov Sanjar Shomuratovich
 
 const team = [
@@ -16,26 +16,26 @@ const team = [
   {
     name: "Shakirova Sevara Baxodirovna",
     title:
-      "2024-yilda u Muhammad al-Xorazmiy maktabiga rahbarlik qilib, uning strategik maqsad va ustuvor yo‘nalishlarini belgiladi.",
+      "2024-yilda u Muhammad al-Xorazmiy maktabiga rahbarlik qilib, uning strategik maqsad va ustuvor yo'nalishlarini belgiladi.",
     photo: Director2,
     side: "left",
   },
   {
     name: "Ismailov Fazliddin",
     title:
-      "Ixtisoslik fanlari bo’yicha direktor o‘rinbosari. Ko‘plab loyihalar muallifi. Eco Union asoschisi.",
+      "Ixtisoslik fanlari bo’yicha direktor o'rinbosari. Ko'plab loyihalar muallifi. Eco Union asoschisi.",
     photo: Director1,
     side: "left",
   },
   {
-    name: "Odiljonov Ulug‘bek Komiljonovich",
-    title: "Ma’naviyat va ma’rifat ishlari bo‘yicha direktor o‘rinbosari.",
+    name: "Odiljonov Ulug'bek Komiljonovich",
+    title: "Ma’naviyat va ma’rifat ishlari bo'yicha direktor o'rinbosari.",
     photo: Director3,
     side: "right",
   },
   {
     name: "Utepov Sanjar Shomuratovich",
-    title: "O‘quv ishlari bo‘yicha direktor o‘rinbosari.",
+    title: "O'quv ishlari bo'yicha direktor o'rinbosari.",
     photo: Director4,
     side: "right",
   },

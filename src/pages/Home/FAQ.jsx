@@ -5,25 +5,26 @@ import "aos/dist/aos.css"; // Import AOS styles
 import img1 from './images/elb.jpg';
 
 const FAQ_ITEMS = [
+  
   {
-    q: "Maktabda ta'lim yo'nalishlari qanday?",
-    a: "Al-Khwarizmi maktabida ta'lim IT, aniq fanlar va ijodiy yo‘nalishlar asosida olib boriladi. Har bir yo‘nalish amaliy loyihalar bilan birlashtirilgan.",
+    q: "O'quvchilar qaysi dasturlash tillarini o'rganishadi?",
+    a: "Muhammad al-Xorazmiy maktabida o'quvchilar Python, JavaScript, HTML, CSS va C++ kabi dasturlarni o'rganadilar.Shuningdek, ular web va mobil ilovalar yaratish bo'yicha amaliy ko'nikmalarga ega bo'ladilar.",
   },
   {
-    q: "O‘quvchilar qaysi dasturlash tillarini o‘rganishadi?",
-    a: "Python, JavaScript, HTML, CSS va C++ asosiy yo‘nalishlarda o‘qitiladi. Shuningdek, o‘quvchilar web va mobil ilovalar yaratishni o‘rganadilar.",
+    q: "Maktabda amaliy mashg'ulotlarga e’tibor beriladimi?",
+    a: "Ha, darslar nazariyadan tashqari amaliy ishlanmalar bilan boyitilgan. O'quvchilar real loyihalar ustida ishlashadi",
   },
   {
-    q: "Imtihon tizimi qanday tashkil etilgan?",
-    a: "Baholash tizimi IB tamoyillari asosida tuzilgan bo‘lib, loyiha ishlariga, ijodiy fikrlashga va tanqidiy tahlilga e’tibor qaratiladi.",
+    q: "Ta'lim tizimi qanday tartibda ishlaydi?",
+    a: "Muhammad al-Xorazmiy maktabida ta’lim xalqaro IB (International Baccalaureate) dasturi asosida olib boriladi. Bu tizim o'quvchilarda mustaqil fikrlash, tanqidiy tahlil va ijodiy yondashuv ko'nikmalarini rivojlantirishga qaratilgan.",
   },
   {
-    q: "O‘quvchilar xalqaro musobaqalarda qatnashishadimi?",
-    a: "Ha, Al-Khwarizmi maktabi o‘quvchilari olimpiadalar, hackathon va ilmiy loyihalarda muntazam ishtirok etadi.",
+    q: "O'quvchilar xalqaro musobaqalarda qatnashishadimi?",
+    a: "Ha, al-Xorazmiy maktabi o'quvchilari olimpiadalar, hackathon va ilmiy loyihalarda muntazam ishtirok etadi.",
   },
   {
     q: "Maktabda qabul qanday amalga oshiriladi?",
-    a: "Qabul jarayoni test asosida amalga oshiriladi.",
+    a: "Qabul jarayoni test asosida amalga oshiriladi. To'liqroq ma'lumot olish uchun 1206 raqamiga qo'ng'iroq qiling.",
   },
 ];
 
@@ -60,15 +61,7 @@ export default function AlKhwarizmiFAQ() {
               <p className="text-xs opacity-90">Biz sizga javob beramiz</p>
             </div>
             {/* Floating bottom badge */}
-            <div className="absolute -bottom-8 -right-5 bg-white border border-gray-200 rounded-xl shadow-lg px-5 py-3 flex items-center gap-3">
-              <div className="bg-blue-800 text-white font-semibold w-10 h-10 flex items-center justify-center rounded-md">
-                AK
-              </div>
-              <div>
-                <p className="text-xs text-gray-800">Muhammad al-Khwarizmi</p>
-                <p className="text-sm font-semibold text-gray-800">maktabi</p>
-              </div>
-            </div>
+           
           </div>
 
           {/* RIGHT FAQ */}

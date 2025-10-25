@@ -21,7 +21,6 @@ import { MainVision } from "./pages/Vision/MainVision";
 import { MainAccomodation } from "./pages/Kampus hayoti/AccomodationPage/MainAccomodation";
 import { MainEvents } from "./pages/Kampus hayoti/SchoolEventsPage/MainEvents";
 import { MainStudent } from "./pages/Kampus hayoti/StudentOrganizationsPage/MainStudent";
-import { MainService } from "./pages/Kampus hayoti/StudentServices/MainService";
 import { MainPresidency } from "./pages/Kampus hayoti/presidency/MainPresidency";
 import { MainNews } from "./pages/News/MainNews";
 import Gallery from "./pages/Galleries/Gallery";
@@ -52,7 +51,6 @@ function App() {
           <Route path="/yotoqxona" element={<MainAccomodation />} />
           <Route path="/maktab-tadbirlari" element={<MainEvents />} />
           <Route path="/oquvchilar-tashkilotlari" element={<MainStudent />} />
-          <Route path="/oquvchilar-xizmati" element={<MainService />} />
           <Route path="/rahbariyat" element={<MainLeadership />} />
           <Route path="/presidency" element={<MainPresidency />} />
           <Route path="/mobil" element={<MobilePage />} />

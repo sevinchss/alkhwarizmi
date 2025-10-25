@@ -26,7 +26,7 @@ const Mission = () => {
     },
     {
       year: "2021-2022",
-      text: "Ushbu o‘quv yili — maktab an’analarining shakllanish yili, birinchi jiddiy yutuqlar va olimpiadalarda g‘alabalar yili bo‘ldi. 2020-yil O’zbekistonda ilk bor o’tkazilgan “Roboto-uz.” musobaqasida maktab o’quvchilari qatnashib sovrinli birinchi o’rinni egallashdi.",
+      text: "Ushbu o'quv yili — maktab an’analarining shakllanish yili, birinchi jiddiy yutuqlar va olimpiadalarda g'alabalar yili bo'ldi. 2020-yil O’zbekistonda ilk bor o’tkazilgan “Roboto-uz.” musobaqasida maktab o’quvchilari qatnashib sovrinli birinchi o’rinni egallashdi.",
     },
     {
       year: "2022-2023",
@@ -41,18 +41,18 @@ const Mission = () => {
   const graduateProfile = [
     {
       icon: <Heart className="text-red-500 w-5 sm:w-6 h-5 sm:h-6" />,
-      title: "G‘amxo‘r",
+      title: "G'amxo'r",
       text: "Atrofdagilarga yordam beradigan, insonparvar va mehribon shaxs.",
     },
     {
       icon: <Search className="text-blue-500 w-5 sm:w-6 h-5 sm:h-6" />,
       title: "Izlanishga chanqoq",
-      text: "Bilimga ochiq, yangiliklarni o‘rganishdan zavqlanadigan shaxs.",
+      text: "Bilimga ochiq, yangiliklarni o'rganishdan zavqlanadigan shaxs.",
     },
     {
       icon: <Brain className="text-yellow-500 w-5 sm:w-6 h-5 sm:h-6" />,
       title: "Tanqidiy fikrlovchi",
-      text: "Har qanday g‘oyani tahlil qilib, asosli qarorga keluvchi o‘quvchi.",
+      text: "Har qanday g'oyani tahlil qilib, asosli qarorga keluvchi o'quvchi.",
     },
     {
       icon: <MessageCircle className="text-green-500 w-5 sm:w-6 h-5 sm:h-6" />,
@@ -67,7 +67,7 @@ const Mission = () => {
     {
       icon: <Scale className="text-purple-500 w-5 sm:w-6 h-5 sm:h-6" />,
       title: "Prinsipial va mas’uliyatli",
-      text: "O‘z qadriyatlariga sodiq, qarorlarida qat’iy va halol.",
+      text: "O'z qadriyatlariga sodiq, qarorlarida qat’iy va halol.",
     },
     {
       icon: <Target className="text-pink-500 w-5 sm:w-6 h-5 sm:h-6" />,
@@ -174,9 +174,9 @@ const Mission = () => {
             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
               Ixtisoslashtirilgan maktabning asosiy vazifasi — axborot-kommunikatsiya
               texnologiyalarini keng jalb qilgan holda matematika, fizika, informatika
-              va chet tili fanlarini chuqur o‘zlashtirish, o‘quvchilarni dasturlash
+              va chet tili fanlarini chuqur o'zlashtirish, o'quvchilarni dasturlash
               asoslari, ma’lumotlar bazasi bilan ishlash va axborot xavfsizligini
-              ta’minlash bo‘yicha ko‘nikmalarga ega qilishdan iborat.
+              ta’minlash bo'yicha ko'nikmalarga ega qilishdan iborat.
             </p>
 
             <hr className="my-6 sm:my-8 border-gray-200" />
