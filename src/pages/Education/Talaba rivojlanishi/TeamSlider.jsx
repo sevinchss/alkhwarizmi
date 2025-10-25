@@ -49,7 +49,7 @@ const teamMembers = [
   },
    {
     name: "Z.Imomaliyev ",
-    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi ingliz tili uslubiy birlashma raisi. Maktab IB coordinator.",
+    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi ingliz tili uslubiy birlashma raisi. Maktab IB koordinator.",
     image: zuhriddin,
   },
    {

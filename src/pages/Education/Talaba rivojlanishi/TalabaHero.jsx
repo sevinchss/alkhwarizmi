@@ -23,26 +23,12 @@ export default function StudentShowcase() {
           {/* Text */}
           <div className="flex flex-col justify-center">
             <p className="text-base text-gray-700 mb-4">
-              O'quvchilarni rivojlantirish bo'limi tushuncha kiritishdan tashqari
-              mashg'ulotlar uchun mas'ul bo'lib, talabalar uchun keng
-              imkoniyatlarni taqdim etadi.
+              O'quvchilar kunning ikkinchi yarmida o'quv dasturidan tashqari faoliyatlari bilan mashg'ul bo'ladilar. Bu jarayon maktab o'quvchilariga asosiy ta'lim doirasidan tashqarida turli imkoniyatlarni taqdim etadi, ularning bilim va ko'nikmalarini rivojlantirishga yordam beradi bu esa Muhammad al-Xorazmiy nomli ixtisoslashtirilgan maktabi bitiruvchisi uchun zarurdir.
             </p>
             <p className="text-base text-gray-700 mb-4">
-              Teatr, musiqa, tasviriy san’at mashg'ulotlari va kam uchrashadigan
-              tillar, moliyaviy savodxonlik va psixologiya asoslari — bu va
-              boshqa ko'plab mashg'ulotlar va klub faoliyatlari talabalarga
-              ma'lum bilim va malakalarni rivojlantirishga yordam beradi.
-              Muhammad al-Xorazmiy nomidagi IT maktabida ushbu yo’nalishlar
-              talabalar uchun zarur bo’lgan qobiliyatlarni rivojlantirishga
-              yordam beradi.
+             Teatr, musiqa, tasviriy san'at mashg'ulotlari va kam uchraydigan tillar, moliyaviy savodxonlik va psixologiya asoslari bu va boshqa ko'plab mashg'ulot va to'garaklar Muhammad al-Xorazmiy nomli ixtisoslashtirilgan maktabidagi o'quv dasturidan tashqari rivojlanish dasturlariga kiradi
             </p>
-            <p className="text-base text-gray-700">
-              Shuningdek, o’quvchilarni rivojlantirishda san’at va tasviriy
-              faoliyatlarga, musiqa va nutqni rivojlantirishga yo'naltirilgan
-              ko'plab dasturlar taqdim etiladi. Bu kurslar talabalarimizni
-              kelajakdagi faoliyatlarida muvaffaqiyatga erishish uchun zarur
-              bilimlar bilan ta’minlaydi.
-            </p>
+         
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import { FaLightbulb, FaRunning, FaGraduationCap, FaHandsHelping, FaUsers } from
 export const RivojlanishBolimi = () => {
   const icons = [
     {
-      title: "Ijodkorlik va ixtiro",
+      title: "Ijodkorlik va ixtirochilik",
       icon: <FaLightbulb className="text-[#0047AB] text-4xl mb-3" />,
     },
     {
@@ -13,15 +13,15 @@ export const RivojlanishBolimi = () => {
       icon: <FaRunning className="text-[#0047AB] text-4xl mb-3" />,
     },
     {
-      title: "Ilm va bilim",
+      title: "Fan va malaka",
       icon: <FaGraduationCap className="text-[#0047AB] text-4xl mb-3" />,
     },
     {
-      title: "Fuqarolik va ijtimoiy mas'uliyat",
+      title: "Yosh ekologlar",
       icon: <FaHandsHelping className="text-[#0047AB] text-4xl mb-3" />,
     },
     {
-      title: "Etakchilik va o'zaro ta'sir",
+      title: "O'zini namoyon eta olish-Liderlik",
       icon: <FaUsers className="text-[#0047AB] text-4xl mb-3" />,
     },
   ];
@@ -99,10 +99,7 @@ export const RivojlanishBolimi = () => {
               !
               </div>
               <p className="text-lg">
-                Kunning ikkinchi yarmidagi qo'shimcha mashg'ulotlarda ishtirok etish o'quvchilarga asosiy ta'lim
-                vazifalaridan dam olish, qulay muhitda o'zlari uchun yangi va noodatiy narsalarni sinab ko'rish,
-                boshqa sinf va yo'nalishlardan bo'lgan o'quvchilar bilan tanishish, turli o'qituvchilar bilan muloqot
-                qilish imkonini beradi.
+               O'quvchilarni rivojlantirish dasturi har bir bitiruvchiga o'z portfoliosini yaratishda yordam beradi. Bu portfolioda akademik va akademik bo'lmagan yutuqlar, o'tkazilgan amaliyotlar, ko'ngillilik dasturlarida va maktab tadbirlarida ishtirok haqida ma'lumotlar kiritiladi.
               </p>
             </div>
           </div>
