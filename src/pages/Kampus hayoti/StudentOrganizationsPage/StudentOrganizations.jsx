@@ -41,7 +41,7 @@ const communities = [
     leader: 'Abdumanabov Sardorbek',
     info: `Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi IT-School Prezidenti — maktabning eng oliy tashkiloti hisoblanadi. To'rtinchi Prezident (joriy prezident) Sardorbek Abdumanabov tomonidan amalga oshirilgan islohotlardan so'ng, Prezidentlik “Tartib bilan taraqqiyot” shiori ostida faoliyat yurita boshladi. U o'quvchilar tomonidan saylanadigan boshqaruv organiga aylanishi bilan maktabning "demokratik yuragi" sifatida tanildi.
 
-Jamoa Prezident, Vitse-prezident va oltita asosiy bo'limdan iborat: Ta’lim va Madaniyat, Sport, Talabalar ishlari, Tashqi aloqalar, IT va Media. Prezidentlik jamoasi o'quvchilarning manfaatlarini himoya qiladi, ularning fikrlarini ma’muriyatga yetkazadi va maktabdagi ichki muhitni yaxshilash ustida ishlaydi.`,
+Jamoa Prezident, Vitse-prezident va oltita asosiy bo'limdan iborat: Ta’lim va Madaniyat, Sport, O'quvchilar ishlari, Tashqi aloqalar, IT va Media. Prezidentlik jamoasi o'quvchilarning manfaatlarini himoya qiladi, ularning fikrlarini ma’muriyatga yetkazadi va maktabdagi ichki muhitni yaxshilash ustida ishlaydi.`,
     category: 'social',
     gallery: [
       { src: gallery1_1, caption: 'Futbol musobaqasi' },
@@ -205,7 +205,7 @@ const StudentOrganizationsPage = () => {
                 Jamoalar orqali o'sing
               </h2>
               <p className="text-base md:text-lg text-gray-700 max-w-2xl mx-auto mb-8 leading-relaxed animate-slide-up animation-delay-200">
-                Muhammad al-Xorazmiyda o'quvchilar tashkilotlari o'zini namoyon qilish uchun maydon taqdim etadi. 20 dan ortiq qiziqish klublari bilan o'quvchilar rahbarlik, ijodkorlik va jamoaviy ishni rivojlantiradi. Qo'shiling va o'xshash fikrdagi tengdoshlar bilan bog'laning!
+                Muhammad al-Xorazmiy maktabida o'quvchilar tashkilotlari o'z salohiyatini namoyon etish va rivojlantirish uchun keng imkoniyat yaratadi. 20 dan ortiq qiziqish klublari orqali o'quvchilar rahbarlik, ijodkorlik va jamoada ishlash ko'nikmalarini mustahkamlashadi. Har bir klub o'quvchilarga o'z fikrini erkin ifoda etish va bir maqsad yo'lida birlashish imkonini beradi.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">

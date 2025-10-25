@@ -138,9 +138,9 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
           <div className="max-w-7xl mx-auto relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-8">
               <div className="flex flex-col justify-center items-center">
-                <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-3 animate-slide-up text-center">Sizning ikkinchi uyingiz</h2>
+                <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-3 animate-slide-up text-center">Maktab yotoqxonasi</h2>
                 <p className="text-sm md:text-base text-gray-700 max-w-md mb-6 leading-relaxed animate-slide-up animation-delay-200 text-center">
-                  Muhammad al-Xorazmiy turar joyida biz talabalarining har tomonlama rivojlanishini ta'minlash uchun zamonaviy turar joy binolari, keng o'quv maydonlari, sport inshootlari va dam olish zonalarini taqdim etamiz.
+                  Muhammad al-Xorazmiy maktabida biz o'quvchilarning har tomonlama rivojlanishini ta'minlash uchun zamonaviy turar joy binolari, keng o'quv maydonlari, sport inshootlari va dam olish maskanlarini taqdim etamiz.
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-6">
                   {/* Students */}
@@ -149,7 +149,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a4 4 0 00-4-4h-1M9 20H4v-2a4 4 0 014-4h1m0-3a3 3 0 100-6 3 3 0 000 6zm8 0a3 3 0 100-6 3 3 0 000 6z" />
                     </svg>
                     <h2 className="text-xl font-semibold leading-tight">500+</h2>
-                    <p className="text-xs mt-1 text-center">Talabalar</p>
+                    <p className="text-xs mt-1 text-center">O'quvchilar</p>
                   </div>
 
                   {/* Sport Facilities */}
@@ -232,7 +232,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                   <div className="animate-slide-up">
                     <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Turar joy tavsifi</h3>
                     <p className="text-gray-600 text-base leading-relaxed mb-3">
-                      Turar joy 500 talabani sig'diradi. Har bir binoda individual va umumiy xonalar, dush va kir yuvish joylari kabi zamonaviy qulayliklar mavjud bo'lib, xavfsizlik va gigienaga alohida e'tibor qaratilgan.
+                      Turar joy 500ta o'quvchini sig'diradi. Har bir binoda individual va umumiy xonalar, dush va kir yuvish joylari kabi zamonaviy qulayliklar mavjud bo'lib, xavfsizlik va gigiyenaga alohida e'tibor qaratilgan.
                     </p>
                     <ul className="list-disc pl-5 mb-4 space-y-1 text-gray-600 text-base">
                       <li>O'g'il va qizlar uchun alohida turar joylar</li>
@@ -257,7 +257,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                     {/* NEW: expanded facilities grid with 6 independent cards (click -> modal) */}
                     <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Obyektlar va infratuzilma</h3>
                     <p className="text-gray-600 text-base leading-relaxed mb-4">
-                      Turar joyda suzish havzasi, sport zali, kutubxona va maxsus o'quv maydonlari kabi dam olish va o'qish uchun turli obyektlar mavjud. Quyida ular haqida batafsil ma'lumot olishingiz mumkin — karta ustiga bosing.
+                      Turar joyda sport zali, kutubxona va maxsus o'quv maydonlari kabi dam olish va o'qish uchun turli obyektlar mavjud. Quyida ular haqida batafsil ma'lumot olishingiz mumkin — karta ustiga bosing.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -333,7 +333,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                   <div className="animate-slide-up">
                     <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Maktab hududidagi amal qilinishi kerak bo'ladigan qoidalar</h3>
                     <p className="text-gray-600 text-base leading-relaxed mb-3">
-                      Biz hurmatli va intizomli muhitni saqlaymiz. Talabalar kelganida qoidalar bilan tanishtiriladi.
+                      Biz hurmatli va intizomli muhitni saqlaymiz. O'quvchilar kelganida qoidalar bilan tanishtiriladi.
                     </p>
                     <ol className="list-decimal pl-5 space-y-1 text-gray-600 text-base">
                       <li>Kun tartibiga rioya qiling</li>
@@ -342,7 +342,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                       <li>Gadjetlarni faqat belgilangan vaqtlarda ishlating</li>
                       <li>Maktab maydonida shovqin qilmaslik va tartibni saqlash</li>
                       <li>Sport va o'quv inshootlaridan xavfsizlik qoidalariga rioya qilgan holda foydalanish</li>
-                      <li>Talabalar o'rtasida hurmat va mehr-oqibatni saqlash</li>
+                      <li>O'quvchilar o'rtasida hurmat va mehr-oqibatni saqlash</li>
                       <li>Atrof-muhitni ifloslamaslik va chiqindilarni belgilangan joyga tashlash</li>
                       <li>Maktab maydonida kelishmovchiliklarni tinch yo'l bilan hal qilish</li>
                       <li>Favqulodda vaziyatlarda o'qituvchilar va xodimlarning ko'rsatmalariga amal qilish</li>
@@ -391,7 +391,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                         </tr>
                         <tr className="even:bg-gray-50">
                           <td className="p-3 text-gray-600">21:00</td>
-                          <td className="p-3 text-gray-600">Yonib o'chirish</td>
+                          <td className="p-3 text-gray-600">Uxlash</td>
                         </tr>
                       </tbody>
                     </table>

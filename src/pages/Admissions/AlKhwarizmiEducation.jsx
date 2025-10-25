@@ -12,29 +12,30 @@ import "aos/dist/aos.css";
 
 const features = [
   {
+    title: "IT va kodlash",
+    desc: "Dasturlash, raqamli dizayn, sun’iy intellekt va texnologik innovatsiyalar.",
+    icon: <PiCodeBold className="h-8 w-8 text-sky-600" />,
+    color: "from-sky-500/10 to-sky-100",
+  },
+  {
     title: "Matematika+",
     desc: "Algebra, tahlil, ehtimollar, kombinatorika va algoritmik tafakkur asoslari.",
     icon: <PiMathOperationsBold className="h-8 w-8 text-indigo-600" />,
     color: "from-indigo-500/10 to-indigo-100",
   },
   {
-    title: "Tabiiy fanlar",
-    desc: "Fizika, kimyo, biologiya va ekologiya bo‘yicha amaliy va laboratoriya tajribalari.",
+    title: "Fizika",
+    desc: "Fizika, kimyo, biologiya va ekologiya bo'yicha amaliy va laboratoriya tajribalari.",
     icon: <PiFlaskBold className="h-8 w-8 text-amber-500" />,
     color: "from-amber-500/10 to-amber-100",
   },
   {
-    title: "Ijtimoiy-gumanitar",
+    title: "Ingliz tili",
     desc: "Tarix, iqtisod, falsafa va kommunikatsiya fanlarini IT bilan integratsiya qilish.",
     icon: <PiBookOpenTextBold className="h-8 w-8 text-emerald-600" />,
     color: "from-emerald-500/10 to-emerald-100",
   },
-  {
-    title: "IT va kodlash",
-    desc: "Dasturlash, raqamli dizayn, sun’iy intellekt va texnologik innovatsiyalar.",
-    icon: <PiCodeBold className="h-8 w-8 text-sky-600" />,
-    color: "from-sky-500/10 to-sky-100",
-  },
+  
 ];
 
 const FeatureCard = ({ icon, title, desc, color }) => (
@@ -95,9 +96,8 @@ export default function AlKhwarizmiEducation() {
             Muhammad al-Xorazmiy maktabida ta'lim
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed mt-4 max-w-xl">
-            Al-Xorazmiy maktabi o‘quvchilarga 5–11-sinflarda chuqurlashtirilgan
-            ta’lim beradi. Yo‘nalishlar matematika, tabiiy fanlar,
-            ijtimoiy-gumanitar fanlar va IT texnologiyalarini qamrab oladi. 
+            Al-Xorazmiy maktabi  5–11-sinf o'quvchilariga chuqurlashtirilgan
+            ta’lim beradi. Yo'nalishlar informatika,matematika, fizika va ingliz tili fanlarini qamrab oladi. 
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6 mt-10">

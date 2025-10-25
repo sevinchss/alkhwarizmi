@@ -23,8 +23,8 @@ const About = () => {
               <br />
               <br />
               Jamoa Prezident, Vitse-prezident va oltita asosiy bo'limdan
-              iborat: Ta’lim va Madaniyat, Sport, Talabalar ishlari, Tashqi
-              aloqalar, IT va Media. Prezidentlik jamoasi o'quvchilarning
+              iborat: Ta’lim va Madaniyat, Sport, Tashqi
+              ishlari, IT va Media. Prezidentlik jamoasi o'quvchilarning
               manfaatlarini himoya qiladi, ularning fikrlarini ma’muriyatga
               yetkazadi va maktabdagi ichki muhitni yaxshilash ustida ishlaydi.
             </p>
