@@ -27,7 +27,7 @@
     },
     {
       "id": "six",
-      "name": "O‘qituvchilar faoliyati va treninglar",
+      "name": "O'qituvchilar faoliyati va treninglar",
       "slug": "six"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "id": "ten",
-      "name": "O‘quvchilar yutuqlari va imkoniyatlar",
+      "name": "O'quvchilar yutuqlari va imkoniyatlar",
       "slug": "ten"
     }
   ],
@@ -63,17 +63,17 @@
     },
     {
       "id": "summer-olympics-2025",
-      "title": "“Prezident iqtidorli farzandlari” Milliy dasturi doirasida ochiq muloqot o‘tkazildi",
+      "title": "“Prezident iqtidorli farzandlari” Milliy dasturi doirasida ochiq muloqot o'tkazildi",
       "excerpt": "“Prezident iqtidorli farzandlari” Milliy dasturi doirasida o‘quvchilar va ota-onalar bilan ochiq muloqot o‘tkazilib, dastur maqsadi, ta’lim imkoniyatlari va bepul tayyorgarlik haqida batafsil ma’lumot berildi.",
       "date": "sen 2025",
       "photo": "suhbat_1.jpeg",
       "topics": ["three", "ten"],
-      "content": "\tMaktabgacha va maktab taʼlimi vazirligi tomonidan “Prezident iqtidorli farzandlari” Milliy dasturi ishtirokchilari va ularning ota-onalari  ishtirokida  ochiq muloqot boʻlib oʻtdi.\n\tUnda vazirlik hamda Ixtisoslashtirilgan ta’lim muassasalari agentligi mas'ullari, Toshkent shahri maktablaridan saralangan 64 nafar iqtidorli o‘quvchi va ularning ota-onalari ishtirok etdi.\n\tTadbir doirasida o‘quvchilarga Milliy dasturning maqsad va vazifalari, o‘quv dasturi haqida batafsil ma'lumot berildi.\n\tShuningdek, qo‘shimcha darslar o‘tiladigan platformalar, loyiha va maqsadlar haqida ham taqdimot qilindi.\n\tMa'lumot o‘rnida: Milliy dastur 1500 nafar iqtidorli o‘quvchilar uchun 2 yil davomida top-100 oliygohlarga bepul tayyorgarlikni o'z ichiga oladi."
+      "content": "\tMaktabgacha va maktab ta'limi vazirligi tomonidan “Prezident iqtidorli farzandlari” Milliy dasturi ishtirokchilari va ularning ota-onalari  ishtirokida  ochiq muloqot boʻlib oʻtdi.\n\tUnda vazirlik hamda Ixtisoslashtirilgan ta’lim muassasalari agentligi mas'ullari, Toshkent shahri maktablaridan saralangan 64 nafar iqtidorli o‘quvchi va ularning ota-onalari ishtirok etdi.\n\tTadbir doirasida o‘quvchilarga Milliy dasturning maqsad va vazifalari, o‘quv dasturi haqida batafsil ma'lumot berildi.\n\tShuningdek, qo‘shimcha darslar o‘tiladigan platformalar, loyiha va maqsadlar haqida ham taqdimot qilindi.\n\tMa'lumot o‘rnida: Milliy dastur 1500 nafar iqtidorli o‘quvchilar uchun 2 yil davomida top-100 oliygohlarga bepul tayyorgarlikni o'z ichiga oladi."
     },
     {
       "id": "open-doors-oct-5",
       "title": "MAKTABIMIZDA 'APPLE' KOMPANIYASIDAN MEHMON",
-      "excerpt": "“Apple” mintaqaviy rahbari Adilhan Kopabayev maktabga tashrif buyurib, o‘quvchilarni ilhomlantirdi.",
+      "excerpt": "“Apple” mintaqaviy rahbari Adilhan Kopabayev maktabga tashrif buyurib, o'quvchilarni ilhomlantirdi.",
       "date": "9 sen 2025",
       "photo": "apple.jpeg",
       "topics": ["three", "four", "five", "nine"],
@@ -91,7 +91,7 @@
     {
       "id": "letovo-top-schools",
       "title": "IB TRENINGDA YONDASHUVLAR VA INTEGRATSIYA MASALASI",
-      "excerpt": "Maktabda IB dasturi doirasida o‘qituvchilar uchun zamonaviy metodika va fanlararo integratsiyaga bag‘ishlangan seminar-trening o‘tkazildi.",
+      "excerpt": "Maktabda IB dasturi doirasida o'qituvchilar uchun zamonaviy metodika va fanlararo integratsiyaga bag‘ishlangan seminar-trening o‘tkazildi.",
       "date": "sep 2025",
       "photo": "ib.jpeg",
       "topics": ["seven"],
@@ -99,12 +99,12 @@
     },
     { 
       "id": "letovo-social-media",
-      "title": "OʻQITUVCHILAR OLIMPIADASI RESPUBLIKA BOSQICHINING GʻOLIBLARI ANIQLANDI",
-      "excerpt": "Biologiya, matematika va informatika fanlari bo‘yicha O‘qituvchilar olimpiadasi respublika bosqichida g‘oliblar aniqlandi va ular taqdirlandi.",
+      "title": "O'QITUVCHILAR OLIMPIADASI RESPUBLIKA BOSQICHINING G'OLIBLARI ANIQLANDI",
+      "excerpt": "Biologiya, matematika va informatika fanlari bo'yicha O'qituvchilar olimpiadasi respublika bosqichida g'oliblar aniqlandi va ular taqdirlandi.",
       "date": "sep 2025",
       "photo": "teacher.jpeg",
       "topics": ["six", "seven"],
-      "content": "\tBiologiya, matematika hamda informatika va axborot texnologiyalari fanlaridan Oʻqituvchilar olimpiadasining Respublika bosqichi koʻtarinki kayfiyatda tashkil etildi.\n\tGʻoliblar bilan quyida tanishishingiz mumkin!\n\tBiologiya fanidan:\n\t\t1-oʻrin: Mirjalol Axmedov - Buxoro shahar, 35-sonli maktab.\n\t\t2-oʻrin: Ilhombek Turgʻinboyev - Fargʻona shahar, IMA 1-son IM.\n\t\t3-oʻrin: Ikromova Mohinabonu - Buxoro shahar, 35-sonli maktab.\n\tMatematika fanidan:\n\t\t1-oʻrin: Abdushukur Axadov - Sirdaryo viloyati, Guliston shahar, IMA IM.\n\t\t2-oʻrin: Elbek Toshpulatov - Toshkent viloyati, Angren shahar, IMA IM.\n\t\t3-oʻrin: Abbos Muhammedov - Buxoro shahar, IMA PM.\n\tInformatika va axborot texnologiya fanidan:\n\t\t1-oʻrin: Saidjalol Hasanov - Namangan shahar, IMA PM.\n\t\t2-oʻrin: Davron Avlakulov - Toshkent shahar, Yashnobod tumani, ITMA al-Xorazmiy maktabi.\n\t\t3-oʻrin: Mansurjon Kamolov - Navoiy viloyati, Qiziltepa tumani, 9-sonli maktab.\nGʻoliblarni tabriklaymiz!"
+      "content": "\tBiologiya, matematika hamda informatika va axborot texnologiyalari fanlaridan O'qituvchilar olimpiadasining Respublika bosqichi koʻtarinki kayfiyatda tashkil etildi.\n\tGʻoliblar bilan quyida tanishishingiz mumkin!\n\tBiologiya fanidan:\n\t\t1-oʻrin: Mirjalol Axmedov - Buxoro shahar, 35-sonli maktab.\n\t\t2-oʻrin: Ilhombek Turgʻinboyev - Fargʻona shahar, IMA 1-son IM.\n\t\t3-oʻrin: Ikromova Mohinabonu - Buxoro shahar, 35-sonli maktab.\n\tMatematika fanidan:\n\t\t1-oʻrin: Abdushukur Axadov - Sirdaryo viloyati, Guliston shahar, IMA IM.\n\t\t2-oʻrin: Elbek Toshpulatov - Toshkent viloyati, Angren shahar, IMA IM.\n\t\t3-oʻrin: Abbos Muhammedov - Buxoro shahar, IMA PM.\n\tInformatika va axborot texnologiya fanidan:\n\t\t1-oʻrin: Saidjalol Hasanov - Namangan shahar, IMA PM.\n\t\t2-oʻrin: Davron Avlakulov - Toshkent shahar, Yashnobod tumani, ITMA al-Xorazmiy maktabi.\n\t\t3-oʻrin: Mansurjon Kamolov - Navoiy viloyati, Qiziltepa tumani, 9-sonli maktab.\nGʻoliblarni tabriklaymiz!"
     },
     {
       "id": "summer-trips-2025",

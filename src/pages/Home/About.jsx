@@ -21,15 +21,13 @@ export default function AboutAlKhwarizmi() {
         {/* Left - Text */}
         <div className="space-y-6" data-aos="fade-up" data-aos-delay="100">
           <h2 className="text-4xl md:text-5xl font-extrabold leading-snug text-gray-900">
-            Biz haqimizda <span className="text-[#004AAD]">Al-Xorazmiy</span>{" "}
-            maktabi
+            Biz haqimizda 
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan IT maktab —
-            zamonaviy texnologiyalar va chuqurlashtirilgan ta’lim uyg‘unligiga
-            asoslangan innovatsion o‘quv maskani. O‘quvchilar matematika, IT,
-            tabiiy fanlar va loyiha faoliyati yo‘nalishlarida chuqur bilimga ega
-            bo‘lishadi.
+            Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan
+            zamonaviy texnologiyalar va chuqurlashtirilgan ta’lim uyg'unligiga
+            asoslangan innovatsion o'quv maskani. O'quvchilar axborot texnologiyalari, matematika, fizika,  va ingliz tili fanlaridan chuqur bilimga ega
+            bo'lishadi.
           </p>
           <a href="/maqsad-vazifalar">
             <button

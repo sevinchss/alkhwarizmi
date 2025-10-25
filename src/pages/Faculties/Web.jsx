@@ -64,9 +64,9 @@ export const WebPage = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-blue-100 max-w-3xl mx-auto text-lg leading-relaxed"
         >
-          Ushbu yo‘nalishda talabalar HTML, CSS, JavaScript, React va backend
-          texnologiyalarini chuqur o‘rganadilar. Amaliy loyihalar orqali haqiqiy
-          dasturchilik tajribasiga ega bo‘ladilar.
+          Ushbu yo'nalishda o'quvchilar HTML, CSS, JavaScript, React va backend
+          texnologiyalarini chuqur o'rganadilar. Amaliy loyihalar orqali haqiqiy
+          dasturchilik tajribasiga ega bo'ladilar.
         </motion.p>
       </div>
 

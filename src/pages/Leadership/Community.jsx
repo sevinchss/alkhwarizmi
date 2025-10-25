@@ -13,7 +13,7 @@ const communities = [
     logo: presidency,
     founder: "Abdumanabov Sardorbek",
     leader: "Abdumanabov Sardorbek",
-    info: `Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi IT-School Prezidenti — maktabning eng oliy tashkiloti hisoblanadi. To‘rtinchi Prezident (joriy prezident) Sardorbek Abdumanabov tomonidan amalga oshirilgan islohotlardan so‘ng, Prezidentlik “Tartib bilan taraqqiyot” shiori ostida faoliyat yurita boshladi. U o‘quvchilar tomonidan saylanadigan boshqaruv organiga aylanishi bilan maktabning demokratik yuragi sifatida tanildi.
+    info: `Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi IT-School Prezidenti — maktabning eng oliy tashkiloti hisoblanadi. To‘rtinchi Prezident (joriy prezident) Sardorbek Abdumanabov tomonidan amalga oshirilgan islohotlardan so‘ng, Prezidentlik “Tartib bilan taraqqiyot” shiori ostida faoliyat yurita boshladi. U o‘quvchilar tomonidan saylanadigan boshqaruv organiga aylanishi bilan maktabning "demokratik yuragi" sifatida tanildi.
 
 Jamoa Prezident, Vitse-prezident va oltita asosiy bo‘limdan iborat: Ta’lim va Madaniyat, Sport, Talabalar ishlari, Tashqi aloqalar, IT va Media. Prezidentlik jamoasi o‘quvchilarning manfaatlarini himoya qiladi, ularning fikrlarini ma’muriyatga yetkazadi va maktabdagi ichki muhitni yaxshilash ustida ishlaydi.`,
   },
@@ -23,7 +23,7 @@ Jamoa Prezident, Vitse-prezident va oltita asosiy bo‘limdan iborat: Ta’lim v
     logo: volunteers,
     founder: "Abdumanabov Sardorbek",
     leader: "Sayfutdinova Sevinch",
-    info: `Al-Xorazmiy Ko‘ngillilari — Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabning 200 dan ortiq fidoyi ko‘ngillilar va minglab izdoshlaridan iborat jamoasi tomonidan boshqariladigan tashabbusdir.
+    info: `Al-Xorazmiy Ko‘ngillilari — Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabning 200 dan ortiq fidoyi ko‘ngillilar va ularning yuzlab izdoshlaridan iborat jamoasi tomonidan boshqariladigan tashabbusdir.
 Faoliyati davomida jamoa turli musobaqalarda (Xalqaro Matematika va Informatika Olimpiadasi), ekologik tadbirlarda (“Green Games” loyihasi) hamda festivallarda (Jahon Yoshlar Festivali) ishtirok etgan.`,
   },
   {
@@ -32,11 +32,11 @@ Faoliyati davomida jamoa turli musobaqalarda (Xalqaro Matematika va Informatika 
     logo: eco,
     founder: "Dilmurod Yuldashev",
     leader: "Umidova Muslima",
-    info: `2021-yilda tashkil etilgan, o‘quvchilar tomonidan boshqariladigan tashkilot bo‘lib, Markaziy Osiyoda birinchi marta Atrof-muhit ta’limi jamg‘armasi (FEE) tomonidan beriladigan “Yashil bayroq” mukofotini qo‘lga kiritgan.
+    info: `2021-yilda tashkil etilgan, o'quvchilar tomonidan boshqariladigan tashkilot bo'lib, Markaziy Osiyoda birinchi marta Atrof-muhit ta’limi jamg'armasi (FEE) tomonidan beriladigan “Yashil bayroq” mukofotini qo'lga kiritgan.
 
-Tashkilotning asosiy maqsadi — “maktabimizni ekologik jihatdan toza hududga ko‘chirish va kelajak avlodlar uchun barqaror hayotni ta’minlash.”
+Tashkilotning asosiy maqsadi — “maktabimizni ekologik jihatdan toza hududga aylantirish va kelajak avlodlar uchun barqaror hayotni ta’minlash.”
 
-Tashkil etilganidan beri Eco-Union bir qator yirik tadbirlarni o‘tkazgan, jumladan: MCOP24 (Model Conference of Parties), Green Games va ekologik trening mashg‘ulotlari. Tashkilot, shuningdek, televidenie intervyulari va ijtimoiy tarmoqlar orqali ekologik muammolar haqida xabardorlikni oshirib, ommaviy e’tiborni qozongan.`,
+Tashkil etilganidan beri Eco-Union bir qator yirik tadbirlarni o'tkazgan, jumladan: MCOP24 (Model Conference of Parties), Green Games va ekologik trening mashg'ulotlari. Tashkilot, shuningdek, televideniya intervyulari va ijtimoiy tarmoqlar orqali ekologik muammolar haqida xabardorlikni oshirib, ommaviy e’tiborni qozongan.`,
   },
   {
     id: 4,
@@ -44,9 +44,9 @@ Tashkil etilganidan beri Eco-Union bir qator yirik tadbirlarni o‘tkazgan, juml
     logo: aksa,
     founder: "Abdugafurov Muhammad",
     leader: "Rustamov Shaxzod",
-    info: `**Al-Xorazmiy Sport Assotsiatsiyasi** — bu o‘quvchilar tomonidan boshqariladigan tashkilot bo‘lib, futbol, mini-futbol, voleybol va kibersport kabi turli sport yo‘nalishlarida musobaqalarni tashkil etadi.
+    info: `"Al-Xorazmiy Sport Assotsiatsiyasi" — bu o'quvchilar tomonidan boshqariladigan tashkilot bo'lib, futbol, mini-futbol, voleybol va kibersport kabi turli sport yo'nalishlarida musobaqalarni tashkil etadi.
 
-Yaqinda tashkil etilganiga qaramay, assotsiatsiya **Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktab**dagi eng mashhur va tez rivojlanayotgan o‘quvchi tashkilotlaridan biriga aylandi. U hozirgacha **har birida 50–150 nafar ishtirokchi qatnashgan olti ta musobaqani** muvaffaqiyatli o‘tkazgan.`,
+Yaqinda tashkil etilganiga qaramay, assotsiatsiya Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabdagi eng mashhur va tez rivojlanayotgan o'quvchi tashkilotlaridan biriga aylandi. U hozirgacha **har birida 50–150 nafar ishtirokchi qatnashgan olti ta musobaqani muvaffaqiyatli o'tkazgan.`,
   },
   {
     id: 5,
@@ -54,8 +54,8 @@ Yaqinda tashkil etilganiga qaramay, assotsiatsiya **Muhammad al-Xorazmiy nomidag
     logo: logoA,
     founder: "Doniyor Kamoliddinov",
     leader: "Komilov Anasxon",
-    info: `An intellectual community that engages over 200 students monthly
-through fun and challenging intellectual games. Similar to Quiz Bowl, this club organizes league tournaments where students compete in various subjects, testing their knowledge and quick thinking. The Zakovat Club helps students develop critical thinking, problem-solving skills, and knowledge beyond the standard school curriculum.`,
+    info: `Har oy 200 dan ortiq o'quvchilarni qamrab oladigan intellektual bu jamoa qiziqarli va murakkab o'yinlarni tashkil qiladi. Quiz Bowl singari, klub o'quvchilarning turli fanlar bo'yicha o'z bilimlari va tezkor fikrlashlarini sinab ko'radigan liga turnirlarini o'tkazadi. “Zakovat” klubi o'quvchilarda tanqidiy fikrlash, muammoni hal qilish ko'nikmalarini rivojlantirish va standart maktab o'quv dasturidan tashqari bilimlarni egallashlariga yordam beradi.
+`,
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ export default function Communities() {
     <div className="bg-white py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 font-poppins relative">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-gray-800">
-          Maktab o‘quvchilarning faol jamoalari
+         Faol jamoalar - maktabimiz faxri
         </h2>
 
         {/* --- CARDS GRID --- */}

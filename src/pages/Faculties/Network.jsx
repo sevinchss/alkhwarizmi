@@ -63,9 +63,9 @@ export const NetworkPage = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-blue-100 max-w-3xl mx-auto text-lg leading-relaxed"
         >
-          Ushbu yo‘nalishda talabalar lokal va global tarmoqlar, internet
-          infratuzilmasi, tarmoq xavfsizligi, server sozlamalari va bulutli
-          texnologiyalarni o‘rganadilar. Cisco, MikroTik va zamonaviy tarmoq
+          Ushbu yo'nalishda o'quvchilar lokal va global tarmoqlar, internet
+          infratuzilmasi, tarmoq xavfsizligi, server sozlamalari va maxsus
+          texnologiyalarni o'rganadilar. Cisco, MikroTik va zamonaviy tarmoq
           tizimlari bilan amaliy tajriba orttiradilar.
         </motion.p>
       </div>
@@ -73,7 +73,7 @@ export const NetworkPage = () => {
       {/* 🔹 Technologies Slider */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300 mb-10">
-          O‘qitiladigan Texnologiyalar
+          Qo'llanadigan Texnologiyalar
         </h2>
 
         <Swiper

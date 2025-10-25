@@ -19,7 +19,7 @@ const About = () => {
               tomonidan amalga oshirilgan islohotlardan so‘ng, Prezidentlik
               “Tartib bilan taraqqiyot” shiori ostida faoliyat yurita boshladi.
               U o‘quvchilar tomonidan saylanadigan boshqaruv organiga aylanishi
-              bilan maktabning demokratik yuragi sifatida tanildi.
+              bilan maktabning "demokratik yuragi" sifatida tanildi.
               <br />
               <br />
               Jamoa Prezident, Vitse-prezident va oltita asosiy bo‘limdan

@@ -63,16 +63,16 @@ export const GraphicsPage = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-blue-100 max-w-3xl mx-auto text-lg leading-relaxed"
         >
-          Ushbu yo‘nalishda talabalar Photoshop, CorelDRAW, Illustrator va
+          Ushbu yo'nalishda o'quvchilar Photoshop, CorelDRAW, Illustrator va
           Blender yordamida 2D va 3D dizaynlarni yaratish, logotip, banner,
-          poster va animatsiyalar ishlab chiqishni o‘rganadilar.
+          poster va animatsiyalar ishlab chiqishni o'rganadilar.
         </motion.p>
       </div>
 
       {/* 🔹 Technologies Slider */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300 mb-10">
-          Ishlatiladigan Dasturlar
+          Ishlatiladigan texnologiyalar
         </h2>
 
         <Swiper

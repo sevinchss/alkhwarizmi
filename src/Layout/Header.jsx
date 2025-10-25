@@ -33,7 +33,7 @@ const NAV = [
     ],
   },
   {
-    name: "Kampus hayoti",
+    name: "Maktab hayoti",
     links: [
       { label: "Yotoqxona", to: "/yotoqxona" },
       { label: "Presidency", to: "/presidency" },

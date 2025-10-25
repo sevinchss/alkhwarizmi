@@ -14,7 +14,7 @@ export const About = () => {
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-9">
-              Muhammad al-Xorazmiy nomidagi axborot-kommunikatsiya texnologiyalari yo‘nalishiga oid fanlarni chuqurlashtirib o‘qitishga ixtisoslashtirilgan maktab O‘zbekiston Respublikasi Prezidentining 2017 yil 14 sentabrdagi PQ-3274-sonli “Muhammad al-Xorazmiy nomidagi axborot kommunikatsiya texnologiyalari yo‘nalishiga oid fanlarni chuqurlashtirib o‘qitishga ixtisoslashtirilgan maktabni tashkil etish to‘g‘risida”gi qaroriga muvofiq Toshkent Davlat Iqtisodiyot Universiteti qoshidagi Aniq fanlarga ixtisoslashtirilgan davlat umumta’lim maktabi negizida tashkil etildi.
+              Muhammad al-Xorazmiy nomidagi axborot-kommunikatsiya texnologiyalari yo'nalishiga oid fanlarni chuqurlashtirib o'qitishga ixtisoslashtirilgan maktab O‘zbekiston Respublikasi Prezidentining 2017-yil 14- sentabrdagi PQ-3274-sonli “Muhammad al-Xorazmiy nomidagi axborot kommunikatsiya texnologiyalari yo'nalishiga oid fanlarni chuqurlashtirib o'qitishga ixtisoslashtirilgan maktabni tashkil etish to'g'risida”gi qaroriga muvofiq Toshkent Davlat Iqtisodiyot Universiteti qoshidagi Aniq fanlarga ixtisoslashtirilgan davlat umumta’lim maktabi negizida tashkil etildi.
             </p>
 
           
@@ -50,7 +50,7 @@ export const About = () => {
                 d="M17 20h5v-2a4 4 0 00-4-4h-1M9 20H4v-2a4 4 0 014-4h1m0-3a3 3 0 100-6 3 3 0 000 6zm8 0a3 3 0 100-6 3 3 0 000 6z"
               />
             </svg>
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold">1839</h2>
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold">842</h2>
             <p className="text-xs sm:text-sm mt-1">O'quvchilar</p>
           </div>
 

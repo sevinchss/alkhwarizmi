@@ -22,7 +22,7 @@ const Mission = () => {
     },
     {
       year: "2020 -",
-      text: "Onlayn arizalar qabuli ostida maktabga 5-9-sinflarga ___ nafar o’quvchilar qabul qilindi.",
+      text: "Onlayn arizalar qabuli ostida maktabga 5-9-sinflarga 330 nafar o’quvchilar qabul qilindi.",
     },
     {
       year: "2021-2022",
@@ -79,15 +79,15 @@ const Mission = () => {
   const missionDetails = [
     {
       title: "Tajriba va tahlil",
-      text: "Muhammad al-Xorazmiy maktabi eng yaxshi o‘zbekistonlik va xorijiy maktablarning tajribasidan foydalanadi hamda ta’limdagi eng zamonaviy yondashuvlarni amalga oshiradi.",
+      text: "Muhammad al-Xorazmiy maktabi eng yaxshi o'zbekistonlik va xorijiy maktablarning tajribasidan foydalanadi hamda ta’limdagi eng zamonaviy yondashuvlarni amalga oshiradi.",
     },
     {
       title: "Eng yaxshi pedagoglar",
-      text: "Muhammad al-Xorazmiy maktabining o‘quv dasturlari ustida tajribali o‘qituvchilar va metodistlardan iborat malakali jamoa ishlaydi.",
+      text: "Muhammad al-Xorazmiy maktabining o'quv dasturlari ustida tajribali o'qituvchilar va metodistlardan iborat malakali jamoa ishlaydi.",
     },
     {
-      title: "Zamonaviy kampus",
-      text: "Muhammad al-Xorazmiy maktabining kampusi — O‘zbekistonda o‘xshashi yo‘q tarzda tashkil etilgan o‘quv va yashash makoni bo‘lib, u o‘quvchilarga o‘zlarining akademik, sport va ijodiy qiziqishlarini to‘liq ro‘yobga chiqarish imkonini beradi hamda ularning vaqtini, energiyasini va sog‘lig‘ini asraydi.",
+      title: "Zamonaviy maktab majmuasi",
+      text: "Muhammad al-Xorazmiy maktabining majmuasi — O'zbekistonda o'xshashi yo'q tarzda tashkil etilgan o'quv va yashash makoni bo'lib, u o'quvchilarga o'zlarining akademik, sport va ijodiy qiziqishlarini to'liq ro'yobga chiqarish imkonini beradi hamda ularning vaqti, energiyasi va sog'ligini asraydi.",
     },
   ];
 
