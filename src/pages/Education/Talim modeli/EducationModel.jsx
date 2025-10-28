@@ -187,19 +187,18 @@ const EducationalModel = () => {
               Fizika
             </h2>
             <p className="mt-6 text-lg text-gray-700">
-              Muhammad al-Xorazmiy maktabida informatika fani chuqurlashtirilgan
-              tarzda o'qitiladi. O'quvchilar 9-sinfdan boshlab o'zlari qiziqqan
-              yo'nalishni tanlaydilar.
+           Muhammad al-Xorazmiy maktabida fizika fani chuqurlashtirilgan tarzda o'qitiladi. O'quvchilar 9-sinfdan boshlab fizikaning turli yo'nalishlari bo'yicha amaliy va nazariy bilimlar olishadi.
+
+
             </p>
             <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
-              <li>Dasturlash tillari: Python, C++, JavaScript;</li>
-              <li>Veb dasturlash va foydalanuvchi interfeyslari yaratish;</li>
-              <li>Sun’iy intellekt va mashinaviy o'qitish asoslari;</li>
-              <li>Kiberxavfsizlik va axborot tizimlarini himoya qilish;</li>
+              <li>Mexanika: Harakat va kuchlar, jismning holatini va uning energiyasini tushunish.</li>
+              <li>Elektromagnitizm: Elektr va magnit maydonlarining o'zaro ta'siri, elektr qurilmalarini loyihalash va tahlil qilish;</li>
+              <li>Termodinamika: Issiqlik va energiya almashinuvi, termodinamik tizimlarning qonuniyatlari;</li>
+              <li>Optika va to'lqinlar: Yorug'likning xususiyatlari, to'lqinlarning tarqalishi va ularning turli materiallarda ta'siri;</li>
             </ul>
             <p className="mt-4 text-lg text-gray-700">
-              Bu yo'nalish o'quvchilarda algoritmik fikrlash, raqamli tafakkur
-              va ijodkorlikni rivojlantiradi.
+            Bu yo'nalish o'quvchilarda analitik fikrlash, muammolarni ilmiy yondoshuv bilan hal qilish, eksperimentlar o'tkazish va fizikalik jarayonlarning nazariy asoslarini amaliyotga tatbiq etish ko'nikmalarini rivojlantiradi.
             </p>
           </section>
          
@@ -213,15 +212,13 @@ const EducationalModel = () => {
               Ingliz tili
             </h2>
             <p className="mt-6 text-lg text-gray-700">
-              Muhammad al-Xorazmiy maktabida informatika fani chuqurlashtirilgan
-              tarzda o'qitiladi. O'quvchilar 9-sinfdan boshlab o'zlari qiziqqan
-              yo'nalishni tanlaydilar.
+             Muhammad al-Xorazmiy maktabida ingliz tili chuqurlashtirilgan tarzda o'qitiladi. O'quvchilar 9-sinfdan boshlab ingliz tilini turli yo'nalishlarda o'rganadilar va zamonaviy pedagogik yondashuvlar yordamida bilimlarini kengaytiradilar.
             </p>
             <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
-              <li>Dasturlash tillari: Python, C++, JavaScript;</li>
-              <li>Veb dasturlash va foydalanuvchi interfeyslari yaratish;</li>
-              <li>Sun’iy intellekt va mashinaviy o'qitish asoslari;</li>
-              <li>Kiberxavfsizlik va axborot tizimlarini himoya qilish;</li>
+              <li>Grammatikani chuqur o'rganish: Ingliz tilidagi grammatika qoidalari va tuzilmalarini mukammal o'zlashtirish.</li>
+              <li>So'z boyligini rivojlantirish: Ingliz tilida so'zlar va iboralar bilan ishlash, yangi so'zlarni o'rganish va ulardan samarali foydalanish;</li>
+              <li>Nutq va muloqot ko'nikmalari: Ingliz tilida erkin muloqot qilish, tilni yozma va og'zaki ravishda samarali ifodalash;</li>
+              <li>Tinglash va tushunish: Ingliz tilida tinglab, matnni to'liq tushunish va javob berish;</li>
             </ul>
             <p className="mt-4 text-lg text-gray-700">
               Bu yo'nalish o'quvchilarda algoritmik fikrlash, raqamli tafakkur
