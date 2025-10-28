@@ -26,6 +26,7 @@ import { MainNews } from "./pages/News/MainNews";
 import Gallery from "./pages/Galleries/Gallery";
 import { MainLeadership } from "./pages/Leadership/MainLeadership";
 import ContactPage from "./pages/Contact/Contact";
+import History from "./pages/History/History";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           <Route path="/maqsad-vazifalar" element={<MainVision />} />
           <Route path="/yotoqxona" element={<MainAccomodation />} />
           <Route path="/maktab-tadbirlari" element={<MainEvents />} />
+          <Route path="/history" element={<History />} />
           <Route path="/oquvchilar-tashkilotlari" element={<MainStudent />} />
           <Route path="/rahbariyat" element={<MainLeadership />} />
           <Route path="/presidency" element={<MainPresidency />} />

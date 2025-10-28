@@ -3,24 +3,26 @@ import React, { useState, useEffect, useRef } from "react";
 const EducationalModel = () => {
   const [activeSection, setActiveSection] = useState("");
   const missionRef = useRef(null);
-  const historyRef = useRef(null);
-  const socialScienceRef = useRef(null);
-  const naturalScienceRef = useRef(null);
+  const mathRef = useRef(null);
+  const physicsRef = useRef(null);
+  const englishRef = useRef(null);
   const informaticsRef = useRef(null);
+  const modelRef = useRef(null);
 
   // Scrollni silliq qilish
   const scrollToSection = (sectionRef) => {
     sectionRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  // Scroll kuzatish va aktiv bo‘limni aniqlash
+  // Scroll kuzatish va aktiv bo'limni aniqlash
   const handleScroll = () => {
     const sections = [
       { id: "mission", ref: missionRef },
-      { id: "history", ref: historyRef },
-      { id: "social-science", ref: socialScienceRef },
-      { id: "natural-science", ref: naturalScienceRef },
+      { id: "math", ref: mathRef },
+      { id: "english", ref: englishRef },
+      { id: "physics", ref: physicsRef },
       { id: "informatics", ref: informaticsRef },
+      { id: "model", ref: modelRef },
     ];
 
     const scrollPosition = window.scrollY + window.innerHeight / 3;
@@ -68,18 +70,21 @@ const EducationalModel = () => {
           <nav className="space-y-3">
             {[
               { id: "mission", label: "Ta'lim yo'nalishi", num: "01" },
-              { id: "history", label: "Matematika+", num: "02" },
+              { id: "math", label: "Matematika+", num: "02" },
               { id: "informatics", label: "Informatika", num: "03" },
-              { id: "model", label: "Ta'lim modeli", num: "04" },
+                 { id: "physics", label: "Fizika", num: "04" },
+                 { id: "english", label: "Ingliz tili", num: "05" },
+              { id: "model", label: "Ta'lim modeli", num: "06" },
             ].map((item) => (
               <div
                 key={item.id}
                 onClick={() => {
                   const sectionRef = {
                     mission: missionRef,
-                    history: historyRef,
-                    "social-science": socialScienceRef,
-                    "natural-science": naturalScienceRef,
+                    math:mathRef,
+                    english:englishRef,
+                    physics:physicsRef,
+                    model:modelRef,
                     informatics: informaticsRef,
                   }[item.id];
                   scrollToSection(sectionRef);
@@ -99,7 +104,7 @@ const EducationalModel = () => {
 
         {/* MAIN CONTENT */}
         <div className="flex-1  py-10 px-6 rounded-2xl shadow-inner">
-          {/* Ta’lim yo‘nalishlari */}
+          {/* Ta’lim yo'nalishlari */}
           <section
             id="mission"
             ref={missionRef}
@@ -113,25 +118,25 @@ const EducationalModel = () => {
               matematika, informatika fanlari chuqurlashtirib o'qitiladigan ta'lim muassasidir.
             </p>
             <p className="mt-6 text-lg text-gray-700">
-              Ta’lim jarayoni xalqaro standartlarga asoslangan bo‘lib,
-              o‘quvchilar robototexnika tanlovlari, dasturlash, ilmiy loyihalar va
+              Ta’lim jarayoni xalqaro standartlarga asoslangan bo'lib,
+              o'quvchilar robototexnika tanlovlari, dasturlash, ilmiy loyihalar va
               olimpiadalarda faol ishtirok etadilar. Bu yondashuv har bir
-              o‘quvchini bilimli, yangilik yaratishga
+              o'quvchini bilimli, yangilik yaratishga
               qodir shaxs sifatida shakllantiradi.
             </p>
           </section>
 
           {/* Matematika+ */}
           <section
-            id="history"
-            ref={historyRef}
+            id="math"
+            ref={mathRef}
             className="mb-20 bg-white p-8 rounded-xl shadow-md"
           >
             <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
               Matematika+
             </h2>
             <p className="mt-6 text-lg text-gray-700">
-              Matematika fani o‘quvchilarga 5-sinfdan boshlab o‘qitiladi.
+              Matematika fani o'quvchilarga 5-sinfdan boshlab o'qitiladi.
               7-sinfdan boshlab esa fan chuqurlashtirilgan shaklda olib
               borilib, asosiy e’tibor mantiqiy fikrlash va tahliliy tafakkurni
               shakllantirishga qaratiladi.
@@ -139,7 +144,7 @@ const EducationalModel = () => {
             <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
               <li>Matematik modellar tuzish va tahlil qilish;</li>
               <li>Real hayotdagi masalalarni matematik yechish;</li>
-              <li>Olimpiadalarga tayyorgarlik mashg‘ulotlari;</li>
+              <li>Olimpiadalarga tayyorgarlik mashg'ulotlari;</li>
               <li>Algoritmik fikrlash va dasturlash integratsiyasi;</li>
               <li>Ilmiy loyihalarda ishtirok etish.</li>
             </ul>
@@ -164,11 +169,62 @@ const EducationalModel = () => {
             <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
               <li>Dasturlash tillari: Python, C++, JavaScript;</li>
               <li>Veb dasturlash va foydalanuvchi interfeyslari yaratish;</li>
-              <li>Sun’iy intellekt va mashinaviy o‘qitish asoslari;</li>
+              <li>Sun’iy intellekt va mashinaviy o'qitish asoslari;</li>
               <li>Kiberxavfsizlik va axborot tizimlarini himoya qilish;</li>
             </ul>
             <p className="mt-4 text-lg text-gray-700">
-              Bu yo‘nalish o‘quvchilarda algoritmik fikrlash, raqamli tafakkur
+              Bu yo'nalish o'quvchilarda algoritmik fikrlash, raqamli tafakkur
+              va ijodkorlikni rivojlantiradi.
+            </p>
+          </section>
+  {/* Fizika tili */}
+          <section
+            id="physics"
+            ref={physicsRef}
+            className="mb-20 bg-white p-8 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+          >
+            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
+              Fizika
+            </h2>
+            <p className="mt-6 text-lg text-gray-700">
+              Muhammad al-Xorazmiy maktabida informatika fani chuqurlashtirilgan
+              tarzda o'qitiladi. O'quvchilar 9-sinfdan boshlab o'zlari qiziqqan
+              yo'nalishni tanlaydilar.
+            </p>
+            <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
+              <li>Dasturlash tillari: Python, C++, JavaScript;</li>
+              <li>Veb dasturlash va foydalanuvchi interfeyslari yaratish;</li>
+              <li>Sun’iy intellekt va mashinaviy o'qitish asoslari;</li>
+              <li>Kiberxavfsizlik va axborot tizimlarini himoya qilish;</li>
+            </ul>
+            <p className="mt-4 text-lg text-gray-700">
+              Bu yo'nalish o'quvchilarda algoritmik fikrlash, raqamli tafakkur
+              va ijodkorlikni rivojlantiradi.
+            </p>
+          </section>
+         
+           {/* Ingliz tili */}
+          <section
+            id="english"
+            ref={englishRef}
+            className="mb-20 bg-white p-8 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+          >
+            <h2 className="text-3xl font-semibold lg:text-start text-center text-[#00265b]">
+              Ingliz tili
+            </h2>
+            <p className="mt-6 text-lg text-gray-700">
+              Muhammad al-Xorazmiy maktabida informatika fani chuqurlashtirilgan
+              tarzda o'qitiladi. O'quvchilar 9-sinfdan boshlab o'zlari qiziqqan
+              yo'nalishni tanlaydilar.
+            </p>
+            <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-700 text-lg">
+              <li>Dasturlash tillari: Python, C++, JavaScript;</li>
+              <li>Veb dasturlash va foydalanuvchi interfeyslari yaratish;</li>
+              <li>Sun’iy intellekt va mashinaviy o'qitish asoslari;</li>
+              <li>Kiberxavfsizlik va axborot tizimlarini himoya qilish;</li>
+            </ul>
+            <p className="mt-4 text-lg text-gray-700">
+              Bu yo'nalish o'quvchilarda algoritmik fikrlash, raqamli tafakkur
               va ijodkorlikni rivojlantiradi.
             </p>
           </section>

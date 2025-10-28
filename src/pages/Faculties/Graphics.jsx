@@ -28,9 +28,9 @@ export const GraphicsPage = () => {
     },
     {
       name: "Shukrullo Raxmatov",
-      role: "3D Model va Animatsiya Bo‘yicha Mentor",
+      role: "senior grafik dizayner",
       img: person2,
-      bio: "Blender, After Effects va vizual effektlar yaratishda katta tajribaga ega dizayner.",
+      bio: "10 yillik tajriba, Photoshop, Adobe lightroo, Corel draw, Adobe after effect, Premier pro, koplab tanlovlar g'olibi, professional dizayn loyihalarda art direktorlik qilgan va ular ustida ishlagan",
     },
   ];
 
@@ -54,7 +54,7 @@ export const GraphicsPage = () => {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300 mb-6 drop-shadow-sm"
         >
-          Kompyuter Grafikasi Yo‘nalishi
+          Kompyuter grafikasi yo'nalishi
         </motion.h1>
 
         <motion.p

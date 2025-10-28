@@ -29,9 +29,9 @@ export const WebPage = () => {
     },
     {
       name: "Zafar Mirzaboyev",
-      role: "Fullstack Mentor",
+      role: "full-stack developer",
       img: person2,
-      bio: "Backend (Node.js, Express), SQL va MongoDB bo‘yicha professional o‘qituvchi.",
+      bio: "HTML,CSS(Bootstrap, Tailwind CSS),JavaScript(Vuejs), PHP(Laravel), Mysql(PostgreSQL), REST API ustida loyihalar yaratgan",
     },
   ];
 
@@ -55,7 +55,7 @@ export const WebPage = () => {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300 mb-6 drop-shadow-sm"
         >
-          Web Dasturlash Yo‘nalishi
+          Web dasturlash yo'nalishi
         </motion.h1>
 
         <motion.p

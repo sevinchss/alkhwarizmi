@@ -33,7 +33,7 @@ const features = [
    },
    {
      title: "Ingliz tili",
-     desc: "Tarix, iqtisod, falsafa va kommunikatsiya fanlarini IT bilan integratsiya qilish.",
+     desc: "Ingliz tili grammatikasi va muloqot ko'nikmalarini rivojlantirishga qaratilgan amaliy mashg'ulotlar.",
      icon: <PiBookOpenTextBold className="h-8 w-8 text-emerald-600" />,
      color: "from-emerald-500/10 to-emerald-100",
    },
@@ -97,7 +97,7 @@ export default function AlKhwarizmiEducation() {
               Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktab
             </h3>
             <p className="text-slate-600 text-sm mt-1">
-              5–11-sinflar · IT, matematika, tabiiy fanlar va loyihaviy ta’lim
+              5–11-sinflar · axborot texnologiyalar, matematika, tabiiy fanlar va loyihaviy ta’lim
             </p>
           </div>
         </motion.div>

@@ -23,14 +23,14 @@ const About = () => {
               <br />
               <br />
               Jamoa Prezident, Vitse-prezident va oltita asosiy bo'limdan
-              iborat: Ta’lim va Madaniyat, Sport, Tashqi
-              ishlari, IT va Media. Prezidentlik jamoasi o'quvchilarning
-              manfaatlarini himoya qiladi, ularning fikrlarini ma’muriyatga
-              yetkazadi va maktabdagi ichki muhitni yaxshilash ustida ishlaydi.
+              iborat: Ta’lim va Madaniyat, Sport, Tashqi ishlari, IT va Media.
+              Prezidentlik jamoasi o'quvchilarning manfaatlarini himoya qiladi,
+              ularning fikrlarini ma’muriyatga yetkazadi va maktabdagi ichki
+              muhitni yaxshilash ustida ishlaydi.
             </p>
             <a href="">
-         <button
-              className=" mt-4
+              <button
+                className=" mt-4
     relative overflow-hidden
     bg-blue-600 text-white font-semibold
     px-6 py-3 rounded-xl
@@ -43,26 +43,26 @@ const About = () => {
     hover:before:translate-x-0
     before:rounded-[inherit]
   "
-            >
-              <span className="relative z-10 transition-colors duration-300 group-hover:text-blue-600">
-                Batafsil
-              </span>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="w-4 h-4 relative z-10 transition-colors duration-300 group-hover:text-blue-600"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M17.25 8.25L21 12l-3.75 3.75M21 12H3"
-                />
-              </svg>
-            </button>
+                <span className="relative z-10 transition-colors duration-300 group-hover:text-blue-600">
+                  Batafsil
+                </span>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  className="w-4 h-4 relative z-10 transition-colors duration-300 group-hover:text-blue-600"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </button>
             </a>
           </div>
 
@@ -78,7 +78,6 @@ const About = () => {
 
         {/* Stats cards */}
         <div className="max-w-7xl mx-auto px-6 pb-20">
-
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {/* Vazirliklar */}
             <div className="bg-white text-blue-600 rounded-2xl p-6 shadow-md flex flex-col items-center">
@@ -97,7 +96,7 @@ const About = () => {
                   d="M3 21h18M4 10h16M4 10l8-6 8 6M9 21V10h6v11"
                 />
               </svg>
-              <h2 className="text-2xl font-bold">6</h2>
+              <h2 className="text-2xl font-bold">9</h2>
               <p className="text-sm mt-1">Vazirliklar</p>
             </div>
 

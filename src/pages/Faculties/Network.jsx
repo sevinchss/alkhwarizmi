@@ -21,10 +21,10 @@ export const NetworkPage = () => {
 
   const teachers = [
     {
-      name: "Alisher Tursunov",
-      role: "Tarmoq texnologiyalari bo‘yicha mutaxassis",
+      name: "Dilshod Saydaliyev",
+      role: "System Adminstration.",
       img: person1,
-      bio: "Cisco, MikroTik va tarmoq xavfsizligi sohasida 8 yildan ortiq tajribaga ega. Korporativ tarmoq konfiguratsiyasi va tahlilida yetakchi mutaxassis.",
+      bio: "10 yillik tajriba. Cisco, Microtic, Linux, Hauwe va Windows qurilmalari bilan professional loyihalar ustida ishlagan",
     },
     {
       name: "Nigora Shodmonova",
@@ -54,7 +54,7 @@ export const NetworkPage = () => {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300 mb-6 drop-shadow-sm"
         >
-          Kompyuter Tarmoqlari Yo‘nalishi
+          Kompyuter tarmoqlari yo'nalishi
         </motion.h1>
 
         <motion.p

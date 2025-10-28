@@ -9,23 +9,23 @@ import {
 const features = [
   {
     icon: <GraduationCap size={42} strokeWidth={1.6} className="text-blue-600 group-hover:text-blue-500 transition-colors duration-300" />,
-    title: "O‘quvchilar uchun bepul ta’lim",
-    text: "Motivatsiyalangan o‘quvchilar uchun bepul onlayn darslar va o‘quv dasturlari.",
+    title: "O'quvchilar uchun bepul ta’lim",
+    text: "Motivatsiyalangan o'quvchilar uchun bepul onlayn darslar va o'quv dasturlari.",
   },
   {
     icon: <CheckSquare size={42} strokeWidth={1.6} className="text-blue-600 group-hover:text-blue-500 transition-colors duration-300" />,
-    title: "Maktab fanlari bo‘yicha bilim darajasini tekshirish",
-    text: "Fanlar bo‘yicha testlar orqali o‘z bilim darajangizni baholang.",
+    title: "Maktab fanlari bo'yicha bilim darajasini tekshirish",
+    text: "Fanlar bo'yicha testlar orqali o'z bilim darajangizni baholang.",
   },
   {
     icon: <Users size={42} strokeWidth={1.6} className="text-blue-600 group-hover:text-blue-500 transition-colors duration-300" />,
-    title: "O‘zbekistonning yetakchi o‘qituvchilaridan kurslar",
-    text: "Eng tajribali o‘qituvchilar tomonidan tashkil etilgan to‘garaklar va maxsus kurslarda qatnashing.",
+    title: "O'zbekistonning yetakchi o'qituvchilaridan kurslar",
+    text: "Eng tajribali o'qituvchilar tomonidan tashkil etilgan to'garaklar va maxsus kurslarda qatnashing.",
   },
   {
     icon: <Award size={42} strokeWidth={1.6} className="text-blue-600 group-hover:text-blue-500 transition-colors duration-300" />,
     title: "Turli darajadagi olimpiadalarga tayyorgarlik",
-    text: "Maktab va respublika olimpiadalariga puxta tayyorlanish imkoniyatiga ega bo‘ling.",
+    text: "Maktab va respublika olimpiadalariga puxta tayyorlanish imkoniyatiga ega bo'ling.",
   },
 ];
 

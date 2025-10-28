@@ -49,7 +49,7 @@ export const MobilePage = () => {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300 mb-6 drop-shadow-sm"
         >
-          Mobil Dasturlash Yo‘nalishi
+          Mobil dasturlash yo'nalishi
         </motion.h1>
 
         <motion.p

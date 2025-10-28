@@ -18,6 +18,7 @@ const NAV = [
       { label: "Maqsad va vazifalar", to: "/maqsad-vazifalar" },
       { label: "Fotogalereya", to: "/fotogalereya" },
       { label: "Yangiliklar", to: "/yangiliklar" },
+      { label: "Maktab tarixi", to: "/history" },
     ],
   },
   {
@@ -28,7 +29,7 @@ const NAV = [
     name: "Ta’lim",
     links: [
       { label: "Ta'lim modeli", to: "/oquv-dasturlari" },
-      { label: "Online platformasi", to: "/fan-yonalishlari" },
+      { label: "Online platforma", to: "/fan-yonalishlari" },
       { label: "O'quvchi rivojlanishi", to: "/rivojlanishi" },
     ],
   },
@@ -70,12 +71,12 @@ export default function Navbar() {
         className={`hidden lg:flex justify-between items-center px-6 lg:px-10 transition-all duration-700 ${
           isScrolled
             ? "h-0 opacity-0 -translate-y-3"
-            : "h-12 bg-[#00265b] text-white translate-y-0 opacity-100"
+            : "h-14 bg-[#00265b] text-white translate-y-0 opacity-100"
         }`}
       >
-        <div className="flex items-center gap-3 text-sm">
+        <div className="flex mt-4 mb-4 items-center gap-3 text-sm">
           <FaPhoneAlt className="text-white/90" />
-          <span>Aloqa markazi: info@al-khwarizmischool.uz</span>
+          <span>Aloqa markazi: +998 55-502-62-22      <br /> info@al-khwarizmischool.uz</span>
         </div>
         <div className="flex items-center gap-5 text-lg">
           <a href="t.me/ictschooluz" target="_blank" rel="noreferrer">

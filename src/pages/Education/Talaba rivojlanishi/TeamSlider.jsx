@@ -10,6 +10,7 @@ import biolog from "./images/bilog.jpg";
 import daler from "./images/daler.jpg";
 import zuhriddin from "./images/nodir.jpg";
 import ulugbek from "./images/ulugbek.jpg";
+import pe from "./images/aziz.jpg";
 
 const teamMembers = [
   {
@@ -40,7 +41,7 @@ const teamMembers = [
   {
     name: "A.Jamilov",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi jismoniy tarbiya fani o'qituvchisi.",
-    image: biolog,
+    image: pe,
   }, 
   {
     name: "A.Hoshimov",

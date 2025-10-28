@@ -31,7 +31,7 @@ const features = [
   },
   {
     title: "Ingliz tili",
-    desc: "Tarix, iqtisod, falsafa va kommunikatsiya fanlarini IT bilan integratsiya qilish.",
+    desc: "Ingliz tili grammatikasi va muloqot ko'nikmalarini rivojlantirishga qaratilgan amaliy mashg'ulotlar..",
     icon: <PiBookOpenTextBold className="h-8 w-8 text-emerald-600" />,
     color: "from-emerald-500/10 to-emerald-100",
   },
