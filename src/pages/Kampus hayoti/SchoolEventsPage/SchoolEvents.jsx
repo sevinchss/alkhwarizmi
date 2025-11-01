@@ -62,7 +62,7 @@ const SchoolEventsPage = () => {
               </h2>
 
               <p className="text-base md:text-lg text-gray-700 max-w-2xl mx-auto mb-8 leading-relaxed animate-slide-up animation-delay-200">
-                Muhammad al-Xorazmiyda tadbirlar o'sish uchun imkoniyatlar bo'lib, ilmiy konferensiyalardan madaniy festivallargacha ko'nikmalar, do'stlik va xotiralar qurishga yordam beradi.
+                Muhammad al-Xorazmiyda tadbirlar rivojlanish uchun imkoniyatlar bo'lib, ilmiy konferensiyalardan madaniy festivallargacha ko'nikmalar, do'stlik va xotiralar qurishga yordam beradi.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">

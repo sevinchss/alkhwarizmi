@@ -5,31 +5,33 @@ import {
   Users,
   Award,
 } from "lucide-react"; // modern line icons
+import { useNavigate } from "react-router-dom";
 
 const features = [
   {
     icon: <GraduationCap size={42} strokeWidth={1.6} className="text-blue-600 group-hover:text-blue-500 transition-colors duration-300" />,
-    title: "O'quvchilar uchun bepul ta’lim",
-    text: "Motivatsiyalangan o'quvchilar uchun bepul onlayn darslar va o'quv dasturlari.",
+    title: "O‘quvchilar uchun bepul ta’lim",
+    text: "Motivatsiyalangan o‘quvchilar uchun bepul onlayn darslar va o‘quv dasturlari.",
   },
   {
     icon: <CheckSquare size={42} strokeWidth={1.6} className="text-blue-600 group-hover:text-blue-500 transition-colors duration-300" />,
-    title: "Maktab fanlari bo'yicha bilim darajasini tekshirish",
-    text: "Fanlar bo'yicha testlar orqali o'z bilim darajangizni baholang.",
+    title: "Maktab fanlari bo‘yicha bilim darajasini tekshirish",
+    text: "Fanlar bo‘yicha testlar orqali o‘z bilim darajangizni baholang.",
   },
   {
     icon: <Users size={42} strokeWidth={1.6} className="text-blue-600 group-hover:text-blue-500 transition-colors duration-300" />,
-    title: "O'zbekistonning yetakchi o'qituvchilaridan kurslar",
-    text: "Eng tajribali o'qituvchilar tomonidan tashkil etilgan to'garaklar va maxsus kurslarda qatnashing.",
+    title: "O‘zbekistonning yetakchi o‘qituvchilaridan kurslar",
+    text: "Eng tajribali o‘qituvchilar tomonidan tashkil etilgan to‘garaklar va maxsus kurslarda qatnashing.",
   },
   {
     icon: <Award size={42} strokeWidth={1.6} className="text-blue-600 group-hover:text-blue-500 transition-colors duration-300" />,
     title: "Turli darajadagi olimpiadalarga tayyorgarlik",
-    text: "Maktab va respublika olimpiadalariga puxta tayyorlanish imkoniyatiga ega bo'ling.",
+    text: "Maktab va respublika olimpiadalariga puxta tayyorlanish imkoniyatiga ega bo‘ling.",
   },
 ];
 
 const PlatformInfo = () => {
+    const navigate = useNavigate();
   return (
     <section className="font-poppins bg-gradient-to-br from-[#f8fafc] to-[#eef3fa] dark:from-[#0b0f17] dark:to-[#141a25] py-20 px-6 md:px-12">
       <div className="max-w-7xl mx-auto border border-blue-800/40 rounded-3xl p-10 md:p-14 shadow-xl backdrop-blur-sm">
@@ -60,8 +62,8 @@ const PlatformInfo = () => {
         </div>
 
         <div className="flex justify-center mt-14">
-          <button className="bg-blue-700 text-white px-8 py-3 rounded-xl text-sm font-medium hover:bg-blue-800 transition-all duration-300 shadow-md hover:shadow-blue-500/30">
-            PLATFORMANI BATAFSIL KO'RISH
+          <button  onClick={() => navigate("/coming-soon")} className="bg-blue-700 text-white px-8 py-3 rounded-xl text-sm font-medium hover:bg-blue-800 transition-all duration-300 shadow-md hover:shadow-blue-500/30">
+            PLATFORMANI BATAFSIL KO‘RISH
           </button>
         </div>
       </div>

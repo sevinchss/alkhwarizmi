@@ -14,18 +14,18 @@ import pe from "./images/aziz.jpg";
 
 const teamMembers = [
   {
-    name: "Sanjar Utepov",
-    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi o'quv ishlari bo'yicha direktor o'rinbosari",
+    name: "S. Utepov",
+    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi o‘quv ishlari bo‘yicha direktor o‘rinbosari",
     image: sanjar,
   },
   {
-    name: "U.K. Odiljonov",
-    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi ma'naviy-ma'rifiy ishlar bo'yicha direktor o'rinbosari.",
+    name: "U. Odiljonov",
+    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi ma‘naviy-ma‘rifiy ishlar bo‘yicha direktor o‘rinbosari.",
     image: ulugbek,
   },
   {
     name: "A. Ochilov",
-    role: 'Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi matematika uslubiy birlashma raisi',
+    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi matematika uslubiy birlashma raisi",
     image: sabohat,
   },
   {
@@ -34,18 +34,18 @@ const teamMembers = [
     image: sabohat,
   },
   {
-    name: "M.Mirg'iyosov",
+    name: "M.Mirg‘iyosov",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi informatika uslubiy birlashma raisi.",
     image: mirjambil,
   },
   {
     name: "A.Jamilov",
-    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi jismoniy tarbiya fani o'qituvchisi.",
+    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi jismoniy tarbiya fani o‘qituvchisi.",
     image: pe,
   }, 
   {
     name: "A.Hoshimov",
-    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi biologiya fani o'qituvchisi.",
+    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi biologiya fani o‘qituvchisi.",
     image: biolog,
   },
    {
@@ -78,7 +78,7 @@ export default function TeamSlider() {
   return (
     <div className="container mx-auto py-20 relative font-poppins">
       <h2 className="text-3xl md:text-4xl text-center mb-12 font-semibold text-gray-900">
-        O'quvchilarni rivojlantirish dasturi jamoasi
+        O‘quvchilarni rivojlantirish dasturi jamoasi
       </h2>
 
       <div className="relative">

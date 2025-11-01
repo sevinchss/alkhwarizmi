@@ -8,7 +8,7 @@ import {
   FaYoutube,
   FaPhoneAlt,
 } from "react-icons/fa";
-import logo from "./images/logo11.jpg";
+import logo from "./images/logo5.png";
 
 const NAV = [
   {
@@ -28,9 +28,9 @@ const NAV = [
   {
     name: "Ta’lim",
     links: [
-      { label: "Ta'lim modeli", to: "/oquv-dasturlari" },
+      { label: "Ta‘lim modeli", to: "/oquv-dasturlari" },
       { label: "Online platforma", to: "/fan-yonalishlari" },
-      { label: "O'quvchi rivojlanishi", to: "/rivojlanishi" },
+      { label: "O‘quvchi rivojlanishi", to: "/rivojlanishi" },
     ],
   },
   {
@@ -38,12 +38,12 @@ const NAV = [
     links: [
       { label: "Yotoqxona", to: "/yotoqxona" },
       { label: "Presidency", to: "/presidency" },
-      { label: "O'quvchilar tashkilotlari", to: "/oquvchilar-tashkilotlari" },
+      { label: "O‘quvchilar tashkilotlari", to: "/oquvchilar-tashkilotlari" },
       { label: "Maktab tadbirlari", to: "/maktab-tadbirlari" },
     ],
   },
   {
-    name: "Yo'nalishlar",
+    name: "Yo‘nalishlar",
     links: [
       { label: "Web dasturlash", to: "/web" },
       { label: "Mobil dasturlash", to: "/mobil" },
@@ -181,7 +181,7 @@ export default function Navbar() {
               </li>
             ))}
 
-            {/* Bog'lanish link */}
+            {/* Bog‘lanish link */}
             <li>
               <NavLink
                 to="/kontaktlar"

@@ -1,34 +1,34 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import sarvar from "./images/sarvar.webp";
-import sattor from "./images/duke.webp";
+import kamila from "./images/kamila.jpg";
 import sadoqat from "./images/sadoqat.webp";
-import elshod from "./images/qodirali.webp";
+import maftuna from "./images/maftuna.jpg";
 
 const testimonials = [
   {
     name: "Sayfiddinov Sarvarjon",
     role: "Hanyang University talabasi",
     image: sarvar,
-    text: "Bu maktab menga katta imkoniyatlar yaratdi. Ustozlar juda bilimli, darslar zamonaviy va motivatsion. Shu yerda men o'zimni haqiqiy o'quvchi sifatida his qildim.",
+    text: "Bu maktab menga katta imkoniyatlar yaratdi. Ustozlar juda bilimli, darslar zamonaviy va motivatsion. Shu yerda men o‘zimni haqiqiy o‘quvchi sifatida his qildim.",
   },
   {
-    name: "Xamroyev Sattor",
-    role: "Duke Kunshan University talabasi",
-    image: sattor,
-    text: "Muhammad al-Xorazmiy maktabida o'qish - bu orzu. Platforma, darslar va o'qituvchilar — hammasi mukammal uyg'unlikda ishlaydi.",
+    name: "Kamilla Beknazarova",
+    role: "10sinf maktab o‘quvchisi",
+    image: kamila,
+    text: "Bu maktab menga o‘sish, yangi narsalarni o‘rganish va o‘zimga ishonishni o‘rgatdi. Ustozlarim har doim qo‘llab-quvvatlab, g‘oyalarimni amalga oshirishga yordam berishdi. Men bu maktab va ustozlarimga chin dildan minnatdorman.",
   },
   {
     name: "Aknazarova Sadoqat",
     role: "Bilkent University talabasi",
     image: sadoqat,
-    text: "Bu maktabda bilim olish — bu shunchaki o'qish emas, bu o'z orzularing sari ishonch bilan qadam tashlashdir. Har bir dars yangi imkoniyat.",
+    text: "Bu maktabda bilim olish — bu shunchaki o‘qish emas, bu o‘z orzularing sari ishonch bilan qadam tashlashdir. Har bir dars yangi imkoniyat.",
   },
   {
-    name: "Xushvaqtov Elshodjon",
-    role: "Drexel University talabasi",
-    image: elshod,
-    text: "Bu maktabdagi imkoniyatlar meni o'zgartirdi. Har bir loyiha va dars yangi fikrlar beradi. Kelajak shu yerdan boshlanadi!",
+    name: "Maftuna Mahkamova",
+    role: "Pennsylvania University talabasi",
+    image: maftuna,
+    text: "Muhammad al-Xorazmiy maktabi men uchun eng katta burilish nuqtasi bo‘lgan. Maktabda o‘tkan 4 yil vaqt o‘zimni anglashimga va kelajak yo‘limni belgilashimga katta hissa qo‘shdi. Barcha berilgan imkoniyatlardan minnatdorman!",
   },
 ];
 
@@ -62,15 +62,15 @@ export default function Testimonials() {
       ];
 
   return (
-    <section className="bg-white relative py-24 overflow-hidden font-poppins">
+    <section className="bg-white relative  overflow-hidden font-poppins">
       <div className="max-w-7xl mx-auto px-6">
         {/* TITLE */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            O'quvchilar fikri
+            O‘quvchilar fikri
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Bizning o'quvchilarimizning fikrlari bizning eng katta yutug'imiz.
+            Bizning o‘quvchilarimizning fikrlari bizning eng katta yutug‘imiz.
           </p>
         </div>
 

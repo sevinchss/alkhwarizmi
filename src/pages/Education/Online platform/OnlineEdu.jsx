@@ -1,44 +1,49 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-import olimp from './images/olimpiada.jpg'
-import raqam from './images/raqamli.jpg'
-import test from '../images/test.jpg'
-import dilshod from './images/dilshod.jpg'
+import olimp from "./images/olimpiada.jpg"
+import raqam from "./images/raqamli.jpg"
+import test from "../images/test.jpg"
+import dilshod from "./images/dilshod.jpg"
+
 const courses = [
   {
-    title: "Kurslar",
+    title: "KURSLAR",
     img: dilshod,
-    text: "Muhammad al-Xorazmiy maktabi o'qituvchilari tomonidan ishlab chiqilgan kurslar va klublar bilan bilimlaringizni kengaytiring.",
+    text: "Muhammad al-Xorazmiy maktabi o‘qituvchilari tomonidan ishlab chiqilgan kurslar va klublar bilan bilimlaringizni kengaytiring.",
   },
   {
-    title: "Yozgi Olimpiada o'yinlari",
+    title: "YOZGI OLIMPIADA O‘YINLARI",
     img: raqam,
-    text: "Olimpiadalarimizda qatnashing va g'olib bo'ling. Yangi tajriba orttiring va o'z iste’dodlaringizni kashf eting.",
+    text: "Olimpiadalarimizda qatnashing va g‘olib bo‘ling. Yangi tajriba orttiring va o‘z iste’dodlaringizni kashf eting.",
   },
   {
-    title: "Testlar",
+    title: "TESTLAR",
     img: test,
-    text: "Maktab fanlari bo'yicha bilimingizni sinab ko'ring.",
+    text: "Maktab fanlari bo‘yicha bilimingizni sinab ko‘ring.",
   },
   {
     title: "Olimpiadaga tayyorgarlik",
     img: olimp,
-    text: "Maktab o'quvchilarining Respublika olimpiadasida va yozgi olimpiadalarda ishtirok etish uchun mahoratingizni oshiring.",
+    text: "Maktab o‘quvchilarining Respublika olimpiadasida va yozgi olimpiadalarda ishtirok etish uchun mahoratingizni oshiring.",
   },
 ];
 
 const CoursesSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800 dark:text-gray-100">
-          alkhwarizmionline platformasi
+          alkhwarizmionline.uz platformasi
         </h2>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {courses.map((course, index) => (
             <div
               key={index}
+              onClick={() => navigate("/coming-soon")} // <-- bu yerda yo‘naltiramiz
               className="relative overflow-hidden rounded-3xl shadow-lg group cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl"
             >
               <img

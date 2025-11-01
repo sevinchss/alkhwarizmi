@@ -21,7 +21,7 @@ export const RivojlanishBolimi = () => {
       icon: <FaHandsHelping className="text-[#0047AB] text-4xl mb-3" />,
     },
     {
-      title: "O'zini namoyon eta olish-Liderlik",
+      title: "O‘zini namoyon eta olish-Liderlik",
       icon: <FaUsers className="text-[#0047AB] text-4xl mb-3" />,
     },
   ];
@@ -32,11 +32,11 @@ export const RivojlanishBolimi = () => {
         {/* Title and Intro */}
         <div className="flex lg:flex-row flex-col gap-5">
           <h1 className="text-lg font-bold lg:w-[600px] w-full">
-            Muhammad Al-Xorazmiy nomli ixtisoslashtirilgan maktabining o'quvchilar rivojlanishi bo'limi
+            Muhammad Al-Xorazmiy nomli ixtisoslashtirilgan maktabining o‘quvchilar rivojlanishi bo‘limi
           </h1>
           <p>
-            Bu — dastur doirasida tanlab olish mumkin bo'lgan 20dan ortiq to'garaklar, klublar, bo'limlar
-            kurslaridan iborat qo'shimcha mashg'ulotlardir.
+            Bu — dastur doirasida tanlab olish mumkin bo‘lgan 20dan ortiq to‘garaklar, klublar, bo‘limlar
+            kurslaridan iborat qo‘shimcha mashg‘ulotlardir.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export const RivojlanishBolimi = () => {
               Asosiy yo‘nalishlar
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-8">
               {icons.map((item, index) => (
                 <div
                   key={index}
@@ -73,21 +73,21 @@ export const RivojlanishBolimi = () => {
         {/* Additional info section */}
         <div className="max-w-7xl mx-auto px-6 py-12">
           <h2 className="text-3xl font-extrabold text-[#0047AB] mb-6">
-            Qo'shimcha darslar jadvali
+            Qo‘shimcha darslar jadvali
           </h2>
 
           <div className="space-y-4 border-l-4 border-[#0047AB] pl-4">
             <p className="text-lg">
-              Qo'shimcha mashg'ulotlar asosiy darslardan so'ng, kunning ikkinchi yarmida boshlanadi (soat 15:00 dan).
+              Qo‘shimcha mashg‘ulotlar asosiy darslardan so‘ng, kunning ikkinchi yarmida boshlanadi (soat 15:00 dan).
             </p>
             <p className="text-lg">
-              Kurslarni tanlash va ularning soni — har bir o'quvchining shaxsiy tanlovi; jadvalni uyg'un va xilma-xil
+              Kurslarni tanlash va ularning soni — har bir o‘quvchining shaxsiy tanlovi; jadvalni uyg‘un va xilma-xil
               qilishda unga murabbiy va rivojlantirish xodimlari yordam beradi.
             </p>
             <p className="text-lg">
-              Kunning ikkinchi yarmidagi qo'shimcha mashg'ulotlarda ishtirok etish o'quvchilarga asosiy ta'lim
-              vazifalaridan dam olish, qulay muhitda o'zlari uchun yangi va noodatiy narsalarni sinab ko'rish, boshqa
-              sinf va yo'nalishlardan bo'lgan o'quvchilar bilan tanishish, turli o'qituvchilar bilan muloqot qilish
+              Kunning ikkinchi yarmidagi qo‘shimcha mashg‘ulotlarda ishtirok etish o‘quvchilarga asosiy ta‘lim
+              vazifalaridan dam olish, qulay muhitda o‘zlari uchun yangi va noodatiy narsalarni sinab ko‘rish, boshqa
+              sinf va yo‘nalishlardan bo‘lgan o‘quvchilar bilan tanishish, turli o‘qituvchilar bilan muloqot qilish
               imkonini beradi.
             </p>
           </div>
@@ -99,7 +99,7 @@ export const RivojlanishBolimi = () => {
               !
               </div>
               <p className="text-lg">
-               O'quvchilarni rivojlantirish dasturi har bir bitiruvchiga o'z portfoliosini yaratishda yordam beradi. Bu portfolioda akademik va akademik bo'lmagan yutuqlar, o'tkazilgan amaliyotlar, ko'ngillilik dasturlarida va maktab tadbirlarida ishtirok haqida ma'lumotlar kiritiladi.
+               O‘quvchilarni rivojlantirish dasturi har bir bitiruvchiga o‘z portfoliosini yaratishda yordam beradi. Bu portfolioda akademik va akademik bo‘lmagan yutuqlar, o‘tkazilgan amaliyotlar, ko‘ngillilik dasturlarida va maktab tadbirlarida ishtirok haqida ma‘lumotlar kiritiladi.
               </p>
             </div>
           </div>

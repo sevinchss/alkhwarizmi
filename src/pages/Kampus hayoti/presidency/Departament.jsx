@@ -32,7 +32,7 @@ const departments = [
 
     title: "Ta’lim vazirligi",
 
-    desc: "Fan olimpiadalari, kitobxonlik tashabbuslari va madaniy tadbirlarni tashkil etish orqali o'quvchilarning ijodiy fikrlashini rivojlantiradi.",
+    desc: "Fan olimpiadalari, kitobxonlik tashabbuslari va madaniy tadbirlarni tashkil etish orqali o‘quvchilarning ijodiy fikrlashini rivojlantiradi.",
 
     icon: <GraduationCap className="w-10 h-10" />,
 
@@ -42,7 +42,7 @@ const departments = [
 
     title: "Sport vazirligi",
 
-    desc: "Maktab ichidagi sport va kibersport musobaqalarini o'tkazadi, sog'lom turmush tarzini targ'ib qiladi.",
+    desc: "Maktab ichidagi sport va kibersport musobaqalarini o‘tkazadi, sog‘lom turmush tarzini targ‘ib qiladi.",
 
     icon: <Dumbbell className="w-10 h-10" />,
 
@@ -52,7 +52,7 @@ const departments = [
 
     title: "Ichki ishlar vazirligi",
 
-    desc: "O'quvchilar yetakchiligi va tashabbuslarini qo'llab-quvvatlaydi, ularning takliflarini yig'ib, muhitni yaxshilashga hissa qo'shadi.",
+    desc: "O‘quvchilar yetakchiligi va tashabbuslarini qo‘llab-quvvatlaydi, ularning takliflarini yig‘ib, muhitni yaxshilashga hissa qo‘shadi.",
 
     icon: <Users className="w-10 h-10" />,
 
@@ -62,7 +62,7 @@ const departments = [
 
     title: "Tashqi ishlar vazirligi",
 
-    desc: "Boshqa maktablar, universitetlar va tashkilotlar bilan hamkorlikda qo'shma loyihalar va almashinuv dasturlarini yo'lga qo'yadi.",
+    desc: "Boshqa maktablar, universitetlar va tashkilotlar bilan hamkorlikda qo‘shma loyihalar va almashinuv dasturlarini yo‘lga qo‘yadi.",
 
     icon: <Globe className="w-10 h-10" />,
 
@@ -102,7 +102,7 @@ const departments = [
 
     title: "Ma’daniyat vazirligi",
 
-    desc: "San’at, teatr, musiqa va xalq ijodi yo'nalishida tadbirlar uyushtirib, maktab madaniy hayotini jonlantiradi.",
+    desc: "San’at, teatr, musiqa va xalq ijodi yo‘nalishida tadbirlar uyushtirib, maktab madaniy hayotini jonlantiradi.",
 
     icon: <Music className="w-10 h-10" />,
 
@@ -110,9 +110,9 @@ const departments = [
 
   {
 
-    title: "Qizlar qo'mitasi",
+    title: "Qizlar qo‘mitasi",
 
-    desc: "Qizlar o'rtasida ijtimoiy faollikni oshirish, o'z-o'zini rivojlantirish va yetakchilik ko'nikmalarini shakllantirish bilan shug'ullanadi.",
+    desc: "Qizlar o‘rtasida ijtimoiy faollikni oshirish, o‘z-o‘zini rivojlantirish va yetakchilik ko‘nikmalarini shakllantirish bilan shug‘ullanadi.",
 
     icon: <Heart className="w-10 h-10" />,
 
@@ -122,7 +122,7 @@ const departments = [
 
     title: "Statistika va monitoring agentligi",
 
-    desc: "Har bir vazirlik faoliyatini tahlil qiladi, natijalarni kuzatadi va samaradorlik bo'yicha hisobotlar tayyorlaydi. (Agentlik rahbari departament rahbariga tenglashtiriladi.)",
+    desc: "Har bir vazirlik faoliyatini tahlil qiladi, natijalarni kuzatadi va samaradorlik bo‘yicha hisobotlar tayyorlaydi. (Agentlik rahbari departament rahbariga tenglashtiriladi.)",
 
     icon: <BarChart className="w-10 h-10" />,
 

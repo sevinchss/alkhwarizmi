@@ -14,7 +14,7 @@ const features = [
   {
     title: "IT va kodlash",
     desc: "Dasturlash, raqamli dizayn, sun’iy intellekt va texnologik innovatsiyalar.",
-    icon: <PiCodeBold className="h-8 w-8 text-sky-600" />,
+    icon: <PiCodeBold className="h-8 w-8 text-indigo-600" />,
     color: "from-sky-500/10 to-sky-100",
   },
   {
@@ -26,13 +26,13 @@ const features = [
   {
     title: "Fizika",
     desc: "Fizika, kimyo, biologiya va ekologiya bo'yicha amaliy va laboratoriya tajribalari.",
-    icon: <PiFlaskBold className="h-8 w-8 text-amber-500" />,
-    color: "from-amber-500/10 to-amber-100",
+    icon: <PiFlaskBold className="h-8 w-8 text-indigo-600" />,
+    color: "from-indigo-500/10 to-indigo-100",
   },
   {
     title: "Ingliz tili",
     desc: "Ingliz tili grammatikasi va muloqot ko'nikmalarini rivojlantirishga qaratilgan amaliy mashg'ulotlar..",
-    icon: <PiBookOpenTextBold className="h-8 w-8 text-emerald-600" />,
+    icon: <PiBookOpenTextBold className="h-8 w-8 text-indigo-600" />,
     color: "from-emerald-500/10 to-emerald-100",
   },
   

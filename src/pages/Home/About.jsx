@@ -25,9 +25,9 @@ export default function AboutAlKhwarizmi() {
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
             Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan
-            zamonaviy texnologiyalar va chuqurlashtirilgan ta’lim uyg'unligiga
-            asoslangan innovatsion o'quv maskani. O'quvchilar axborot texnologiyalari, matematika, fizika,  va ingliz tili fanlaridan chuqur bilimga ega
-            bo'lishadi.
+            zamonaviy texnologiyalar va chuqurlashtirilgan ta’lim uyg‘unligiga
+            asoslangan innovatsion o‘quv maskani. O‘quvchilar axborot texnologiyalari, matematika, fizika,  va ingliz tili fanlaridan chuqur bilimga ega
+            bo‘lishadi.
           </p>
           <a href="/maqsad-vazifalar">
             <button
@@ -101,7 +101,7 @@ export default function AboutAlKhwarizmi() {
               />
             </svg>
             <h2 className="text-2xl font-bold">842</h2>
-            <p className="text-sm mt-1">O'quvchilar</p>
+            <p className="text-sm mt-1">O‘quvchilar</p>
           </div>
 
           <div
@@ -124,7 +124,7 @@ export default function AboutAlKhwarizmi() {
               />
             </svg>
             <h2 className="text-2xl font-bold">89</h2>
-            <p className="text-sm mt-1">O'qituvchilar</p>
+            <p className="text-sm mt-1">O‘qituvchilar</p>
           </div>
 
           <div

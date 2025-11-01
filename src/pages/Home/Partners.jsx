@@ -35,7 +35,7 @@ const partnersRow2 = [
   { name: "Bristol", logo: bristol },
   { name: "Dianzi", logo: dianzi },
   { name: "Duke Kunshan", logo: kunshan },
-  { name: "King's College", logo: king },
+  { name: "Kings‘ College", logo: king },
   { name: "Shanghai University", logo: shanhai },
   { name: "University of Arizona", logo: arizona },
   { name: "Inha University", logo: inha },
@@ -50,10 +50,10 @@ export default function PartnersSection() {
 
       <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-800 to-indigo-800 bg-clip-text text-transparent mb-12">
+        <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-800 to-indigo-800 h-16 bg-clip-text text-transparent ">
           Bizning hamkorlarimiz
         </h2>
-        <p className="text-gray-700 text-lg mb-16 max-w-2xl mx-auto">
+        <p className="text-gray-700 text-lg  max-w-2xl mx-auto">
           Biz faxr bilan ta’lim va texnologiya sohasidagi eng nufuzli
           tashkilotlar bilan hamkorlik qilamiz.
         </p>

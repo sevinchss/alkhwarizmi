@@ -37,7 +37,7 @@ import bir6 from "./images/bir6.jpg";
 export const galleryData = [
   {
     id: 1,
-    title: "YOSH KITOBXON” TANLOVI G'OLIBASI",
+    title: "YOSH KITOBXON” TANLOVI G‘OLIBASI",
     date: "25-mart 2025",
     count: 5,
     thumbnail: adab,

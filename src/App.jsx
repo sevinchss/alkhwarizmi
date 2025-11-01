@@ -25,8 +25,9 @@ import { MainPresidency } from "./pages/Kampus hayoti/presidency/MainPresidency"
 import { MainNews } from "./pages/News/MainNews";
 import Gallery from "./pages/Galleries/Gallery";
 import { MainLeadership } from "./pages/Leadership/MainLeadership";
-import ContactPage from "./pages/Contact/Contact";
 import History from "./pages/History/History";
+import ComingSoon from "./component/ComingSoon";
+import ContactPage from "./pages/Contact/Contact";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/oquv-dasturlari" element={<EducationalModel />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/web" element={<WebPage />} />
           <Route path="/qabul-tartibi" element={<MainAdmission />} />
           <Route path="/maqsad-vazifalar" element={<MainVision />} />

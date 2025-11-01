@@ -1,42 +1,91 @@
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import {
-  FaPhoneAlt,
-  FaEnvelope,
-  FaMapMarkerAlt,
-  FaPaperPlane,
-} from "react-icons/fa";
-import { useState } from "react";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaPaperPlane } from "react-icons/fa";
 import { Clock, Mail, MapPin } from "lucide-react";
+import emailjs from "@emailjs/browser";
+
+/**
+ * ContactPage.jsx (pure JSX, full & final)
+ * EmailJS IDs:
+ *   SERVICE_ID   = service_z1o2sja
+ *   TEMPLATE_ID  = template_inb9qw3
+ *   PUBLIC_KEY   = set VITE_EMAILJS_PUBLIC_KEY in your env OR replace below
+ * Template variables on EmailJS:
+ *   {{user_name}}, {{user_email}}, {{phone}}, {{message}}
+ * Set Reply-To to {{user_email}} in EmailJS Template → Settings.
+ * Security → Allowed Origins: add http://localhost:5173 (yoki sizning port) va prod domeningiz.
+ */
+
+const SERVICE_ID = "service_z1o2sja";
+const TEMPLATE_ID = "template_inb9qw3";
+const PUBLIC_KEY = "WRuRnBGOmZG-PdSaR";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
-    name: "",
+    user_name: "",
     phone: "",
-    email: "",
+    user_email: "",
     message: "",
   });
 
   const [errors, setErrors] = useState({});
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState(null);
+
+  // Initialize EmailJS SDK once
+  useEffect(() => {
+    try {
+      emailjs.init({ publicKey: PUBLIC_KEY });
+    } catch (e) {
+      console.error("EmailJS init error:", e);
+    }
+  }, []);
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-    setErrors({ ...errors, [e.target.name]: "" }); // clear error when typing
+    const { name, value } = e.target;
+    setFormData((s) => ({ ...s, [name]: value }));
+    setErrors((s) => ({ ...s, [name]: "" }));
+    setStatus(null);
   };
 
-  const handleSubmit = (e) => {
+  const validate = () => {
+    const next = {};
+    if (!formData.user_name.trim()) next.user_name = "Ism kiritilishi shart";
+    if (!formData.phone.trim()) next.phone = "Telefon raqam kerak";
+    if (!formData.user_email.trim()) next.user_email = "Email manzilingizni kiriting";
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.user_email)) next.user_email = "Email noto‘g‘ri";
+    if (!formData.message.trim()) next.message = "Xabarni yozing";
+    return next;
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const newErrors = {};
-    if (!formData.name.trim()) newErrors.name = "Ism kiritilishi shart";
-    if (!formData.phone.trim()) newErrors.phone = "Telefon raqam kerak";
-    if (!formData.email.trim())
-      newErrors.email = "Email manzilingizni kiriting";
-    if (!formData.message.trim()) newErrors.message = "Xabarni yozing";
+    const errs = validate();
+    setErrors(errs);
+    if (Object.keys(errs).length) return;
 
-    setErrors(newErrors);
+    setLoading(true);
+    setStatus(null);
+    try {
+      const params = {
+        user_name: formData.user_name,
+        phone: formData.phone,
+        user_email: formData.user_email,
+        message: formData.message,
+      };
 
-    if (Object.keys(newErrors).length === 0) {
-      const mailtoLink = `mailto:info@al-khwarizmischool.uz?subject=Yangi xabar&body=Ism: ${formData.name}%0ATelefon: ${formData.phone}%0AEmail: ${formData.email}%0AXabar: ${formData.message}`;
-      window.location.href = mailtoLink;
+      // init qilganmiz, shu sabab send()ga publicKey kerak emas
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, params);
+
+      setStatus({ ok: true, msg: "Xabar yuborildi! Tez orada javob beramiz." });
+      setFormData({ user_name: "", phone: "", user_email: "", message: "" });
+    } catch (err) {
+      console.error("EmailJS send error:", err);
+      const msg = (err && (err.text || err.message)) ||
+        "Xabar yuborishda xatolik yuz berdi. Sozlamalarni tekshirib, yana urinib ko‘ring.";
+      setStatus({ ok: false, msg });
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -62,8 +111,7 @@ export default function ContactPage() {
           transition={{ duration: 0.9 }}
           className="text-gray-600 max-w-2xl mx-auto mt-5 text-lg leading-relaxed"
         >
-          Sizning fikringiz biz uchun juda muhim! Quyidagi formani to‘ldiring
-          yoki kontakt ma’lumotlarimizdan foydalaning.
+          Sizning fikringiz biz uchun juda muhim! Quyidagi formani to‘ldiring yoki kontakt ma’lumotlarimizdan foydalaning.
         </motion.p>
       </div>
 
@@ -84,24 +132,20 @@ export default function ContactPage() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="relative">
                 <input
-                  name="name"
-                  value={formData.name}
+                  name="user_name"
+                  value={formData.user_name}
                   onChange={handleChange}
                   type="text"
                   placeholder="Ismingiz"
                   className={`w-full border rounded-xl px-4 py-3 transition-all outline-none ${
-                    errors.name
+                    errors.user_name
                       ? "border-red-500 ring-2 ring-red-300/40"
                       : "border-gray-200 focus:border-[#004AAD] focus:ring-2 focus:ring-[#004AAD]/30"
                   }`}
                 />
-                {errors.name && (
-                  <motion.p
-                    initial={{ opacity: 0, y: -5 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="text-red-500 text-sm mt-1 pl-1"
-                  >
-                    {errors.name}
+                {errors.user_name && (
+                  <motion.p initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} className="text-red-500 text-sm mt-1 pl-1">
+                    {errors.user_name}
                   </motion.p>
                 )}
               </div>
@@ -120,11 +164,7 @@ export default function ContactPage() {
                   }`}
                 />
                 {errors.phone && (
-                  <motion.p
-                    initial={{ opacity: 0, y: -5 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="text-red-500 text-sm mt-1 pl-1"
-                  >
+                  <motion.p initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} className="text-red-500 text-sm mt-1 pl-1">
                     {errors.phone}
                   </motion.p>
                 )}
@@ -133,24 +173,20 @@ export default function ContactPage() {
 
             <div className="relative">
               <input
-                name="email"
-                value={formData.email}
+                name="user_email"
+                value={formData.user_email}
                 onChange={handleChange}
                 type="email"
                 placeholder="Email"
                 className={`w-full border rounded-xl px-4 py-3 transition-all outline-none ${
-                  errors.email
+                  errors.user_email
                     ? "border-red-500 ring-2 ring-red-300/40"
                     : "border-gray-200 focus:border-[#004AAD] focus:ring-2 focus:ring-[#004AAD]/30"
                 }`}
               />
-              {errors.email && (
-                <motion.p
-                  initial={{ opacity: 0, y: -5 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  className="text-red-500 text-sm mt-1 pl-1"
-                >
-                  {errors.email}
+              {errors.user_email && (
+                <motion.p initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} className="text-red-500 text-sm mt-1 pl-1">
+                  {errors.user_email}
                 </motion.p>
               )}
             </div>
@@ -169,11 +205,7 @@ export default function ContactPage() {
                 }`}
               />
               {errors.message && (
-                <motion.p
-                  initial={{ opacity: 0, y: -5 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  className="text-red-500 text-sm mt-1 pl-1"
-                >
+                <motion.p initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} className="text-red-500 text-sm mt-1 pl-1">
                   {errors.message}
                 </motion.p>
               )}
@@ -183,10 +215,17 @@ export default function ContactPage() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               type="submit"
-              className="w-full bg-gradient-to-r from-[#004AAD] to-[#0077FF] text-white font-semibold py-4 rounded-xl transition-all duration-300 shadow-[0_8px_25px_rgba(0,74,173,0.4)] hover:shadow-[0_12px_35px_rgba(0,74,173,0.5)]"
+              disabled={loading}
+              className="w-full bg-gradient-to-r from-[#004AAD] to-[#0077FF] text-white font-semibold py-4 rounded-xl transition-all duration-300 shadow-[0_8px_25px_rgba(0,74,173,0.4)] hover:shadow-[0_12px_35px_rgba(0,74,173,0.5)] disabled:opacity-60"
             >
-              Xabarni yuborish
+              {loading ? "Yuborilmoqda..." : "Xabarni yuborish"}
             </motion.button>
+
+            {status && (
+              <p className={`text-sm mt-2 ${status?.ok ? "text-green-600" : "text-red-600"}`}>
+                {status.msg}
+              </p>
+            )}
           </form>
         </motion.div>
 
@@ -198,45 +237,23 @@ export default function ContactPage() {
           className="flex flex-col gap-8"
         >
           {[
-            {
-              icon: <FaPhoneAlt />,
-              title: "Telefon",
-              text: "1206",
-              link: "tel:1206",
-            },
-            {
-              icon: <FaEnvelope />,
-              title: "Email",
-              text: "info@al-khwarizmischool.uz",
-              link: "mailto:info@al-khwarizmischool.uz",
-            },
-            {
-              icon: <FaMapMarkerAlt />,
-              title: "Manzil",
-              text: "Toshkent, Mahtumquli ko'chasi, 1A",
-            },
+            { icon: <FaPhoneAlt />, title: "Telefon", text: "1206", link: "tel:1206" },
+            { icon: <FaEnvelope />, title: "Email", text: "info@al-khwarizmischool.uz", link: "mailto:info@al-khwarizmischool.uz" },
+            { icon: <FaMapMarkerAlt />, title: "Manzil", text: "Toshkent, Mahtumquli ko‘chasi, 1A" },
           ].map((item, i) => (
             <motion.div
               key={i}
-              whileHover={{
-                y: -5,
-                boxShadow: "0px 12px 25px rgba(0,74,173,0.15)",
-              }}
+              whileHover={{ y: -5, boxShadow: "0px 12px 25px rgba(0,74,173,0.15)" }}
               className="group bg-white border border-gray-100 p-8 rounded-2xl shadow-md transition-all duration-300 hover:border-[#004AAD]/60 hover:scale-[1.01]"
             >
               <div className="flex items-center gap-5 mb-4">
                 <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#004AAD] to-[#0077FF] flex items-center justify-center text-2xl text-white shadow-[0_0_15px_rgba(0,74,173,0.3)] transition-all duration-500 group-hover:shadow-[0_0_25px_rgba(0,74,173,0.4)]">
                   {item.icon}
                 </div>
-                <h3 className="text-xl font-semibold text-[#004AAD]">
-                  {item.title}
-                </h3>
+                <h3 className="text-xl font-semibold text-[#004AAD]">{item.title}</h3>
               </div>
               {item.link ? (
-                <a
-                  href={item.link}
-                  className="text-gray-600 hover:text-[#004AAD] font-medium transition-colors break-all"
-                >
+                <a href={item.link} className="text-gray-600 hover:text-[#004AAD] font-medium transition-colors break-all">
                   {item.text}
                 </a>
               ) : (
@@ -249,46 +266,22 @@ export default function ContactPage() {
 
       {/* Map + Info Section */}
       <div className="max-w-7xl mx-auto mt-28 grid md:grid-cols-2 gap-14 items-center">
-        {/* Left Info */}
-        <motion.div
-          initial={{ opacity: 0, x: -70 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-          className="space-y-6"
-        >
-          <h2 className="text-4xl font-bold text-[#004AAD] border-l-4 border-[#004AAD] pl-4">
-            Qanday borish mumkin
-          </h2>
+        <motion.div initial={{ opacity: 0, x: -70 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className="space-y-6">
+          <h2 className="text-4xl font-bold text-[#004AAD] border-l-4 border-[#004AAD] pl-4">Qanday borish mumkin</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            • Metro orqali: Eng yaqin metro — Mashinasozlar bekati. Shu bekatdan
-            chiqib, 190-avtobusga chiqing. Avtobus sizni to‘g‘ridan-to‘g‘ri
-            “Fidoyilar” bekatigacha olib boradi.
-            <br />• Jamoat transporti: Shuningdek, shaharning turli nuqtalaridan
-            qatnovchi avtobus va marshrutkalar ham maktab yonidan o‘tadi.
-            <br />• Shaxsiy avtomobilda: Maktab manzili — Mahtumquli ko‘chasi,
-            1A. Maktab yaqinida qisqa muddatli to‘xtash joyi mavjud.
-            <br />• Taksi orqali: Yandex Go ilovasi orqali “Muhammad
-            al-Xorazmiy maktabi” manzilini kiritsangiz, haydovchi sizni
-            to‘g‘ridan-to‘g‘ri eshik oldigacha olib keladi.
+            • Metro orqali: Eng yaqin metro — Mashinasozlar bekati. Shu bekatdan chiqib, 190-avtobusga chiqing. Avtobus sizni to‘g‘ridan-to‘g‘ri “Fidoyilar” bekatigacha olib boradi.
+            <br/>• Jamoat transporti: Shuningdek, shaharning turli nuqtalaridan qatnovchi avtobus va yo‘nalishli taksi ham maktab yonidan o‘tadi.
+            <br/>• Shaxsiy avtomobilda: Maktab manzili — Mahtumquli ko‘chasi, 1A. Maktab yaqinida qisqa muddatli to‘xtash joyi mavjud.
+            <br/>• Taksi orqali: Yandex Go ilovasi orqali “Muhammad al-Xorazmiy maktabi” manzilini kiritsangiz, haydovchi sizni to‘g‘ridan-to‘g‘ri eshik oldigacha olib keladi.
           </p>
 
           <div className="space-y-3 mt-8 text-gray-800">
-            <div className="flex items-center gap-3">
-              <Mail className="text-[#004AAD] w-6 h-6" />
-              <span>info@al-khwarizmischool.uz</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <MapPin className="text-[#004AAD] w-6 h-6" />
-              <span>Mahtumquli ko'chasi, 1A</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Clock className="text-[#004AAD] w-6 h-6" />
-              <span>Dushanba - Juma: 8:00 - 15:30</span>
-            </div>
+            <div className="flex items-center gap-3"><Mail className="text-[#004AAD] w-6 h-6"/><span>info@al-khwarizmischool.uz</span></div>
+            <div className="flex items-center gap-3"><MapPin className="text-[#004AAD] w-6 h-6"/><span>Mahtumquli ko‘chasi, 1A</span></div>
+            <div className="flex items-center gap-3"><Clock className="text-[#004AAD] w-6 h-6"/><span>Dushanba - Juma: 8:00 - 15:30</span></div>
           </div>
         </motion.div>
 
-        {/* Right Map */}
         <motion.div
           initial={{ opacity: 0, x: 70 }}
           whileInView={{ opacity: 1, x: 0 }}

@@ -27,7 +27,7 @@ const Mission = () => {
 
       title: "Izlanishga chanqoq",
 
-      text: "Bilimga ochiq, yangiliklarni o'rganishdan zavqlanadigan shaxs.",
+      text: "Bilimga chanqoq, yangiliklarni o'rganishdan zavqlanadigan shaxs.",
     },
 
     {
@@ -124,7 +124,7 @@ const Mission = () => {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen py-12 font-poppins scroll-smooth">
+    <div className="min-h-screen py-12 font-poppins scroll-smooth">
       <div className="max-w-7xl mx-auto px-6 md:px-15 flex flex-col md:flex-row gap-8">
         {/* Sidebar */}
 

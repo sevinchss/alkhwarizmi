@@ -42,14 +42,14 @@ export const MobilePage = () => {
       </div>
 
       {/* 🔹 Hero Section */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-28 pb-20 text-center">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-28  text-center">
         <motion.h1
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300 mb-6 drop-shadow-sm"
+          className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300  h-20  drop-shadow-sm"
         >
-          Mobil dasturlash yo'nalishi
+          Mobil dasturlash yo‘nalishi
         </motion.h1>
 
         <motion.p
@@ -58,7 +58,7 @@ export const MobilePage = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-blue-100 max-w-3xl mx-auto text-lg leading-relaxed"
         >
-          Ushbu modul Android va iOS tizimlarida ishlovchi qurilmalar uchun ilovalar ishlab chiqishni o'z ichiga oladi. Mobil ilovalarini ishlab chiqish bosqichlari, terminologiyalari, ilovalar dizayni va kodlashni qamrab oladi.
+          Ushbu modul Android va iOS tizimlarida ishlovchi qurilmalar uchun ilovalar ishlab chiqishni o‘z ichiga oladi. Mobil ilovalarini ishlab chiqish bosqichlari, terminologiyalari, ilovalar dizayni va kodlashni qamrab oladi.
         </motion.p>
       </div>
 
@@ -142,7 +142,7 @@ export const MobilePage = () => {
           className="relative overflow-hidden bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl shadow-md flex items-center gap-2 transition-all duration-300 ease-out group before:absolute before:inset-0 before:bg-white before:translate-x-full before:transition-transform before:duration-500 before:ease-out hover:before:translate-x-0 before:rounded-[inherit]"
         >
           <span className="relative z-10 transition-colors duration-300 group-hover:text-blue-600">
-            ← Bosh sahifaga o'tish
+            ← Bosh sahifaga o‘tish
           </span>
         </a>
       </div>

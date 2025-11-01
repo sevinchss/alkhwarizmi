@@ -55,22 +55,22 @@ const AccommodationPage = () => {
   // Facilities cards data (six cards as you asked)
   const facilities = [
     {
-      id: 'sport',
-      title: 'Sport zali',
+      id: "sport",
+      title: "Sport zali",
       subtitle: "Sog'lom tana — sog'lom aql",
       text: `Zamonaviy inson hayotini sportsiz tasavvur qilib bo'lmaydi. Qolaversa, o'sib kelayotgan yosh avlodni jismonan va ruhan sog'lom tarzda voyaga yetkazish al-Xorazmiy nomidagi ixtisoslashtirilgan maktab pedagogik jamoasining eng asosiy maqsadidir. Maktab ixtiyorida sport mashg'ulotlarini talab darajasida tashkil etish uchun stadion va sport zali mavjud. Stadionda futbol, basketbol, volleybol va katta tennis mashg'ulotlarini o'tkazish uchun barcha sharoitlar yaratilgan. Sport zalida esa minifutbol, stol tennisi musobaqalarini ham tashkil qilish mumkin. Jismoniy tarbiya darslari ob-havo sharoitidan kelib chiqib tashkil qilinadi. Shuningdek, maktabda barcha sport mashg'ulotlarini tashkil qilish uchun sport anjomlari yetarli. Darsdan keyin sport turlari bo'yicha sinflararo musobaqalar tashkil qilinadi. Sport musobaqalari maktab hayotining jonli va qizg'in bo'lishiga xizmat qiladi.`,
       image: zal,
     },
     {
-      id: 'study',
+      id: "study",
       title: "O'qish maydonchalari",
-      subtitle: 'Tinchlik va bilim uchun jihozlangan makon',
+      subtitle: "Tinchlik va bilim uchun jihozlangan makon",
       text: `Muhammad al-Xorazmiy maktabining o'quv fayesi o'quvchilar uchun qulay dam olish va mustaqil tayyorgarlik joyi hisoblanadi. Bu yerda yumshoq o'tirg'ichlar, kitob javonlari va ochiq o'qish zonalari mavjud bo'lib, o'quvchilar darslar orasida tinch muhitda kitob o'qish yoki loyihalar ustida ishlashlari mumkin. O'quv maydonchalari esa interaktiv ta’lim jarayoniga moslashtirilgan — har bir joyda zamonaviy texnika, keng monitorlar va guruhda ishlash uchun mos stollar joylashtirilgan. Bu muhit o'quvchilarning bilimga qiziqishini kuchaytiradi va ularni ijodiy fikrlashga undaydi.`,
       image: faye,
     },
     {
-      id: 'informatics',
-      title: 'Informatika xonalari',
+      id: "informatics",
+      title:"Informatika xonalari",
       subtitle: "Texnologiyalar bilan shug'ullanish uchun xonalar",
       text: `Informatika xonasi: Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga ixtisoslashtirilgan maktab asosan IT sohasiga yo'naltirilganligi sababli zamonaviy standartlar asosida jihozlangan. Bu xonalar o'quvchilarning nazariy bilimlarini amalda mustahkamlash uchun maxsus ishlab chiqilgan uskunalar bilan boyitilgan. Xonalar kompyuterlar, interaktiv panel va o'quv dasturlari bilan ta'minlangan.
 
@@ -78,9 +78,9 @@ Dasturlash xonalari: Yosh dasturchilarning sevimli sinf xonasi bo'lib, unda IT s
       image: informatics,
     },
     {
-      id: 'partners',
+      id: "partners",
       title: "Hamkorlarimiz xonalari",
-      subtitle: 'Tashqi hamkorlik asosidagi maxsus laboratoriyalar',
+      subtitle: "Tashqi hamkorlik asosidagi maxsus laboratoriyalar",
       text: `ZTE XONASI:
 Muhammad al-Xorazmiy maktabida ZTE kabi kompaniyalar bilan hamkorlikda maxsus xonalar tashkil etilgan. Bu xonalar kompaniya dizayni va zamonaviy jihozlar bilan ta'minlangan bo'lib, chuqurlashtirilgan mashg'ulotlar va fakultativ dasturlar olib boriladi. O'quvchilar loyihalar ustida ishlash va amaliy mashg'ulotlardan keng foydalanadilar.
 
@@ -89,17 +89,17 @@ Shuningdek, Ucell kabi hamkorlar tomonidan tashkil etilgan xonalar mavjud. Bu jo
       image: uztelecom,
     },
     {
-      id: 'robotics',
-      title: 'Robototexnika xonalari',
-      subtitle: 'Yaratish va tajriba uchun maydon',
+      id: "robotics",
+      title: "Robototexnika xonalari",
+      subtitle: "Yaratish va tajriba uchun maydon",
       text: `ROBOTOTEXNIKA XONASI:
 Robototexnika xonalari — bu texnologiya olami. Bu xonalarda o'quvchilar robotlarni yig'ish, Arduino va boshqa mikrokontrollerlar dasturlash asoslarini o'rganishadi. Maktda Arduinonning turli platalari, datchiklar, motorlar, simlar va boshqa qurilmalar mavjud. Darslar davomida o'quvchilar loyihalar yaratadi, robotlar sinovdan o'tkaziladi va musobaqalarga tayyorlanadi. Bu xonalar ixtirolar yaratish va amaliy ko'nikmalarni rivojlantirish uchun ideal muhit yaratadi.`,
       image: robo,
     },
     {
-      id: 'cybersport',
-      title: 'Kibersport xonasi',
-      subtitle: 'Raqamli sport va strategiya markazi',
+      id: "cybersport",
+      title: "Kibersport xonasi",
+      subtitle: "Raqamli sport va strategiya markazi",
       text: `KIBERSPORT XONASI:
 Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'ljallangan joy. Bu xonada katta ekranli sensor kompyuterlar, jostiklar, qulay kreslolar va o'yin texnikasi mavjud. O'quvchilar darsdan keyin kibersport jamoalarida mashg'ulotlar o'tkazadilar, o'yinlarni yaratish va test qilish bo'yicha ko'nikmalarni rivojlantiradilar. Kibersport xonasi o'quvchilarga strategik fikrlash va jamoaviy ishni o'rgatadi.`,
       image: kiber,
@@ -110,7 +110,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
     <div className="font-sans text-gray-800 bg-white mt-10">
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-        .font-sans { font-family: 'Poppins', sans-serif; }
+        .font-sans { font-family: "Poppins", sans-serif; }
         .animate-blob { animation: blob 7s infinite; }
         .animation-delay-2000 { animation-delay: 2s; }
         .animation-delay-4000 { animation-delay: 4s; }
@@ -195,29 +195,29 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <button
-                className={`px-8 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 ${activeTab === 'description' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'}`}
-                onClick={() => setActiveTab('description')}
+                className={`px-8 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 ${activeTab === "description" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-100"}`}
+                onClick={() => setActiveTab("description")}
               >
                 <Home className="w-5 h-5 inline-block mr-2" />
                 Tavsif
               </button>
               <button
-                className={`px-8 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 ${activeTab === 'facilities' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'}`}
-                onClick={() => setActiveTab('facilities')}
+                className={`px-8 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 ${activeTab === "facilities" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-100"}`}
+                onClick={() => setActiveTab("facilities")}
               >
                 <Dumbbell className="w-5 h-5 inline-block mr-2" />
                 Obyektlar
               </button>
               <button
-                className={`px-8 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 ${activeTab === 'rules' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'}`}
+                className={`px-8 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 ${activeTab === "rules" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-100"}`}
                 onClick={() => setActiveTab('rules')}
               >
                 <BookOpen className="w-5 h-5 inline-block mr-2" />
                 Qoidalar
               </button>
               <button
-                className={`px-8 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 ${activeTab === 'daily-life' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'}`}
-                onClick={() => setActiveTab('daily-life')}
+                className={`px-8 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 ${activeTab === "daily-life" ?"bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-100"}`}
+                onClick={() => setActiveTab("daily-life")}
               >
                 <Clock className="w-5 h-5 inline-block mr-2" />
                 Kun tartibi
@@ -228,11 +228,11 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
             <div className="bg-transparent rounded-none shadow-none p-0">
               {/* Tab contents: keep the content but don't give it a white card background */}
               <div className="p-6">
-                {activeTab === 'description' && (
+                {activeTab === "description" && (
                   <div className="animate-slide-up">
                     <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Turar joy tavsifi</h3>
                     <p className="text-gray-600 text-base leading-relaxed mb-3">
-                      Turar joy 500ta o'quvchini sig'diradi. Har bir binoda individual va umumiy xonalar, dush va kir yuvish joylari kabi zamonaviy qulayliklar mavjud bo'lib, xavfsizlik va gigiyenaga alohida e'tibor qaratilgan.
+                      Turar joy 500ta o'quvchiga mo'ljallangan. Har bir binoda individual va umumiy xonalar, dush va kir yuvish joylari kabi zamonaviy qulayliklar mavjud bo'lib, xavfsizlik va gigiyenaga alohida e'tibor qaratilgan.
                     </p>
                     <ul className="list-disc pl-5 mb-4 space-y-1 text-gray-600 text-base">
                       <li>O'g'il va qizlar uchun alohida turar joylar</li>
@@ -252,7 +252,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                   </div>
                 )}
 
-                {activeTab === 'facilities' && (
+                {activeTab === "facilities" && (
                   <div className="animate-slide-up">
                     {/* NEW: expanded facilities grid with 6 independent cards (click -> modal) */}
                     <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Obyektlar va infratuzilma</h3>
@@ -305,7 +305,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                               <p className="text-gray-700 leading-relaxed whitespace-pre-line mb-4">{selectedFacility.text}</p>
 
                               {/* Special case: for Hamkorlarimiz, show two subtexts if needed */}
-                              {selectedFacility.id === 'partners' && (
+                              {selectedFacility.id === "partners" && (
                                 <div className="space-y-4">
                                   <div>
                                     <h4 className="font-semibold">ZTE XONASI</h4>
@@ -329,16 +329,16 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                   </div>
                 )}
 
-                {activeTab === 'rules' && (
+                {activeTab === "rules" && (
                   <div className="animate-slide-up">
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Maktab hududidagi amal qilinishi kerak bo'ladigan qoidalar</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Maktab hududidagi amal qilinishi kerak bo'lgan qoidalar</h3>
                     <p className="text-gray-600 text-base leading-relaxed mb-3">
-                      Biz hurmatli va intizomli muhitni saqlaymiz. O'quvchilar kelganida qoidalar bilan tanishtiriladi.
+                      Biz hurmat va intizomni saqlaymiz. O'quvchilar kelganida qoidalar bilan tanishtiriladi.
                     </p>
                     <ol className="list-decimal pl-5 space-y-1 text-gray-600 text-base">
-                      <li>Kun tartibiga rioya qiling</li>
-                      <li>Boshqa yashovchilar va mulkni hurmat qiling</li>
-                      <li>Chekish va spirtli ichimliklar taqiqlanadi</li>
+                      <li>Kun tartibiga rioya qilish</li>
+                      <li>Boshqa yashovchilarni hurmat qilish va maktab mulkini asrash</li>
+                      <li>Chekish va spirtli ichimliklarni iste'mol qilmaslik</li>
                       <li>Gadjetlarni faqat belgilangan vaqtlarda ishlating</li>
                       <li>Maktab maydonida shovqin qilmaslik va tartibni saqlash</li>
                       <li>Sport va o'quv inshootlaridan xavfsizlik qoidalariga rioya qilgan holda foydalanish</li>
@@ -350,7 +350,7 @@ Kibersport xonasi — bu jamoaviy o'yinlar, treninglar va musobaqalar uchun mo'l
                   </div>
                 )}
 
-                {activeTab === 'daily-life' && (
+                {activeTab === "daily-life" && (
                   <div className="animate-slide-up">
                     <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Kun tartibi</h3>
                     <table className="w-full border-collapse mt-4 rounded-2xl shadow-lg overflow-hidden">
