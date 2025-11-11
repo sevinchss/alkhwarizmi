@@ -68,7 +68,7 @@ const Message = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-center bg-gray-50 min-h-screen overflow-hidden py-20 font-poppins">
+    <div className="relative flex flex-col items-center justify-center  min-h-screen overflow-hidden py-20 font-poppins">
       <h1 className="text-3xl font-bold mb-10 text-gray-800">Maktab faxrlari</h1>
 
       <div className="relative w-full max-w-7xl flex justify-center items-center">

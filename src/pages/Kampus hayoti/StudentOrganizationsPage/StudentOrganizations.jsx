@@ -188,7 +188,7 @@ const StudentOrganizationsPage = () => {
   const filteredClubs = activeTab === 'all' ? communities : communities.filter(club => club.category === activeTab);
 
   return (
-    <div className="font-sans text-gray-800 bg-white">
+    <div className="font-sans text-gray-800 ">
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         .font-sans {
@@ -348,7 +348,7 @@ const StudentOrganizationsPage = () => {
           <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-gray-50 to-transparent"></div>
         </section>
 
-        <section className="bg-gray-50 py-16">
+        <section className=" py-16">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <button

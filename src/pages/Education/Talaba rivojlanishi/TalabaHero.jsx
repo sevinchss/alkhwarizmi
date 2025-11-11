@@ -14,10 +14,10 @@ export default function StudentShowcase() {
           <img src={elbekjon} alt="" className="w-full lg" />
         </div>
         {/* Image and Text Section */}
-        <div className="mt-5 flex lg:flex-row items-center flex-col justify-around  gap-12">
+        <div className="mt-5 flex lg:flex-row lg:items-center items-start flex-col justify-around  gap-12">
           {/* Image */}
-          <div className="relative text-center flex justify-center items-center w-full lg:h-96 md:h-full overflow-hidden ">
-            <h1 className="text-center"> O‘quvchilarning o‘zini namoyon eta olishi</h1>
+          <div className="relative lg:text-center flex justify-center font-bold items-start text-start lg:items-center w-full lg:h-96 md:h-full overflow-hidden ">
+            <h1 className="lg:text-center text-start"> O‘quvchilarning o‘zini <br />namoyon eta olishi</h1>
           </div>
 
           {/* Text */}

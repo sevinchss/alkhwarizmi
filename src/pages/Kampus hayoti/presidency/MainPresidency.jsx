@@ -1,11 +1,10 @@
 import React from 'react'
-import About from './About'
 import Departament from './Departament'
-
+import AboutP from './AboutP'
 export const MainPresidency = () => {
   return (
     <>
-    <About/>
+    <AboutP/>
     <Departament/>
     </>
   )

@@ -30,7 +30,7 @@ export const RivojlanishBolimi = () => {
     <>
       <section className="container font-poppins flex flex-col justify-around">
         {/* Title and Intro */}
-        <div className="flex lg:flex-row flex-col gap-5">
+        <div className="pt-4 flex lg:flex-row flex-col gap-5">
           <h1 className="text-lg font-bold lg:w-[600px] w-full">
             Muhammad Al-Xorazmiy nomli ixtisoslashtirilgan maktabining o‘quvchilar rivojlanishi bo‘limi
           </h1>

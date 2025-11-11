@@ -21,13 +21,13 @@ import { MainVision } from "./pages/Vision/MainVision";
 import { MainAccomodation } from "./pages/Kampus hayoti/AccomodationPage/MainAccomodation";
 import { MainEvents } from "./pages/Kampus hayoti/SchoolEventsPage/MainEvents";
 import { MainStudent } from "./pages/Kampus hayoti/StudentOrganizationsPage/MainStudent";
-import { MainPresidency } from "./pages/Kampus hayoti/presidency/MainPresidency";
 import { MainNews } from "./pages/News/MainNews";
 import Gallery from "./pages/Galleries/Gallery";
 import { MainLeadership } from "./pages/Leadership/MainLeadership";
 import History from "./pages/History/History";
 import ComingSoon from "./component/ComingSoon";
 import ContactPage from "./pages/Contact/Contact";
+import { MainPresidency } from "./pages/Kampus hayoti/presidency/MainPresidency";
 
 
 function App() {
