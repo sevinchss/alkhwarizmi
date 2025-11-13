@@ -9,6 +9,7 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 import logo from "./images/logo5.png";
+import logo1 from "./images/iblogo.png";
 
 const NAV = [
   {
@@ -112,17 +113,24 @@ export default function Navbar() {
       >
         <div className=" flex items-center justify-between w-full pr-6 lg:pr-12 bg-white">
           {/* Logo */}
-          <div className="flex-shrink-0 items-center">
-            
-              <a href="/">
-                <img
-                  src={logo}
+          <div className="px-2 flex-shrink-0 flex flex-row items-center">
+             <img
+                  src={logo1}
                   alt="Al-Xorazmiy logotipi"
-                  className={`mt-2 lg:ml-10 h-[58px]  w-[275px] my-4 lg:w-[250px]  transition-transform duration-700 ${
+                  className={`mt-2 lg:ml-12 h-[58px]  my-4  duration-700 ${
                     isScrolled ? "scale-100 " : "scale-100"
                   }`}
                 />
-              </a>
+              <a href="/" className="m-0">
+                <img
+                  src={logo}
+                  alt="Al-Xorazmiy logotipi"
+                  className={`mt-2 m-0 ml-2 h-[58px]  w-[275px] my-4 lg:w-[250px]  transition-transform duration-700 ${
+                    isScrolled ? "scale-100 " : "scale-100"
+                  }`}
+                /> </a>
+                
+             
           </div>
 
           {/* Desktop menu */}
