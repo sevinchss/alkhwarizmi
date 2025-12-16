@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import networkBg from "../Home/images/fac2.jpg"; // or your tarmoq background
 import person1 from "./images/tarmoq.jpg";
-import person2 from "./images/tarmoq.jpg";
+import person2 from "./images/tarmoq2.jpg";
 
 export const NetworkPage = () => {
   const technologies = [
@@ -27,7 +27,7 @@ export const NetworkPage = () => {
       bio: "10 yillik tajriba. Cisco, Microtic, Linux, Hauwe va Windows qurilmalari bilan professional loyihalar ustida ishlagan",
     },
     {
-      name: "Nigora Shodmonova",
+      name: "Yorqinjon Madaminov",
       role: "Bulutli texnologiyalar bo‘yicha mentor",
       img: person2,
       bio: "Cloud servislar, server arxitekturasi va tarmoq infratuzilmasini avtomatlashtirish bo‘yicha katta tajribaga ega.",

@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import mobileBg from "../Home/images/fac2.jpg";
 import person1 from "./images/mobil.jpg";
+import person2 from "./images/mobil2.jpg";
 
 export const MobilePage = () => {
   const technologies = [
@@ -21,10 +22,16 @@ export const MobilePage = () => {
 
   const teachers = [
     {
-      name: "Alisher Tursunov",
+      name: "Mirjambil Mirg'iyosov",
       role: "Senior Mobile Developer",
       img: person1,
       bio: "8 yillik tajribaga ega. Flutter va Kotlin orqali native va kross-platforma ilovalar ishlab chiqishda mutaxassis.",
+    },
+    {
+      name: "Feruza Imomova",
+      role: "Mobil dasturchi",
+      img: person2,
+      bio: "18 yillik tajriba. Oliy ma'lumotli Matematika va Informatika fani o'qituvchisi.",
     },
    
   ];

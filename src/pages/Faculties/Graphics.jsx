@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import graphicsBg from "../Home/images/fac1.jpg";
 import person1 from "./images/shamshod.jpg";
-import person2 from "./images/shamshod.jpg";
+import person2 from "./images/shukrullo.jpg";
 
 export const GraphicsPage = () => {
   const technologies = [
@@ -89,7 +89,7 @@ export const GraphicsPage = () => {
             <SwiperSlide key={i}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="p-8 rounded-2xl bg-white/10 backdrop-blur-md hover:bg-white/20 
+                className="p-8 mt-4 rounded-2xl bg-white/10 backdrop-blur-md hover:bg-white/20 
                 border border-white/10 shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center gap-3"
               >
                 <div className="p-4 rounded-full bg-blue-500/20 border border-blue-400/40">
