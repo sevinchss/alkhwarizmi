@@ -8,6 +8,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -38,16 +39,28 @@ export default function Footer() {
           </ul>
 
           <div className="flex gap-5 mt-5 text-lg">
-            <a href="t.me/ictschooluz" className="hover:text-[#3BAAFF] hover:scale-110 transition-all">
+            <a
+              href="t.me/ictschooluz"
+              className="hover:text-[#3BAAFF] hover:scale-110 transition-all"
+            >
               <FaTelegramPlane />
             </a>
-            <a href="#" className="hover:text-[#3BAAFF] hover:scale-110 transition-all">
+            <a
+              href="#"
+              className="hover:text-[#3BAAFF] hover:scale-110 transition-all"
+            >
               <FaFacebookF />
             </a>
-            <a href="https://www.instagram.com/itschool_uz?igsh=MTJpcjlqeXEzbzEyNw==" className="hover:text-[#3BAAFF] hover:scale-110 transition-all">
+            <a
+              href="https://www.instagram.com/itschool_uz?igsh=MTJpcjlqeXEzbzEyNw=="
+              className="hover:text-[#3BAAFF] hover:scale-110 transition-all"
+            >
               <FaInstagram />
             </a>
-            <a href="https://youtube.com/@itschooluzbekistan?si=oN09Uym62ZyM74_u" className="hover:text-[#3BAAFF] hover:scale-110 transition-all">
+            <a
+              href="https://youtube.com/@itschooluzbekistan?si=oN09Uym62ZyM74_u"
+              className="hover:text-[#3BAAFF] hover:scale-110 transition-all"
+            >
               <FaYoutube />
             </a>
           </div>
@@ -59,10 +72,38 @@ export default function Footer() {
             Biz haqimizda
           </h2>
           <ul className="space-y-2 text-sm">
-            <li><a href="/rahbariyat" className="hover:text-[#3BAAFF] transition-colors">Rahbariyat</a></li>
-            <li><a href="/maqsad-vazifalar" className="hover:text-[#3BAAFF] transition-colors">Maqsad va vazifalar</a></li>
-            <li><a href="/fotogalereya" className="hover:text-[#3BAAFF] transition-colors">Fotogalereya</a></li>
-            <li><a href="/yangiliklar" className="hover:text-[#3BAAFF] transition-colors">Yangiliklar</a></li>
+            <li>
+              <Link
+                to="/rahbariyat"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                Rahbariyat
+              </Link>{" "}
+            </li>
+            <li>
+              <Link
+                to="/maqsad-vazifalar"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                Maqsad va vazifalar
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/fotogalereya"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                Fotogalereya
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/yangiliklar"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                Yangiliklar
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -72,10 +113,41 @@ export default function Footer() {
             Ta’lim va kampus
           </h2>
           <ul className="space-y-2 text-sm">
-            <li><a href="/oquv-dasturlari" className="hover:text-[#3BAAFF] transition-colors">O‘quv dasturlari</a></li>
-            <li><a href="/rivojlanishi" className="hover:text-[#3BAAFF] transition-colors">O‘quvchi rivojlanishi</a></li>
-            <li><a href="/qabul-tartibi" className="hover:text-[#3BAAFF] transition-colors">Qabul</a></li>
-            <li><a href="/maktab-tadbirlari" className="hover:text-[#3BAAFF] transition-colors">Maktab tadbirlari</a></li>
+            <li>
+              <Link
+                to="/oquv-dasturlari"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                {" "}
+                O‘quv dasturlari
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/rivojlanishi"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                {" "}
+                O‘quvchi rivojlanishi
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/qabul-tartibi"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                Qabul
+              </Link>
+            </li>
+            <li>
+               <Link
+                to="/maktab-tadbirlari"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                  Maktab tadbirlari
+              </Link>
+             
+            </li>
           </ul>
         </div>
 
@@ -113,8 +185,20 @@ export default function Footer() {
           . Barcha huquqlar himoyalangan.
         </p>
         <div className="flex gap-4 mt-2 md:mt-0">
-          <a href="/qabul-tartibi" className="hover:text-[#3BAAFF] transition-colors">Qabul</a>
-          <a href="/kontaktlar" className="hover:text-[#3BAAFF] transition-colors">Aloqa</a>
+           <Link
+                to="/qabul-tartibi"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                 Qabul
+              </Link> 
+          
+          <Link
+                to="/kontaktlar"
+                className="hover:text-[#3BAAFF] transition-colors"
+              >
+                 Aloqa
+              </Link> 
+         
         </div>
       </div>
 
