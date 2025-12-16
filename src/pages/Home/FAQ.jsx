@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 
 import img1 from "./images/elb.jpg";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const FAQ_ITEMS = [
   {
@@ -117,7 +117,8 @@ export default function AlKhwarizmiFAQ() {
 
             {/* Button to Admissions */}
             <div className="flex items-center  mt-2">
-              <a href="/qabul-tartibi">
+              
+              <Link to="/qabul-tartibi">
                 <button
                   className="relative overflow-hidden
                   bg-blue-800 text-white font-semibold
@@ -145,7 +146,7 @@ export default function AlKhwarizmiFAQ() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12l-3.75 3.75M21 12H3" />
                   </svg>
                 </button>
-              </a>
+             </Link>
             </div>
           </div>
         </div>

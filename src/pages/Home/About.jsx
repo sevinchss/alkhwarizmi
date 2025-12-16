@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 import aboutImg from "./images/ADABIYOT.jpg";
+import { Link } from "react-router-dom";
 
 export default function AboutAlKhwarizmi() {
   useEffect(() => {
@@ -29,7 +30,7 @@ export default function AboutAlKhwarizmi() {
             asoslangan innovatsion o‘quv maskani. O‘quvchilar axborot texnologiyalari, matematika, fizika,  va ingliz tili fanlaridan chuqur bilimga ega
             bo‘lishadi.
           </p>
-          <a href="/maqsad-vazifalar">
+          <Link to="/maqsad-vazifalar">
             <button
               className="
               relative overflow-hidden
@@ -63,7 +64,7 @@ export default function AboutAlKhwarizmi() {
                 />
               </svg>
             </button>
-          </a>
+          </Link>
         </div>
 
         {/* Middle - Image */}
