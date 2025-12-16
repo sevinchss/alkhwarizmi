@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import logo from "./images/logo5.png";
 import logo1 from "./images/iblogo.png";
+import LanguageSelect from "../component/LanguageSelect";
 
 const NAV = [
   {
@@ -188,7 +189,9 @@ export default function Navbar() {
                 )}
               </li>
             ))}
-
+<li className="flex items-center">
+  <LanguageSelect onChange={(lang) => console.log("Selected:", lang)} />
+</li>
             {/* Bog‘lanish link */}
             <li>
               <NavLink
@@ -249,6 +252,9 @@ export default function Navbar() {
                 )}
               </li>
             ))}
+            <li className="py-2">
+  <LanguageSelect onChange={(lang) => console.log("Selected:", lang)} />
+</li>
             <li className="py-2">
               <NavLink
                 to="/kontaktlar"
