@@ -61,7 +61,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li><a href="/rahbariyat" className="hover:text-[#3BAAFF] transition-colors">Rahbariyat</a></li>
             <li><a href="/maqsad-vazifalar" className="hover:text-[#3BAAFF] transition-colors">Maqsad va vazifalar</a></li>
-            <li><a href="/asosiy-hujjatlar" className="hover:text-[#3BAAFF] transition-colors">Asosiy hujjatlar</a></li>
+            <li><a href="/fotogalereya" className="hover:text-[#3BAAFF] transition-colors">Fotogalereya</a></li>
             <li><a href="/yangiliklar" className="hover:text-[#3BAAFF] transition-colors">Yangiliklar</a></li>
           </ul>
         </div>
@@ -73,8 +73,8 @@ export default function Footer() {
           </h2>
           <ul className="space-y-2 text-sm">
             <li><a href="/oquv-dasturlari" className="hover:text-[#3BAAFF] transition-colors">O‘quv dasturlari</a></li>
-            <li><a href="/fan-yonalishlari" className="hover:text-[#3BAAFF] transition-colors">Fan yo‘nalishlari</a></li>
-            <li><a href="/natijalar" className="hover:text-[#3BAAFF] transition-colors">Natijalar</a></li>
+            <li><a href="/rivojlanishi" className="hover:text-[#3BAAFF] transition-colors">O‘quvchi rivojlanishi</a></li>
+            <li><a href="/qabul-tartibi" className="hover:text-[#3BAAFF] transition-colors">Qabul</a></li>
             <li><a href="/maktab-tadbirlari" className="hover:text-[#3BAAFF] transition-colors">Maktab tadbirlari</a></li>
           </ul>
         </div>
