@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/'  // sayt root domain bo‘lsa
+  base: './',   // Shu qatorni qo'shish juda muhim
 })
