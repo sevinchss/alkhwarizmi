@@ -18,11 +18,7 @@ const teamMembers = [
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi o‘quv ishlari bo‘yicha direktor o‘rinbosari",
     image: sanjar,
   },
-  {
-    name: "U. Odiljonov",
-    role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi ma‘naviy-ma‘rifiy ishlar bo‘yicha direktor o‘rinbosari.",
-    image: ulugbek,
-  },
+  
   {
     name: "A. Ochilov",
     role: "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabi matematika uslubiy birlashma raisi",

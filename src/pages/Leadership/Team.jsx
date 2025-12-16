@@ -49,7 +49,7 @@ const team = [
   },
   {
     name: "Turg'unov G'ayrat Moxomojonovich ",
-    title: "Ixtisoslik fanlari bo’yicha direktor o‘rinbosari. Ko‘plab loyihalar muallifi. Eco Union asoschisi.",
+    title: "CHQBT rahbari",
     photo: Director6,
     bottomSide: "right",
   },
