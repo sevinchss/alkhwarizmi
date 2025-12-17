@@ -105,7 +105,7 @@ export const GraphicsPage = () => {
       </div>
 
       {/* 🔹 Teachers Section */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 py-20">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 mb-6">
         <h2 className="text-4xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300 mb-16">
           Ustozlar
         </h2>

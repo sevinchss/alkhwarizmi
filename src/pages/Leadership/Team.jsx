@@ -23,7 +23,7 @@ const team = [
     side: "left",
   },
   {
-    name: "Ismailov Fazliddin",
+    name: "Ismailov Fazliddin Baxriddinovich",
     title:
       "Ixtisoslik fanlari bo’yicha direktor o‘rinbosari. Ko‘plab loyihalar muallifi. Eco Union asoschisi.",
     photo: Director1,

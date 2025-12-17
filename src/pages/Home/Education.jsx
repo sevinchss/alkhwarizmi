@@ -97,7 +97,7 @@ export default function AlKhwarizmiEducation() {
               Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktab
             </h3>
             <p className="text-slate-600 text-sm mt-1">
-              5–11-sinflar · axborot texnologiyalar, matematika, tabiiy fanlar va loyihaviy ta’lim
+              5–11-sinflar · axborot texnologiyalar, matematika, fizika va ingliz tili
             </p>
           </div>
         </motion.div>

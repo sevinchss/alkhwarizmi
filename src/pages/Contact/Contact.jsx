@@ -21,12 +21,13 @@ const TEMPLATE_ID = "template_inb9qw3";
 const PUBLIC_KEY = "WRuRnBGOmZG-PdSaR";
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    user_name: "",
-    phone: "",
-    user_email: "",
-    message: "",
-  });
+ const [formData, setFormData] = useState({
+  user_name: "",
+  phone: "",
+  user_email: "",
+  message: "",
+});
+
 
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
@@ -47,11 +48,53 @@ export default function ContactPage() {
     setErrors((s) => ({ ...s, [name]: "" }));
     setStatus(null);
   };
+  // 🔥 PHONE FULL FIX
+const handlePhoneFocus = () => {
+  if (!formData.phone) {
+    setFormData((s) => ({ ...s, phone: "+998 " }));
+  }
+};
+
+const handlePhoneBlur = () => {
+  if (formData.phone === "+998 ") {
+    setFormData((s) => ({ ...s, phone: "" }));
+  }
+};
+
+const handlePhoneChange = (e) => {
+  let value = e.target.value;
+
+  if (!value.startsWith("+998")) value = "+998 ";
+
+  let numbers = value.replace(/\D/g, "");
+  numbers = numbers.slice(3, 12);
+
+  let formatted = "+998 ";
+  if (numbers.length > 0) formatted += numbers.slice(0, 2);
+  if (numbers.length >= 3) formatted += " " + numbers.slice(2, 5);
+  if (numbers.length >= 6) formatted += " " + numbers.slice(5, 7);
+  if (numbers.length >= 8) formatted += " " + numbers.slice(7, 9);
+
+  setFormData((s) => ({ ...s, phone: formatted }));
+  setErrors((s) => ({ ...s, phone: "" }));
+  setStatus(null);
+};
+
+const handlePhoneKeyDown = (e) => {
+  if (formData.phone.length <= 5 && e.key === "Backspace") {
+    e.preventDefault();
+  }
+};
+
+
 
   const validate = () => {
     const next = {};
     if (!formData.user_name.trim()) next.user_name = "Ism kiritilishi shart";
-    if (!formData.phone.trim()) next.phone = "Telefon raqam kerak";
+   if (formData.phone.replace(/\D/g, "").length !== 12) {
+  next.phone = "Telefon raqam to‘liq kiritilmadi";
+}
+
     if (!formData.user_email.trim()) next.user_email = "Email manzilingizni kiriting";
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.user_email)) next.user_email = "Email noto‘g‘ri";
     if (!formData.message.trim()) next.message = "Xabarni yozing";
@@ -151,19 +194,23 @@ export default function ContactPage() {
               </div>
 
               <div className="relative">
-                <input
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  type="tel"
-                  placeholder="+998 99 999 99 99"
-                  className={`w-full border rounded-xl px-4 py-3 transition-all outline-none ${
-                    errors.phone
-                      ? "border-red-500 ring-2 ring-red-300/40"
-                      : "border-gray-200 focus:border-[#004AAD] focus:ring-2 focus:ring-[#004AAD]/30"
-                  }`}
-                />
-                {errors.phone && (
+              <input
+  type="tel"
+  name="phone"
+  value={formData.phone}
+  onFocus={handlePhoneFocus}
+  onBlur={handlePhoneBlur}
+  onChange={handlePhoneChange}
+  onKeyDown={handlePhoneKeyDown}
+  placeholder="+998 99 999 99 99"
+  inputMode="numeric"
+  className={`w-full border rounded-xl px-4 py-3 transition-all outline-none ${
+    errors.phone
+      ? "border-red-500 ring-2 ring-red-300/40"
+      : "border-gray-200 focus:border-[#004AAD] focus:ring-2 focus:ring-[#004AAD]/30"
+  }`}
+/>
+     {errors.phone && (
                   <motion.p initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} className="text-red-500 text-sm mt-1 pl-1">
                     {errors.phone}
                   </motion.p>

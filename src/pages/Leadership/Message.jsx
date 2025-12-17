@@ -27,7 +27,7 @@ const directors = [
     Biz aynan shunday tizimni yaratganmiz.”`,
   },
   {
-    name: "Ismailov Fazliddin",
+    name: "Ismailov Fazliddin Baxriddinovich",
     title: "Ixtisoslik fanlari bo’yicha direktor o‘rinbosari.Ko‘plab loyihalar muallifi.Eco Union asoschisi.",
     photo: Director1,
     text: `“Maktabimiz bugungi kunda xalqaro ta’lim standartlariga mos holda, IB (International Baccalaureate) dasturining ilg‘or tamoyillarini 
