@@ -76,7 +76,7 @@ export default function AboutAlKhwarizmi() {
           <img
             src={aboutImg}
             alt="Al-Xorazmiy maktabi"
-            className="w-96 h-[420px] object-cover transition-transform duration-700 ease-[cubic-bezier(0.33,1,0.68,1)] hover:scale-[1.05]"
+            className="lg:w-96 h-[420px] object-cover transition-transform duration-700 ease-[cubic-bezier(0.33,1,0.68,1)] hover:scale-[1.05]"
           />
         </div>
 

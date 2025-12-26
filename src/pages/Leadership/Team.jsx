@@ -2,9 +2,9 @@ import React from "react";
 import DirectorMain from "./images/hilola.jpg"; // Umarova Hilola Uktamovna
 import Director1 from "./images/fazliddin.png"; // Ismailov Fazliddin
 import Director2 from "./images/sevara.png"; // Shakirova Sevara Baxodirovna
-import Director3 from "./images/ulugbek.jpg"; // Odiljonov Ulug‘bek Komiljonovich
+import Director3 from "./images/dilrabo.jpg"; // Odiljonov Ulug‘bek Komiljonovich
 import Director4 from "./images/sanjar.png"; // Utepov Sanjar Shomuratovich
-import Director5 from "./images/dilrabo.jpg"; // Davidova Dilrabo Tajibayevna
+import Director5 from "./images/ulugbek.jpg"; // Davidova Dilrabo Tajibayevna
 import Director6 from "./images/gayrat.png"; // G‘ayrat ...
 
 const team = [
@@ -30,8 +30,8 @@ const team = [
     side: "left",
   },
   {
-    name: "Odiljonov Ulug‘bek Komiljonovich",
-    title: "Ma’naviyat va ma’rifat ishlari bo‘yicha direktor o‘rinbosari.",
+   name: "Davidova Dilrabo Tajibayevna",
+    title: "Ixtisoslik fanlari bo’yicha direktor o‘rinbosari. Ko‘plab loyihalar muallifi. Eco Union asoschisi.",
     photo: Director3,
     side: "right",
   },
@@ -42,8 +42,9 @@ const team = [
     side: "right",
   },
   {
-    name: "Davidova Dilrabo Tajibayevna",
-    title: "Ixtisoslik fanlari bo’yicha direktor o‘rinbosari. Ko‘plab loyihalar muallifi. Eco Union asoschisi.",
+    name: "Odiljonov Ulug‘bek Komiljonovich",
+    title: "Ma’naviyat va ma’rifat ishlari bo‘yicha direktor o‘rinbosari.",
+    
     photo: Director5,
     bottomSide: "left",
   },
@@ -62,7 +63,7 @@ const Team = () => {
   const bottomMembers = team.filter((m) => m.bottomSide);
 
   return (
-    <section className=" py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-16 font-poppins">
+    <section className="py-10 px-4 sm:px-6 md:px-16 font-poppins">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-gray-800">
         Rahbariyat
       </h2>
