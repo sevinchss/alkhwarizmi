@@ -13,6 +13,7 @@ import bristol from "./images/bristol.png";
 import dianzi from "./images/dianzi.png";
 import kunshan from "./images/dukekunshan.png";
 import king from "./images/king.png";
+import dg from "./images/dg.png";
 import tuit from "./images/tuit.png";
 import arizona from "./images/arizona.png";
 import inha from "./images/inha.jpg";
@@ -24,6 +25,7 @@ const partnersRow1 = [
   { name: "ZTE", logo: zte },
   { name: "Zamin", logo: zamin },
   { name: "Huawei", logo: huawei },
+  { name: "DG", logo: dg },
   { name: "UZTELECOM", logo: uztelecom },
   { name: "IT Park Uzbekistan", logo: itpark },
   { name: "EPAM Systems", logo: epam },

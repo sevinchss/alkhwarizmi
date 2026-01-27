@@ -125,10 +125,10 @@ const Mission = () => {
 
   return (
     <div className="min-h-screen py-12 font-poppins scroll-smooth">
-      <div className="max-w-7xl mx-auto px-6 md:px-15 flex flex-col md:flex-row gap-8">
+  <div className="max-w-7xl mx-auto px-6 md:px-15 flex flex-col md:flex-row gap-8 relative">
         {/* Sidebar */}
 
-        <aside className="bg-white rounded-2xl shadow-sm p-6 w-full md:w-1/4 md:sticky md:top-24 self-start h-fit">
+   <aside className="bg-white rounded-2xl shadow-sm p-6 w-full md:w-1/4 md:sticky md:top-24 h-fit">
           <h3 className="text-sm font-medium text-gray-500 mb-6">Menyu</h3>
 
           <nav className="space-y-4">

@@ -113,11 +113,11 @@ Yaqinda tashkil etilganiga qaramay, assotsiatsiya Muhammad al-Xorazmiy nomidagi 
   },
   {
     id: 5,
-    name: 'The Zakovat Club',
+    name: 'Zakovat klubi',
     logo: logoA,
     founder: 'Doniyor Kamoliddinov',
     leader: 'Komilov Anasxon',
-    info: `An intellectual community that engages over 200 students monthly through fun and challenging intellectual games. Similar to Quiz Bowl, this club organizes league tournaments where students compete in various subjects, testing their knowledge and quick thinking. The Zakovat Club helps students develop critical thinking, problem-solving skills, and knowledge beyond the standard school curriculum.`,
+    info: `Qiziqarli va qiyin intellektual o'yinlar orqali har oy 200 dan ortiq talabalarni jalb qiladigan intellektual jamoa. Quiz Bowl singari, bu klub liga turnirlarini tashkil qiladi, unda talabalar turli fanlar bo'yicha raqobatlashadilar, o'z bilimlari va tezkor fikrlashlarini sinab ko'rishadi. “Zakovat” klubi o‘quvchilarda tanqidiy fikrlash, muammoni hal qilish ko‘nikmalarini rivojlantirish va maktab o‘quv dasturidan tashqari bilimlarni rivojlantirishga yordam beradi.`,
     category: 'social',
     gallery: [
       { src: gallery6_1, caption: 'Ustozlar orasida Zakovat' },
@@ -132,7 +132,7 @@ Yaqinda tashkil etilganiga qaramay, assotsiatsiya Muhammad al-Xorazmiy nomidagi 
     logo: ted,
     founder: 'Ibrokhim Pulatov',
     leader: 'Ibrokhim Pulatov',
-    info: `TEDxAl-Khwarizmi School is an official TEDx-licensed event hosted by the Specialized Muhammad al-Khwarizmi School. It provides a platform for students to share inspiring ideas and stories through TED-style talks, promoting creativity, innovation, and intellectual curiosity. In 2025, the event featured 13 speakers who presented their ideas to an audience of over 250 guests. Organized by students and staff, TEDxAl-Khwarizmi School embodies the spirit of “ideas worth spreading,” encouraging young minds to explore topics in technology, science, society, and personal growth while developing their communication and leadership skills.`,
+    info: `TEDxAl-Xorazmiy maktabi - Muhammad al-Xorazmiy maktabi tomonidan tashkil etilgan TEDx litsenziyasiga ega tadbir. Bu talabalar uchun TED uslubidagi talabalar boshchiligidagi tadbirlar orqali g'oyalar va hikoyalar almashish, ijodkorlik, innovatsiya va intellektual kuchni ilhomlantirish uchun platformadir. 2025-yilda tadbirda 250 dan ortiq mehmonlarga o‘z g‘oyalarini taqdim etgan 13 nafar ma’ruzachi qatnashdi. Talabalar va maktab hamkorligida tashkil etilgan TEDxAl-Xorazmiy “yoyishga arziydigan g‘oyalarni aks ettiradi, yoshlarni texnologiya, fan, jamiyat va o‘z hayotidagi mavzularni o‘rganishga ilhomlantiradi”.`,
     category: 'social',
     gallery: [
       { src: gallery5_1, caption: 'TEDxAl-Khwarizmi 2025' },
