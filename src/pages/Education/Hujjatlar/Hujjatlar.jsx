@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from 'react';
 
-// 8 TA PDF FAYLLARINI IMPORT QILISH
-import academicIntegrityPdf from '../Hujjatlar/images/Academic integriry Policy reviewed by MAKSS new.pdf';
-import assessmentPolicyPdf2026 from '../Hujjatlar/images/Assessment policy 2026 Reviewed by MAKSS.pdf';
-import assessmentPolicyPdf2025 from '../Hujjatlar/images/Assessment policy 2025.pdf'; 
-import admissionPolicyPdf from '../Hujjatlar/images/Admission policy 2026 reviewed by MAKSS.pdf';
-import languagePolicyPdf from '../Hujjatlar/images/Language Policy 2025.pdf';
-import inclusionPolicyPdf from '../Hujjatlar/images/Inclusion and access policy.pdf';
-import rolesPolicyPdf from '../Hujjatlar/images/Roles and Responsibilities Policy 2025.pdf';
-import complaintsPolicyPdf from '../Hujjatlar/images/Complaints and appeals policy 2025.pdf';
-
 const DocumentsPage = () => {
   const [activeSection, setActiveSection] = useState('academic-integrity');
+
+  // SERVERDAGI TAYYOR PDF LINKLAR
+  const pdfLinks = {
+    academicIntegrity: "https://al-khwarizmischool.uz/PDF/Academic%20integriry%20Policy%20reviewed%20by%20MAKSS%20new.pdf",
+    assessment2026: "https://al-khwarizmischool.uz/PDF/Assessment%20policy%202026%20Reviewed%20by%20MAKSS.pdf",
+    assessment2025: "https://al-khwarizmischool.uz/PDF/Assessment%20policy%202025.pdf",
+    admission: "https://al-khwarizmischool.uz/PDF/Admission%20policy%202026%20reviewed%20by%20MAKSS.pdf",
+    language: "https://al-khwarizmischool.uz/PDF/Language%20Policy%202025.pdf",
+    inclusion: "https://al-khwarizmischool.uz/PDF/Inclusion%20and%20access%20policy.pdf",
+    roles: "https://al-khwarizmischool.uz/PDF/Roles%20and%20Responsibilities%20Policy%202025.pdf",
+    complaints: "https://al-khwarizmischool.uz/PDF/Complaints%20and%20appeals%20policy%202025.pdf"
+  };
 
   const menuItems = [
     { id: 'academic-integrity', title: "AKADEMIK HALOLLIK", num: "01" },
@@ -99,7 +101,7 @@ const DocumentsPage = () => {
                 <li className="flex items-center gap-2"> <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span> Manbalardan to'g'ri iqtibos olish</li>
                 <li className="flex items-center gap-2"> <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span> Sun'iy intellekt va axloq</li>
               </ul>
-              <a href={academicIntegrityPdf} target="_blank" className="inline-block text-[13px] font-bold text-[#00265b] border-b-2 border-[#00265b] pb-1 hover:text-blue-500 hover:border-blue-500 transition-all">
+              <a href={pdfLinks.academicIntegrity} target="_blank" rel="noreferrer" className="inline-block text-[13px] font-bold text-[#00265b] border-b-2 border-[#00265b] pb-1 hover:text-blue-500 hover:border-blue-500 transition-all">
                 TO'LIQ NIZOMNI O'QISH →
               </a>
             </div>
@@ -116,7 +118,7 @@ const DocumentsPage = () => {
                 <span className="bg-gray-100 px-3 py-1 rounded-full text-[11px] font-medium text-gray-600 uppercase">Yangilangan</span>
                 <span className="bg-gray-100 px-3 py-1 rounded-full text-[11px] font-medium text-gray-600 uppercase">IB Standartlari</span>
               </div>
-              <a href={assessmentPolicyPdf2026} target="_blank" className="flex items-center gap-3 text-sm font-bold text-[#00265b] hover:underline">
+              <a href={pdfLinks.assessment2026} target="_blank" rel="noreferrer" className="flex items-center gap-3 text-sm font-bold text-[#00265b] hover:underline">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                 Baholash tartibini yuklab olish (2026)
               </a>
@@ -134,7 +136,7 @@ const DocumentsPage = () => {
                 <span className="bg-gray-100 px-3 py-1 rounded-full text-[11px] font-medium text-gray-600 uppercase">Arxiv</span>
                 <span className="bg-gray-100 px-3 py-1 rounded-full text-[11px] font-medium text-gray-600 uppercase">Kriteryal baholash</span>
               </div>
-              <a href={assessmentPolicyPdf2025} target="_blank" className="flex items-center gap-3 text-sm font-bold text-[#00265b] hover:underline">
+              <a href={pdfLinks.assessment2025} target="_blank" rel="noreferrer" className="flex items-center gap-3 text-sm font-bold text-[#00265b] hover:underline">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                 Baholash tartibini yuklab olish (2025)
               </a>
@@ -148,7 +150,7 @@ const DocumentsPage = () => {
               <p className="text-gray-600 text-sm mb-6">
                 Maktabga qabul qilish qoidalari va saralash jarayonlari bo'yicha yo'riqnoma.
               </p>
-              <a href={admissionPolicyPdf} target="_blank" className="inline-block text-[13px] font-bold text-[#00265b] border-b-2 border-[#00265b] pb-1 hover:text-blue-500 transition-all">
+              <a href={pdfLinks.admission} target="_blank" rel="noreferrer" className="inline-block text-[13px] font-bold text-[#00265b] border-b-2 border-[#00265b] pb-1 hover:text-blue-500 transition-all">
                 QABUL QOIDALARI →
               </a>
             </div>
@@ -162,7 +164,7 @@ const DocumentsPage = () => {
                 <p className="text-blue-100 text-sm mb-8 opacity-90 max-w-xl">
                   Maktabimizda ko'p tillilik qanday qo'llab-quvvatlanadi? O'zbek, ingliz va rus tillarida o'qitish metodikasi.
                 </p>
-                <a href={languagePolicyPdf} target="_blank" className="bg-white text-[#00265b] px-6 py-3 rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-blue-50 transition-colors inline-block">
+                <a href={pdfLinks.language} target="_blank" rel="noreferrer" className="bg-white text-[#00265b] px-6 py-3 rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-blue-50 transition-colors inline-block">
                   Til bo'yicha strategiya (PDF)
                 </a>
               </div>
@@ -183,7 +185,7 @@ const DocumentsPage = () => {
                 <div className="text-center p-4 bg-gray-50 rounded-2xl"><h4 className="font-bold text-[#00265b] text-xs mb-1 uppercase">To'siqsizlik</h4><p className="text-[10px] text-gray-400 leading-tight">O'quv materiallari barcha uchun ochiq.</p></div>
               </div>
               <div className="flex justify-center">
-                <a href={inclusionPolicyPdf} target="_blank" className="bg-gray-900 text-white px-8 py-3 rounded-full text-[12px] font-bold hover:bg-blue-600 transition-all">INKLYUZIVLIK SIYOSATI BILAN TANISHISH</a>
+                <a href={pdfLinks.inclusion} target="_blank" rel="noreferrer" className="bg-gray-900 text-white px-8 py-3 rounded-full text-[12px] font-bold hover:bg-blue-600 transition-all">INKLYUZIVLIK SIYOSATI BILAN TANISHISH</a>
               </div>
             </div>
           </section>
@@ -195,7 +197,7 @@ const DocumentsPage = () => {
               <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                 Maktab ma'muriyati, o'qituvchilar va o'quvchilarning vazifalari qat'iy belgilangan.
               </p>
-              <a href={rolesPolicyPdf} target="_blank" className="inline-flex items-center text-blue-600 text-sm font-bold group">
+              <a href={pdfLinks.roles} target="_blank" rel="noreferrer" className="inline-flex items-center text-blue-600 text-sm font-bold group">
                 Vazifalar taqsimoti 
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </a>
@@ -212,7 +214,7 @@ const DocumentsPage = () => {
                <p className="text-gray-600 text-sm mb-8 leading-relaxed">
                  O'quv jarayoni yoki baholash natijasidan norozi bo'lgan taqdirda murojaat qilish tartibi.
                </p>
-               <a href={complaintsPolicyPdf} target="_blank" className="bg-[#00265b] text-white px-6 py-3 rounded-xl text-xs font-bold uppercase hover:shadow-lg transition-all inline-block">
+               <a href={pdfLinks.complaints} target="_blank" rel="noreferrer" className="bg-[#00265b] text-white px-6 py-3 rounded-xl text-xs font-bold uppercase hover:shadow-lg transition-all inline-block">
                  APELLYATSIYA TARTIBI (PDF)
                </a>
             </div>
