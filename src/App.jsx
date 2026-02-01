@@ -28,6 +28,7 @@ import History from "./pages/History/History";
 import ComingSoon from "./component/ComingSoon";
 import ContactPage from "./pages/Contact/Contact";
 import { MainPresidency } from "./pages/Kampus hayoti/presidency/MainPresidency";
+import DocumentsPage from "./pages/Education/Hujjatlar/Hujjatlar";
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
           <Route path="/fotogalereya" element={<Gallery />} />
           <Route path="/grafika" element={<GraphicsPage />} />
           <Route path="/rivojlanishi" element={<TalabaMain />} />
+          <Route path="/documents" element={<DocumentsPage />} />
           <Route path="/fan-yonalishlari" element={<OnlineMain/>} />
           <Route path="/tarmoq" element={<NetworkPage />} />
           <Route path="/kontaktlar" element={<ContactPage />} />

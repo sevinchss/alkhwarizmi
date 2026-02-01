@@ -32,6 +32,7 @@ const NAV = [
     links: [
       { label: "Ta‘lim modeli", to: "/oquv-dasturlari" },
       { label: "Online platforma", to: "/fan-yonalishlari" },
+      { label: "Hujjatlar", to: "/documents" },
       { label: "O‘quvchi rivojlanishi", to: "/rivojlanishi" },
     ],
   },
@@ -78,7 +79,9 @@ export default function Navbar() {
       >
         <div className="flex mt-4 mb-4 items-center gap-3 text-sm">
           <FaPhoneAlt className="text-white/90" />
-          <span>Aloqa markazi: +998 55-502-62-22      <br /> info@al-khwarizmischool.uz</span>
+          <span>
+            Aloqa markazi: +998 55-502-62-22 <br /> info@al-khwarizmischool.uz
+          </span>
         </div>
         <div className="flex items-center gap-5 text-lg">
           <a href="t.me/ictschooluz" target="_blank" rel="noreferrer">
@@ -115,23 +118,22 @@ export default function Navbar() {
         <div className=" flex items-center justify-between w-full pr-6 lg:pr-12 bg-white">
           {/* Logo */}
           <div className="px-2 flex-shrink-0 flex flex-row items-center">
-             <img
-                  src={logo1}
-                  alt="Al-Xorazmiy logotipi"
-                  className={`mt-2 lg:ml-12 h-[58px]  my-4  duration-700 ${
-                    isScrolled ? "scale-100 " : "scale-100"
-                  }`}
-                />
-              <a href="/" className="m-0">
-                <img
-                  src={logo}
-                  alt="Al-Xorazmiy logotipi"
-                  className={`mt-2 m-0 ml-2 h-[58px]  w-[275px] my-4 lg:w-[250px]  transition-transform duration-700 ${
-                    isScrolled ? "scale-100 " : "scale-100"
-                  }`}
-                /> </a>
-                
-             
+            <img
+              src={logo1}
+              alt="Al-Xorazmiy logotipi"
+              className={`mt-2 lg:ml-12 h-[58px]  my-4  duration-700 ${
+                isScrolled ? "scale-100 " : "scale-100"
+              }`}
+            />
+            <a href="/" className="m-0">
+              <img
+                src={logo}
+                alt="Al-Xorazmiy logotipi"
+                className={`mt-2 m-0 ml-2 h-[58px]  w-[275px] my-4 lg:w-[250px]  transition-transform duration-700 ${
+                  isScrolled ? "scale-100 " : "scale-100"
+                }`}
+              />{" "}
+            </a>
           </div>
 
           {/* Desktop menu */}
@@ -189,9 +191,11 @@ export default function Navbar() {
                 )}
               </li>
             ))}
-<li className="flex items-center">
-  <LanguageSelect onChange={(lang) => console.log("Selected:", lang)} />
-</li>
+            <li className="flex items-center">
+              <LanguageSelect
+                onChange={(lang) => console.log("Selected:", lang)}
+              />
+            </li>
             {/* Bog‘lanish link */}
             <li>
               <NavLink
@@ -253,8 +257,10 @@ export default function Navbar() {
               </li>
             ))}
             <li className="py-2">
-  <LanguageSelect onChange={(lang) => console.log("Selected:", lang)} />
-</li>
+              <LanguageSelect
+                onChange={(lang) => console.log("Selected:", lang)}
+              />
+            </li>
             <li className="py-2">
               <NavLink
                 to="/kontaktlar"
